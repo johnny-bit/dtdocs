@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dividita on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/</link>
+    <description>Recent content in dividita on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bilda informo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/image-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/image-information/</guid>
+      <description>Ĉi tiu modulo montras la informojn enmetitajn en la Exif-datumoj de bildo kaj ankaŭ kelkajn kromajn datumajn kampojn difinitajn de darktable.
+Kiam vi ŝvebas per la muso super bildaj bildetoj, la datumoj de la modulo estas aŭtomate ĝisdatigitaj por montri informojn pri la bildo nuntempe sub la musa kursoro.
+🔗preferoj La opcio &amp;ldquo;preferoj&amp;hellip;&amp;rdquo; en la autaŭagorda menuo aperigas dialogon kun listo de ĉiuj kampoj haveblaj por montriĝo.
+La markobutono videbla permesas al vi elekti kiujn kampojn estas montrendaj.</description>
+    </item>
+    
+    <item>
+      <title>collections</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/collections/</guid>
+      <description>Filtri la bildojn montritajn en la lumtabla vido kaj filmbanda panelo per bildaj atributoj. Ĉi tiu aro de filtritaj bildoj estas konata kiel kolekto.
+Ĉiuj bildoj importitaj en darktable estas konservitaj en la biblioteka datumbazo de darktable, kune kun atributoj priskribantaj ĉiun bildon. Kolekto povas esti difinita per aplikado de filtraj reguloj al ĉi tiuj atributoj, tiel kreante subaron de bildoj por montri en la lumtabla vido kaj la filmbanda modulo.</description>
+    </item>
+    
+    <item>
+      <title>eksporti</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/export/</guid>
+      <description>Eksportu bildojn elektitajn en la lumtablo aŭ la filmbendo de la senluma ĉambra vido.
+Dosieroj povas esti eksportitaj al dosiero sur disko, retpoŝto, diversaj interretaj stokaj lokoj, retalbumo aŭ libro-ŝablono.
+🔗modulaj kontroloj 🔗stokaj opcioj  cela stokado La speco de loko por stoki viajn elektitajn bildojn. Kelkaj diversaj servomoduloj estas efektivigitaj, inkluzive de dosiero sur disko, LaTeX-libra ŝablono kaj diversaj interretaj albumoj. Depende de la elektita celo, oni petos vin doni aldonajn informojn, kiaj dosiernomoj, aŭ nomo de konto kaj pasvorto.</description>
+    </item>
+    
+    <item>
+      <title>etikedado</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/tagging/</guid>
+      <description>Administri etikedojn ligitajn al bildoj.
+Etikedoj ebligas metodon por aldoni informojn al bildoj per ŝlosilvortvortaro. Vi ankaŭ povas administri etikedojn kiel hierarkian arbon, kiu povas esti utila kiam ilia nombro fariĝas granda.
+Etikedoj estas fizike stokitaj en XMP-kromĉaraj dosieroj same kiel en la biblioteka datumbazo de darktable kaj povas esti inkluzivitaj en eksportotaj bildoj.
+🔗difinoj La jenaj difinoj supozas, ke vi starigis ununuran etikedon nomatan &amp;ldquo;lokoj|Francujo|Nord|Lille&amp;rdquo;.
+ etikedo Etikedo estas priskriba ĉeno, kiu povas esti ligita al bildo.</description>
+    </item>
+    
+    <item>
+      <title>filmbendo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/</guid>
+      <description>La filmbendo povas esti uzata por rapide ŝanĝi inter bildoj en iu ajn vido de darktable. La bildoj montrataj estas samaj kiel tiuj montrataj en la lumtabla vido kaj estas difinitaj de la aktuale elektita kolekto.
+  La filmbendo povas esti ŝaltita kaj malŝaltita per la ŝparvojo Stir+F. La alteco de la filmbenda panelo povas esti ŝanĝita per klako kaj trenado de ĝia supra rando.
+Rapide navigu tra la bildoj en la filmbendo per rulumado per la muso.</description>
+    </item>
+    
+    <item>
+      <title>fokusa pintado</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/</guid>
+      <description>La modulo fokusa pintado permesas vin eltrovi, kiujn partojn de la bildo estas akraj kaj enfokusigitaj. Ĝi funkcias ambaŭ en la lumtabla vido, kie vi povas facile vidi unuavide kiuj bildoj estas akraj kaj kiuj estas malklaraj, kaj en la vido de senluma ĉambro, kiam vi prilaboras unu bildon.
+La modulo aktiviĝas alklakante la fokus-pintan ikonon (  ). Ĝi reliefigas la akrajn partojn de la bildo per flavaj, verdaj kaj bluaj surmetoj:</description>
+    </item>
+    
+    <item>
+      <title>geoetikedado</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/geotagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/geotagging/</guid>
+      <description>Importi kaj apliki GPX-trakajn datumojn al elekto de bildoj.
+Ĉi tiu modulo estas komuna al la vidoj lighttable kaj map. Tamen plibonigita reĝimo disponeblas en la mapa vido, kiu ebligas al vi antaŭrigardi la pozicion de la bildoj laŭ la GPS-trakoj dum ĝustigado de la dato/tempo (ofseto) kaj horzono de la bildoj.
+🔗superrigardo de laborfluo GPS-ricevilo kalkulas sian nunan pozicion surbaze de la informoj, kiujn ĝi ricevas de satelitoj, kaj registras ĝin en GPX-dosieron, kune kun la nunaj dato kaj horo.</description>
+    </item>
+    
+    <item>
+      <title>redaktilo de metadatenoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/</guid>
+      <description>Redakti la metadatenojn (titolo, priskribo, kreinto, eldonisto, rajtoj ktp.) de elektitaj bildoj.
+🔗modulaj kontroloj  metadatenaj eniraj kampoj Aparta kampo montriĝas por ĉiu metadatuma ero. Tenu Stir-klavon rulumante per via muso por pliigi la altecon de kampo. Premu Stir+Enigu por enmeti novan linion. Premu Enigu por apliki ajnan tekston enmetitan en la aktuala kampo de metadatumoj al la elektitaj bildoj. Duoble alklaku la etikedon de kampo por forigi la enhavon de tiu kampo.</description>
+    </item>
+    
+  </channel>
+</rss>

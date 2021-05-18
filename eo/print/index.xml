@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presi on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/eo/print/</link>
+    <description>Recent content in Presi on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/eo/print/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>superrigardo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/print/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/print/overview/</guid>
+      <description>Ĉi tiu vidpunkto temas pri presado. Ĉar presado ne facilas, estas multaj konsiderindaj teknikaj aspektoj.
+Post elekto de bildo en la lighttable view oni povas eniri la modulon print settings por ĝustigi presilajn agordojn kaj komenci presadon.
+Ĉi tiu modulo subtenas la ICC-profilon de la presilo, kiu estas iom deviga se vi volas fari altkvalitan presaĵon same al la bildo montrata sur la ekrano.
+Gravas noti, ke ICC-profiloj donitaj de la fabrikantoj de papero kaj / aŭ presilo ne povas esti uzataj ĉe GNU / Linukso, ĉar ili dependas de la presiloj.</description>
+    </item>
+    
+    <item>
+      <title>aranĝo de pres-vido</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/print/print-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/print/print-view-layout/</guid>
+      <description>La centra areo montras la aranĝon de bildo sur la papero (la blanka areo). Iom da grizaj bordoj povas esti montrataj ĉirkaŭ la bildo por reprezenti la presotan areon (la paĝa areo sen la bordoj) ne plenigitan de la bildo.
+La filmbendo sub la bildo ebligas al vi elekti pli da bildoj.
+🔗maldekstra panelo  collections Filter the list of images displayed in the lighttable. bildan informon Montri bildan informon  🔗dekstra panelo  print settings Ĝustigi presajn agordojn kaj komenci presadon.</description>
+    </item>
+    
+  </channel>
+</rss>

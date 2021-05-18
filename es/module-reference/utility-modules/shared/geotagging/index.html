@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="es">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - geoetiquetado</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="es" role="option" lang="es" href="https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/geotagging/">Espanol</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/geotagging/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/geotagging/">German</a>
+		    
+		      <a class="dropdown-item" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/geotagging/">Esperanto</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/print/" class="">
+          Imprimir
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/es/print/overview/" class="">
+          Resumen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/es/print/print-view-layout/" class="">
+          vista de imprimir
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/guides-tutorials/" class="">
+          Guías y Tutoriales
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/module-reference/" class="">
+          Module-references
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/special-topics/" class="">
+          Special-topics
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/special-topics/opencl/" class="">
+          OpenCL
+      </a>
+
+   <ul></ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+<a href='/dtdocs/es/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/es/module-reference/'>Module-references</a> / <a href='/dtdocs/es/module-reference/utility-modules/shared/'>compartido</a> / geoetiquetado
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/es/special-topics/opencl/" class="next">&lt; OpenCL</a>
+	
+    </div>
+    <div class="col-6">
+    
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        geoetiquetado
+    </h1>
+
+    
+
+    <p>Importe y aplique datos de seguimiento GPX a una selección de imágenes.</p>
+<p>Este módulo es común a las  [mesa de luz] (../../../ lighttable / _index.md) y [map] (../../../ map / _index.md). Sin embargo, se proporciona un modo mejorado en la vista de mapa que le permite obtener una vista previa de la posición de las imágenes a lo largo de las pistas GPS mientras ajusta la fecha / hora (desplazamiento) y la zona horaria de las imágenes.</p>
+<h1 id="descripción-general-del-flujo-de-trabajo"><a href="#descripci%c3%b3n-general-del-flujo-de-trabajo">🔗</a>descripción general del flujo de trabajo</h1>
+<p>Un receptor GPS calcula su posición actual basándose en la información que recibe de los satélites y la registra en un archivo GPX, junto con la fecha y hora actuales. Los datos Exif de las imágenes también contienen una marca de tiempo definida por la configuración de la cámara. El módulo <em>geoetiquetado</em> toma la marca de tiempo de la imagen, busca la posición en el archivo GPX en ese momento y almacena las coordenadas apropiadas (latitud / longitud / elevación) en su base de datos y en el archivo sidecar XMP de la imagen.</p>
+<p>Pueden ocurrir dos problemas durante este proceso:</p>
+<ul>
+<li>A diferencia de los dispositivos GPS, la mayoría de las cámaras no registran la hora con precisión.</li>
+<li>El tiempo almacenado en los datos Exif no incluye la zona horaria. La mayoría de las personas configuran su cámara a la hora local, mientras que los dispositivos GPS almacenan la hora en la zona horaria UTC (hora universal, coordinada, es decir, Greenwich (Londres)). Si las zonas horarias de la cámara y el archivo GPX difieren, la ubicación relacionada será incorrecta.</li>
+</ul>
+<p>Si su imagen ya muestra la fecha / hora correcta y lleva la marca de tiempo UTC, puede aplicar directamente el archivo de seguimiento GPX sin más ajustes.</p>
+<p>De lo contrario, siga el siguiente proceso para correlacionar la hora de la cámara y el rastreador GPS</p>
+<ol>
+<li>
+<p>Corrija la configuración de la hora de la cámara para una imagen individual ingresando manualmente la fecha / hora correcta para esa imagen en el campo <em>fecha / hora</em>. Una buena forma de hacerlo es tomar una fotografía de una fuente de tiempo confiable. Puede ser cualquier reloj preciso o, mejor aún, la hora mostrada en su dispositivo GPS, teniendo en cuenta que los dispositivos GPS normalmente <em>muestran</em> la hora local, aunque <em>almacenan</em> la hora universal. La diferencia (compensación) entre la hora ingresada y la hora almacenada en los datos Exif de la imagen se mostrará en el campo _ fecha / compensación horaria_.</p>
+</li>
+<li>
+<p>Presione el botón <em>bloquear</em> para bloquear la compensación calculada.</p>
+</li>
+<li>
+<p>Seleccione todas las imágenes que desea ajustar y aplique el desplazamiento calculado a esas imágenes.</p>
+</li>
+<li>
+<p>Si la zona horaria de la cámara no es UTC, establezca la zona horaria en el campo <em>zona horaria de la cámara</em>.</p>
+</li>
+</ol>
+<p>Con la configuración de tiempo corregida, ahora puede aplicar datos de seguimiento GPX usando el botón <em>aplicar archivo de seguimiento GPX</em>.</p>
+<h1 id="controles-de-módulo-común"><a href="#controles-de-m%c3%b3dulo-com%c3%ban">🔗</a>controles de módulo (común)</h1>
+<dl>
+<dt>fecha y hora</dt>
+<dd>Este campo se inicializa con la fecha / hora leída de la primera imagen seleccionada (formato <code>aaaa: mm: dd hh: mm: ss</code>) y se puede modificar para corregir la fecha / hora de esa imagen. Los campos individuales de fecha / hora se pueden modificar desplazándose sobre ellos con el mouse. Si algún campo alcanza su límite, los campos vecinos se actualizan automáticamente. Por ejemplo, si pasa de 60 en el campo de los minutos, el campo de la hora se incrementará automáticamente.</dd>
+<dt>fecha / hora original</dt>
+<dd>La fecha / hora original de la imagen se muestra aquí como referencia.</dd>
+<dt>compensación de fecha / hora</dt>
+<dd>La diferencia calculada entre la fecha / hora original que ingresó en el campo <em>fecha / hora</em>. Si la diferencia calculada es mayor que más o menos 99 días 23 horas 59 minutos y 59 segundos, la compensación se invalida.</dd>
+<dt>botón de bloqueo</dt>
+<dd>Si el botón de bloqueo está activado, el valor de compensación se congela. Si posteriormente cambia la (s) imagen (s) seleccionada (s), la nueva fecha / hora de la imagen se actualiza utilizando el desplazamiento bloqueado. Esto le permite aplicar el mismo desplazamiento a diferentes selecciones de imágenes.</dd>
+<dt>aplicar botón de compensación</dt>
+<dd>Aplica el desplazamiento en las imágenes seleccionadas.</dd>
+<dt>Aplicar botón de fecha / hora</dt>
+<dd>A veces es útil poder establecer la fecha / hora absoluta de una imagen, por ejemplo, cuando falta esta información. Este botón le permite aplicar la fecha / hora ingresada en el campo <em>fecha / hora</em> a las imágenes seleccionadas, sin considerar el valor anterior. Puede usar Ctrl + Z para deshacer cualquier cambio no deseado.</dd>
+<dt>zona horaria de la cámara</dt>
+<dd>Seleccione la zona horaria de la cámara. Empiece a escribir para mostrar una lista de valores permitidos.</dd>
+<dt>aplicar archivo de pista GPX (solo vista de mesa de luz)</dt>
+<dd>Aplica un archivo de seguimiento GPX. Haga clic en el botón correspondiente y navegue hasta el archivo GPX. Como arriba, puede usar Ctrl + Z para deshacer cualquier cambio no deseado. Dentro de la ventana del selector de archivos, el botón de vista previa enumera las pistas del archivo GPX seleccionado junto con la siguiente información: nombre de la pista, fecha / hora de inicio y finalización (hora local), número de puntos de seguimiento y número de imágenes seleccionadas que serán geoetiquetadas.</dd>
+</dl>
+<h1 id="controles-del-módulo-vista-de-mapa"><a href="#controles-del-m%c3%b3dulo-vista-de-mapa">🔗</a>controles del módulo (vista de mapa)</h1>
+<dl>
+<dt>archivos gpx</dt>
+<dd>La ruta del archivo gpx seleccionado.</dd>
+<dt>lista de pistas</dt>
+<dd>Esta tabla muestra la fecha / hora de inicio de cada pista, junto con el número de puntos de pista e imágenes coincidentes. Cuando se activa un botón de verificación, la pista relacionada se muestra en el mapa. Un botón de verificación en los encabezados de la tabla le permite seleccionar o deseleccionar todas las pistas a la vez. Al pasar el mouse sobre una fila, se muestran las horas de inicio y finalización tanto en la hora local (LT) como en UTC.</dd>
+<dt>imágenes de vista previa</dt>
+<dd>Si está seleccionada, las imágenes coincidentes se muestran en el mapa a lo largo de las pistas visibles.</dd>
+<dt>seleccionar imágenes</dt>
+<dd>Si no desea aplicar un desplazamiento a todas las imágenes seleccionadas, sino solo a las imágenes coincidentes, use este botón para seleccionar imágenes. Si no desea perder el desplazamiento actual, es posible que desee bloquearlo antes de cambiar la selección.</dd>
+<dt>cuenta</dt>
+<dd>Se muestra un recuento del número de imágenes coincidentes y el número seleccionado a la derecha del botón <em>seleccionar imágenes</em>.</dd>
+<dt>aplicar geolocalización</dt>
+<dd>Este botón se muestra cuando el desplazamiento es nulo. El botón <em>aplicar ubicación geográfica</em> aplica los datos GPX a las imágenes coincidentes en las pistas seleccionadas.</dd>
+<dt>aplicar desplazamiento y geolocalización</dt>
+<dd>Este botón se muestra una vez que se ha introducido una compensación. Como recordatorio, el botón <em>aplicar compensación</em> aplica la compensación a todas las imágenes seleccionadas. A diferencia de <em>aplicar desplazamiento</em>, el botón <em>aplicar desplazamiento y ubicación geográfica</em> aplica el desplazamiento y los datos GPX a las imágenes coincidentes en las pistas seleccionadas.</dd>
+</dl>
+<p>Como de costumbre, puede usar Ctrl + Z para deshacer cualquier cambio no deseado (dos veces en caso de <em>aplicar desplazamiento y ubicación geográfica</em>).</p>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/shared/geotagging/">
+            English: geotagging
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/utility-modules/shared/geotagging/">
+            German: Geotagging
+        </a></li>
+        
+        <li><a href="/dtdocs/eo/module-reference/utility-modules/shared/geotagging/">
+            Esperanto: geoetikedado
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/es/special-topics/opencl/" class="next">&lt; OpenCL</a>
+	
+    </div>
+    <div class="col-6">
+    
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Préférences et réglages on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/</link>
+    <description>Recent content in Préférences et réglages on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/overview/</guid>
+      <description>darktable est livré avec un certain nombre de préférences configurables par l&amp;rsquo;utilisateur. Celles-ci peuvent être ajustées dans la boîte de dialogue des préférences, accessible en cliquant sur l&amp;rsquo;icône d&amp;rsquo;engrenage à droite du panneau supérieur. Les préférences sont séparées en onglets, dont chacun est décrit plus en détail dans les sections suivantes.
+Lorsqu&amp;rsquo;il est ouvert depuis les vues table lumineuse ou chambre noire, l&amp;rsquo;onglet approprié sera chargé par défaut pour vous permettre de modifier les paramètres de cette vue.</description>
+    </item>
+    
+    <item>
+      <title>général</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/general/</guid>
+      <description>Les préférences de cet onglet contrôlent l&amp;rsquo;aspect général de darktable.
+ langue pour l&amp;rsquo;interface Définissez la langue de l&amp;rsquo;interface utilisateur. La valeur par défaut du système est marquée d&amp;rsquo;un * (nécessite un redémarrage) theme Set the theme for the user interface. Apart from any aesthetic considerations, the recommended interface color for color evaluation is middle gray. Indeed, visual perception is affected by ambient brightness, and a low brightness of the interface causes all kinds of illusions.</description>
+    </item>
+    
+    <item>
+      <title>importer</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/import/</guid>
+      <description>Cet onglet contient un certain nombre de paramètres par défaut pour le module importer de la table lumineuse importer.
+🔗options de session Ces options définissent un modèle de nommage pour organiser les images sur le disque lors de l&amp;rsquo;importation à partir d&amp;rsquo;un appareil photo connecté et lors de la prise de photos dans la vue capture.
+Le modèle de nommage se compose de trois parties : une partie de base définissant le dossier parent, une partie session définissant un sous-répertoire (qui est spécifique à la session d&amp;rsquo;importation individuelle) et une partie nom de fichier définissant la structure de nom de fichier pour chaque image importée.</description>
+    </item>
+    
+    <item>
+      <title>table lumineuse</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/lighttable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/lighttable/</guid>
+      <description>Les options suivantes contrôlent les fonctionnalités de la vue et des modules de la table lumineuse.
+🔗général  cacher les préréglages internes des modules utilitaires Si cette option est activée, seuls les préréglages définis par l&amp;rsquo;utilisateur seront affichés dans le menu des préréglages des modules utilitaires &amp;ndash; les préréglages intégrés seront masqués (par défaut désactivé). use single-click in the collections module Enable &amp;ldquo;single click&amp;rdquo; mode in the collections module, which allows ranges to be selected (default off).</description>
+    </item>
+    
+    <item>
+      <title>autres vues</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/other-views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/other-views/</guid>
+      <description>Les options suivantes contrôlent les fonctionnalités dans les vues carte et diaporama.
+🔗carte/géolocalisation  nombre maximum d&amp;rsquo;images affichées sur la carte Le nombre maximum d&amp;rsquo;images géolocalisées dessinées sur la carte. L&amp;rsquo;augmentation de ce nombre peut ralentir l&amp;rsquo;affichage de la carte. Nécessite un redémarrage en cas de modification (par défaut 100). affichage plus clair de la localisation d&amp;rsquo;image Afficher une représentation plus lisible de la géolocalisation dans le module informations de l&amp;rsquo;image (activé par défaut).</description>
+    </item>
+    
+    <item>
+      <title>cpu/gpu/mémoire</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/cpu-gpu-memory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/cpu-gpu-memory/</guid>
+      <description>Cet onglet des préférences contient principalement des paramètres liés aux performances :
+ mémoire en mégaoctets à utiliser pour le cache des miniatures Afin d&amp;rsquo;accélérer l&amp;rsquo;affichage des pellicules, darktable stocke les miniatures dans un fichier cache sur le disque (cache principal) et le charge en mémoire au démarrage. Ce paramètre contrôle la taille du cache en mégaoctets. Un redémarrage est nécessaire en cas de modification (256 Mo par défaut). utilisation du disque dur pour le cache des miniatures Si activé, darktable stocke toutes les miniatures sur le disque dur en tant que cache secondaire, et les garde ainsi accessibles si elles sont supprimées du cache principal.</description>
+    </item>
+    
+    <item>
+      <title>stockage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/storage/</guid>
+      <description>Les options suivantes sont relatives à la base de données de darktable et aux fichiers liés XMP.
+🔗base de données  vérifier pour la maintenance de la base de données Indique quand darktable doit vérifier la fragmentation de la base de données et effectuer la maintenance. Les options sont &amp;ldquo;jamais&amp;rdquo;, &amp;ldquo;au démarrage&amp;rdquo;, &amp;ldquo;à la fermeture&amp;rdquo;, et &amp;ldquo;au deux&amp;rdquo;. Chacun de ceux-ci est également disponible avec une option supplémentaire &amp;ldquo;(sans confirmation)&amp;rdquo; pour effectuer les vérifications automatiquement et sans invite (par défaut &amp;ldquo;à la fermeture&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>divers</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/miscellaneous/</guid>
+      <description>🔗interface  trier les préréglages internes en premier Choisir comment le menu des préréglages est trié. Si cette option est activée, les préréglages internes sont montrés en premier. Si cette option est désactivée, les préréglages de l&amp;rsquo;utilisateur sont montrés en premier (activée par défaut). déplacement des panneaux latéraux avec la molette Lorsqu&amp;rsquo;elle est activée, par défaut, la molette de la souris fait défiler les panneaux latéraux et Ctrl+Alt+molette fait défiler les champs de saisie de données.</description>
+    </item>
+    
+    <item>
+      <title>options lua</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/lua-options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/lua-options/</guid>
+      <description> ne plus montrer l&amp;rsquo;installeur de scripts lua Cochez cette case pour masquer dans la table lumineuse le programme d&amp;rsquo;installation des scripts lua si aucun script lua n&amp;rsquo;est installé.  </description>
+    </item>
+    
+  </channel>
+</rss>

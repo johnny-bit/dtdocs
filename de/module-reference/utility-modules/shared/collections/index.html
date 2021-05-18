@@ -1,0 +1,1346 @@
+<!doctype html>
+<html lang="de">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - collections</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/collections/">German</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/collections/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/collections/">Esperanto</a>
+		    
+		      <a class="dropdown-item" hreflang="es" role="option" lang="es" href="https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/collections/">Espanol</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/print/" class="">
+          Drucken
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/print/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/print/print-view-layout/" class="">
+          Gestaltung des Druckfensters
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/" class="">
+          Modul Referenz
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/astrophoto-denoise/" class="">
+          Astrophoto Entrauschen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/output-color-profile/" class="">
+          Ausgabe Farbprofil
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/exposure/" class="">
+          Belichtung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/defringe/" class="">
+          defringe (deprecated)
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/" class="">
+          Dienst Module
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/print/" class="">
+          drucken
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/print/print-settings/" class="">
+          Drucken Einstellungen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/" class="">
+          Dunkelkammer
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          Anzeige der Über-/Unterbelichtungen der RAW Werte
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          Bildinformationslinie
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          Duplikat-Manager
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          Farbbeurteilung nach ISO 12646
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/gamut/" class="">
+          Gamutüberprüfung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          Maskenverwaltung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/module-order/" class="">
+          Modul Reihenfolge
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/navigation/" class="">
+          Navigation
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          Pipette
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/history-stack/" class="">
+          Verlaufsstapel
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/clipping/" class="">
+          Warnung Beschneidung
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/" class="">
+          geteilt
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/image-information/" class="">
+          Bildinformationen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/collections/" class=" active">
+          collections
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/export/" class="">
+          Exportieren
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/filmstrip/" class="">
+          Filmstreifen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/focus-peaking/" class="">
+          Fokus-Peaking
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/geotagging/" class="">
+          Geotagging
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/metadata-editor/" class="">
+          Metadaten-Editor
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/tagging/" class="">
+          Verschlagwortung
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/map/" class="">
+          Karte
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/map/map-settings/" class="">
+          Karteneinstellungen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/" class="">
+          Leuchttisch
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/selected-image/" class="">
+          Ausgewählte Bilder
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/import/" class="">
+          Import
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          Lua Skript Installation
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/styles/" class="">
+          Stile
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/history-stack/" class="">
+          Verlaufsstapel
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/select/" class="">
+          Wähle
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/timeline/" class="">
+          Zeitleiste
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/" class="">
+          Tethering
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/camera-settings/" class="">
+          Kamera Einstellungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/live-view/" class="">
+          Live Ansicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/session/" class="">
+          Session
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/dithering/" class="">
+          Dithering
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/haze-removal/" class="">
+          Dunstentfernung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/colorize/" class="">
+          Einfärben
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/demosaic/" class="">
+          Entrastern
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/denoise-profiled/" class="">
+          Entrauschen (Profil)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-reconstruction/" class="">
+          Farb Rekonstruktion
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-calibration/" class="">
+          Farbkalibrierung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-contrast/" class="">
+          Farbkontrast
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-correction/" class="">
+          Farbkorrektur
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-mapping/" class="">
+          Farbtransfer
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/filmic-rgb/" class="">
+          Filmisch RGB
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/surface-blur/" class="">
+          Flächenweichzeichner
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/fill-light/" class="">
+          Fülllicht (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/global-tonemap/" class="">
+          Globales Tonemapping (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/basic-adjustments/" class="">
+          Grundlegende Anpassungen (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/highpass/" class="">
+          Hochpass
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/unbreak-input-profile/" class="">
+          Input Profil brechen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/invert/" class="">
+          Invertieren (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/channel-mixer/" class="">
+          Kanalmixer (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/contrast-equalizer/" class="">
+          Kontrast Equalizer
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/contrast-brightness-saturation/" class="">
+          Kontrast Helligkeit Sättigung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/grain/" class="">
+          Körnung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/vibrance/" class="">
+          Lebendigkeit (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/monochrome/" class="">
+          Monochrome
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/lowlight-vision/" class="">
+          Nachtsicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/negadoctor/" class="">
+          Negadoctor
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/lens-correction/" class="">
+          Objektiv-Korrektur
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/perspective-correction/" class="">
+          Perspektiv-Korrektur
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/rotate-pixels/" class="">
+          Pixel Drehung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/framing/" class="">
+          Rahmen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/raw-black-white-point/" class="">
+          RAW Schwarz-/Weißpunkt
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/rgb-curve/" class="">
+          RGB Kurve
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/sharpen/" class="">
+          schärfen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/tone-mapping/" class="">
+          Tonemapping (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/hot-pixels/" class="">
+          Tote Pixel
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/velvia/" class="">
+          Velvia
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/graduated-density/" class="">
+          Verlaufsfilter
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/vignetting/" class="">
+          Vignettierung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/watermark/" class="">
+          Wasserzeichen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/soften/" class="">
+          Weichzeichnen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/levels/" class="">
+          Werte
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/zone-system/" class="">
+          Zonensystem (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/crop-rotate/" class="">
+          Zuschneiden und drehen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+
+<a href='/dtdocs/de/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/de/module-reference/'>Modul Referenz</a> / <a href='/dtdocs/de/module-reference/utility-modules/'>Dienst Module</a> / <a href='/dtdocs/de/module-reference/utility-modules/shared/'>geteilt</a> / collections
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/module-reference/utility-modules/shared/image-information/" class="next">&lt; Bildinformationen</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/module-reference/utility-modules/shared/export/" class="prev">Exportieren &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        collections
+    </h1>
+
+    
+
+    <p>Wähle die Bilder in der Ansicht Leuchttisch und im Filmstreifen aus, mit Verwenden von Bilder-Merkmalen. So ausgewählte Bilder werden als eine <em>Sammlung</em> bezeichnet.</p>
+<p>Alle in darktable importierten Bilder werden in der library Datenbank von darktable gesichert, zusammen mit Merkmalen, die jedes Bild beschreiben. Eine Sammlung kann definiert werden durch die Anwendung von Auslesekriterien zu diesen Merkmalen, so wird eine Unterkategorie geschaffen, die in der Ansicht Leuchttisch und Filmstreifen angezeigt werden kann.</p>
+<p>Die Standard Sammlung ist immer das <em>Filmrolle</em> Merkmal. Es werden alle Bilder des letzten Importes oder einer angewählten Filmrolle angezeigt.</p>
+<h1 id="zur-verfügung-stehende-auslese-merkmale"><a href="#zur-verf%c3%bcgung-stehende-auslese-merkmale">🔗</a>Zur Verfügung stehende Auslese Merkmale</h1>
+<p>Bilder können gesucht werden mit Anwenden der folgenden Merkmale.</p>
+<h2 id="verzeichnisse"><a href="#verzeichnisse">🔗</a>Verzeichnisse</h2>
+<dl>
+<dt>Filmrolle</dt>
+<dd>Der Name der Filmrolle, zu der das Bild gehört (das ist der gleiche, wie der Name des Verzeichnisses, in welchem das Bild verbleibt). Durch Anklicken des entsprechenden Verzeichnisses mit gleichzeitigem Drücken von Ctrl+Shift kannst du zu diesem Verzeichnis wechseln. Mit Rechtsklick kann die Sammlung entfernt werden oder darktable mitgeteilt werden, dass der Ort im Ablagesystem geändert wurde.</dd>
+<dt>Verzeichnis</dt>
+<dd>Das Verzeichnis (Dateipfad), in dem das Bild abgelegt ist. Um zur zugehörigen Filmrolle zu wechseln, klicke diesen an und drücke gleichzeitig Ctrl+Shift. Mit Rechtsklick kann die Sammlung entfernt werden oder darktable mitgeteilt werden, dass der Ort im Dateisystem geändert wurde. Mit Doppelklick werden nur die Bilder des angewählten Verzeichnisses angezeigt; mit Ctrl+Klick werden nur die Bilder der Unterverzeichnisse angezeigt; Shift+Klick zeigt die Bilder des gewählten Verzeichnisses und aller Unterverzeichnisse an.</dd>
+<dt>Dateiname</dt>
+<dd>Der Dateiname des Bildes.</dd>
+</dl>
+<h2 id="metadaten"><a href="#metadaten">🔗</a>Metadaten</h2>
+<dl>
+<dt>Tag</dt>
+<dd>Alle Tags, die dem Bild zugewiesen wurden. Bilder ohne Tags sind gruppiert unter dem Eintrag &ldquo;ohne Tags&rdquo;. Beim Anwählen von Tags wird eine hierarchische Liste der bekannten Tags eingeblendet</dd>
+<dt>Urheber</dt>
+<dd>Der Urheber des Bildes gemäß dem Metadaten-Eintrag im Feld Urheber.</dd>
+<dt>Herausgeber</dt>
+<dd>Der Herausgeber des Bildes gemäß dem Metadaten-Eintrag im Feld Herausgeber.</dd>
+<dt>Titel</dt>
+<dd>Der Titel des Bildes gemäß dem Metadaten-Eintrag im Feld Titel.</dd>
+<dt>Beschreibung</dt>
+<dd>Die Beschreibung des Bildes gemäß dem Metadaten-Eintrag im Feld Beschreibung.</dd>
+<dt>Rechte</dt>
+<dd>Die Rechte am Bild gemäß dem Metadaten-Eintrag im Feld Rechte.</dd>
+<dt>Notizen</dt>
+<dd>Notizen zum Bild gemäß dem Metadaten-Eintrag im Feld Notizen.</dd>
+<dt>Farbmarkierung</dt>
+<dd>Alle Farbmarkierungen, die dem Bild zugewiesen wurden (&ldquo;rot&rdquo;, &ldquo;gelb&rdquo;, &ldquo;grün&rdquo;, &ldquo;blau&rdquo;, &ldquo;violett&rdquo;)</dd>
+<dt>Geotagging</dt>
+<dd>Alle Ortskoordinaten zum Bildes (siehe <a href="../map/locations.md">locations</a>)</dd>
+</dl>
+<h2 id="datumuhrzeit"><a href="#datumuhrzeit">🔗</a>Datum/Uhrzeit</h2>
+<p>Aufnahmedatum
+Das Datum, an dem das Bild aufgenommen wurde, im Format <code>YYYY:MM:DD</code></p>
+<p>Aufnahmedatum und -uhrzeit
+Aufnahmedatum und -uhrzeit, an dem das Bild aufgenommen wurde, im Format <code>YYYY:MM:DD hh:mm:ss</code></p>
+<dl>
+<dt>Importzeitstempel</dt>
+<dd>Das Datum und die Zeit an dem das Bild importiert wurde, im Format <code>YYYY:MM:DD hh:mm:ss</code></dd>
+<dt>Änderungszeitstempel</dt>
+<dd>Das Datum und die Zeit der letzten Änderung des Bildes, im Format <code>YYYY:MM:DD hh:mm:ss</code></dd>
+<dt>Exportzeitstempel</dt>
+<dd>Das Datum und die Zeit an dem das Bild letztmals exportiert wurde, im Format <code>YYYY:MM:DD hh:mm:ss</code></dd>
+<dt>Druckzeitstempel</dt>
+<dd>Das Datum und die Zeit an dem das Bild letztmals gedruckt wurde, im Format <code>YYYY:MM:DD hh:mm:ss</code></dd>
+</dl>
+<h2 id="aufnahme-parameter"><a href="#aufnahme-parameter">🔗</a>Aufnahme Parameter</h2>
+<dl>
+<dt>Kamera</dt>
+<dd>Die Exifdaten für die Kamera Marke und das Modell</dd>
+<dt>Objektiv</dt>
+<dd>Die Exifdaten für das Objektiv Marke und das Modell</dd>
+<dt>Blende</dt>
+<dd>Die Blendenöffnung, aus den Exifdaten</dd>
+<dt>Belichtung</dt>
+<dd>Die Belichtungszeit, aus den Exifdaten</dd>
+<dt>Brennweite</dt>
+<dd>Die Brennweite aus den Exifdaten</dd>
+<dt>ISO</dt>
+<dd>Die ISO Einstellung, aus den Exifdaten</dd>
+<dt>Seitenverhältnis</dt>
+<dd>Das Seitenverhältnis, aus den Exifdaten</dd>
+</dl>
+<h2 id="darktable"><a href="#darktable">🔗</a>darktable</h2>
+<dl>
+<dt>Gruppieren</dt>
+<dd>Wähle zwischen &ldquo;Gruppenführer&rdquo; und &ldquo;Gruppenmitglieder&rdquo;</dd>
+<dt>Lokale Kopie</dt>
+<dd>Zeige Dateien die entweder eine lokale Kopie haben der nicht</dd>
+<dt>Verlauf</dt>
+<dd>Wähle Bilder, deren Verlauf der Bearbeitung geändert wurde oder nicht</dd>
+<dt>Module</dt>
+<dd>Auslese die darauf basiert, welche Bearbeitungsmodule beim Bild angewendet wurden</dd>
+<dt>Modulsortierung</dt>
+<dd>Wähle Bilder mit &ldquo;v3.0&rdquo;, &ldquo;früherer&rdquo; oder &ldquo;selbstgewählter&rdquo; Modulsortierung</dd>
+</dl>
+<h1 id="modul-einstellungen"><a href="#modul-einstellungen">🔗</a>Modul Einstellungen</h1>
+<h2 id="suchmuster"><a href="#suchmuster">🔗</a>Suchmuster</h2>
+<p>In der obersten Linie des Moduls können Suchmuster für die Auswahl nach folgendem Muster festgelegt werden:</p>
+<dl>
+<dt>Bild Merkmal</dt>
+<dd>In der Combobox links kannst du wählen, welche Merkmale du brauchen willst, um deine Sammlung auszuwählen (alle von der im letzten Teil beschriebenen Liste)</dd>
+<dt>Suchmuster</dt>
+<dd>Im Textfeld rechts der Combobox mit den Merkmalen kannst du ein Suchmuster eingeben. Dieses Suchmuster wird verglichen mit allen Datenbankeinträgen mit dem gewählten Merkmal. Der Suchmechanismus findet alle passenden Bilder, für welche der eingetragene Text zutrifft. Du kannst <code>%</code>als Wildcard Zeichen. Die Sammlung wird nur die Bilder finden, zu denen der Text passt. Falls das Feld leer bleibt, werden alle Bilder gezeigt, aus die das Merkmal zutrifft.</dd>
+<dd>
+<p>Merkmale mit numerischen oder Datum/Zeit Merkmalen können in Kombination mit Vergleichs- und Bereichsoperatoren. Brauche <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code>, <code>&gt;=</code>, <code>&lt;&gt;</code>, und <code>=</code>, um Bilder mit Merkmalen weniger als, weniger oder gleich, größer als, oder größer oder gleich, ungleich oder gleich zum gegebenen Wert. Ein Operator in der Form <code>[von;bis]</code> kann verwendet werden, um einen Bereich von Werten zu wählen.</p>
+</dd>
+<dt>Auswahl mit Wert</dt>
+<dd>So wie Auswahlkriterien definiert werden können, ist es auch möglich selber aus einer Liste von Einträgen von bereits passenden Bildern.</dd>
+<dd>
+<p>Die Box unter dem <em>Suchmuster</em> listet die Werte der gewählten Merkmale auf, die auf die gewählten Bilder zutrifft. Diese Liste wird während des Schreibens ständig aufdatiert. Auslesekriterien können auch mit Doppelklick auf die Werte in der Liste gewählt werden.</p>
+</dd>
+<dd>
+<p>Falls du den Einmal klick Modus anwählst (siehe <a href="../../../preferences-settings/lighttable.md">Präferenzen &gt; Leuchttisch</a>)</p>
+</dd>
+</dl>
+<h2 id="mehrere-auslesen-kombinieren"><a href="#mehrere-auslesen-kombinieren">🔗</a>Mehrere Auslesen kombinieren</h2>
+<p>Du kannst mehrere Auslesen kombinieren, um komplexere Sammlungen von Bildern zu erreichen, mit der Anwendung von mehreren Regeln. Eine Regel ist eine Kombination eines Auslesekriteriums zusammen mit einer logischen Operation, welche definiert, wie dieses Kriterium mit jeder vorangegangenen Regel kombiniert wird.</p>
+<p>Click on the 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/shared/collections/collect-expander.png"><img src="/dtdocs/module-reference/utility-modules/shared/collections/collect-expander.png" alt="collect-expander-icon"  class="icon"    /></a>
+
+ button (to the right of the search field) to open a menu with the following options:</p>
+<dl>
+<dt>diese Regel löschen</dt>
+<dd>Beseitige diese bestehende Regel - oder Reset auf Default, falls dies die einzige gesetzte Regel ist.</dd>
+<dt>Suche verfeinern</dt>
+<dd>Füge eine neue Regel, welche mit den vorgängigen Regel(n) mit einer logischen AND Operation. Ein Bild wird nur als Teil der Sammlung behalten, wenn es auch das neue Suchkriterium erfüllt.</dd>
+<dt>mehr Bilder hinzufügen</dt>
+<dd>Füge eine neue Regel hinzu, welche in einer logischen OR Operation mit den vorangegangenen Regeln kombiniert wird. Bilder, welche diese neuen Kriterien erfüllen werden zur Sammlung hinzugefügt.</dd>
+<dt>Bilder ausschließen</dt>
+<dd>Füge eine neue Regel hinzu, welche in einer logischen EXCEPT Operation mit den vorangegangenen Regeln kombiniert wird. Bilder, welche diese neuen Kriterien erfüllen werden von der Sammlung ausgeschlossen.</dd>
+</dl>
+<p>The logical operators defining how rules are combined are indicated with icons to the right of each added rule: AND by the 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/shared/collections/collect-and.png"><img src="/dtdocs/module-reference/utility-modules/shared/collections/collect-and.png" alt="collect-and-icon"  class="icon"    /></a>
+
+ symbol, OR by the 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/shared/collections/collect-or.png"><img src="/dtdocs/module-reference/utility-modules/shared/collections/collect-or.png" alt="collect-or-icon"  class="icon"    /></a>
+
+ symbol, and EXCEPT by the 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/shared/collections/collect-except.png"><img src="/dtdocs/module-reference/utility-modules/shared/collections/collect-except.png" alt="collect-except-icon"  class="icon"    /></a>
+
+ symbol. Clicking on any of these icons allows you to change the logical operation for that rule.</p>
+<h2 id="aktualisiere-den-verzeichnispfad-von-bildern-die-verschoben-wurden"><a href="#aktualisiere-den-verzeichnispfad-von-bildern-die-verschoben-wurden">🔗</a>Aktualisiere den Verzeichnispfad von Bildern, die verschoben wurden</h2>
+<p>While it is best to not touch imported files behind darktable&rsquo;s back, this module can help you recover from situations when you have moved or renamed image folders after importing them. The collections module has a feature that allows you to update darktable&rsquo;s library database with the new folder location. The process is as follows:</p>
+<ol>
+<li>
+<p>Setze das <em>Merkmal</em> der Combobox auf &ldquo;Verzeichnis&rdquo; oder &ldquo;Filmstreifen&rdquo;.</p>
+</li>
+<li>
+<p>Der Originalname der Filmrolle oder des Verzeichnisses wird angezeigt, aber durchgestrichen, um anzuzeigen, dass er nicht lokalisiert werden kann.</p>
+</li>
+<li>
+<p>Klicke mit Rechtsklick auf den Namen der Filmrolle oder des Verzeichnisses, wähle aus &ldquo;suche Filmrolle&hellip;&rdquo; oder &ldquo;suche Verzeichnis&hellip;&rdquo;, und dann wähle den neuen Ort des Verzeichnisses.</p>
+</li>
+</ol>
+<h2 id="vorrang"><a href="#vorrang">🔗</a>Vorrang</h2>
+<p>The &ldquo;preferences&hellip;&rdquo; option in the presets menu allows you to adjust the behavior of the collections module as follows:</p>
+<dl>
+<dt>Hierarchie in einfacher Tagliste auslassen</dt>
+<dd>Diese Möglichkeit nicht anwählen für Tags, die keine Untertags haben (Normal nicht gesetzt)</dd>
+<dt>deaktiviere die Eingabevervollständigung</dt>
+<dd>Wähle damit, ob Tags bei der Eingabe vervollständigt werden oder nicht &ndash; ohne die <code>sqlite</code>TCU Erweiterung wird dies nur die 26 lateinischen Buchstaben hinzufügen (Normal nicht gesetzt)</dd>
+<dt>Anzahl der Verzeichnisebenen, die in der Liste angezeigt werden sollen</dt>
+<dd>Die Anzahl der Verzeichnisebenen, die in Filmrollennamen angezeigt werden sollen, angefangen von rechts (normal gesetzt auf 1)</dd>
+<dt>Filmrollen sortieren nach</dt>
+<dd>Sortiere die Filmrollen entweder nach dem &ldquo;Verzeichnis&rdquo; Pfad oder der &ldquo;ID&rdquo; (in etwa entsprechend dem Datum, wann die Filmrollen zum ersten Mal importiert wurden) (Normal auf ID gesetzt).</dd>
+<dt>Sammlungen von neueren Bildern zu älteren sortieren</dt>
+<dd>Sortiere die folgenden Sammlungen in absteigender Reihenfolge: &ldquo;Filmrolle&rdquo; (wenn nach Verzeichnissen sortiert), &ldquo;Verzeichnis&rdquo;, Datum/Zeit (z.B. Aufnahme Datum/Zeit) (Normal eingeschaltet)</dd>
+</dl>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/shared/collections/">
+            English: collections
+        </a></li>
+        
+        <li><a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/">
+            Esperanto: collections
+        </a></li>
+        
+        <li><a href="/dtdocs/es/module-reference/utility-modules/shared/collections/">
+            Espanol: collections
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/module-reference/utility-modules/shared/image-information/" class="next">&lt; Bildinformationen</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/module-reference/utility-modules/shared/export/" class="prev">Exportieren &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

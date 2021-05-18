@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gestion de la couleur on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/</link>
+    <description>Recent content in gestion de la couleur on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/overview/</guid>
+      <description>darktable utilise un flux de travail entièrement géré par la couleur :
+  Les spécifications de couleur d&amp;rsquo;entrée proviennent de profils ICC intégrés ou fournis par l&amp;rsquo;utilisateur ou, dans le cas de fichiers raw, d&amp;rsquo;une bibliothèque de matrices de couleurs spécifiques à l&amp;rsquo;appareil photo.
+  darktable lit automatiquement le profil d&amp;rsquo;affichage de votre moniteur (s&amp;rsquo;il est correctement configuré) pour un rendu précis des couleurs à l&amp;rsquo;écran. Les configurations multi-écrans sont entièrement prises en charge tant qu&amp;rsquo;un service système tel que colord est en place et correctement configuré pour informer darktable du profil correct des moniteurs.</description>
+    </item>
+    
+    <item>
+      <title>profil d&#39;affichage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/display-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/display-profile/</guid>
+      <description>Pour que darktable rende fidèlement les couleurs à l&amp;rsquo;écran, il doit trouver le profil d&amp;rsquo;affichage correct pour votre moniteur. En général, cela nécessite que votre moniteur soit correctement calibré et profilé, et il a besoin que le profil soit correctement installé sur votre système. darktable interroge le xatom de votre serveur d&amp;rsquo;affichage X ainsi que le service colord du système (si disponible) pour le bon profil. Si nécessaire, vous pouvez appliquer une méthode spécifique dans préférences&amp;gt;divers.</description>
+    </item>
+    
+    <item>
+      <title>méthode de rendu</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/rendering-method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/rendering-method/</guid>
+      <description>darktable peut rendre les couleurs soit avec ses algorithmes internes, soit en utilisant la bibliothèque externe LittleCMS2. La méthode interne de darktable est plus rapide, d&amp;rsquo;un ordre de grandeur, que la méthode externe. L&amp;rsquo;option externe vous donne le choix de l&amp;rsquo;intention rendu et peut offrir une précision légèrement supérieure dans certains cas.
+Vous pouvez changer la méthode par défaut dans préférences&amp;gt; traitement&amp;gt;toujours utiliser LittleCMS 2 pour le profil de couleur de sortie</description>
+    </item>
+    
+    <item>
+      <title>intention de rendu</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/rendering-intent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/rendering-intent/</guid>
+      <description>Si le rendu avec LittleCMS2 est activé (voir méthode de rendu), vous pouvez définir comment les couleurs hors gamut sont gérées lors de la conversion entre les espaces colorimétriques. Une boîte de sélection dans le module exporter, le module profil de couleur de sortie et le module épreuvage écran vous donnent le choix entre les intentions de rendu suivants :
+ perceptif Convient aux photographies car il maintient la position relative des couleurs.</description>
+    </item>
+    
+    <item>
+      <title>espaces colorimétriques de darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/color-spaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/color-spaces/</guid>
+      <description>darktable&amp;rsquo;s input images are either RGB files (like JPEGs or TIFFs) or camera RAWs. Both store visual information as a combination of primary colors (such as red, green and blue) which together describe a light emission to be later recreated by a display.
+L&amp;rsquo;image suivante illustre ce concept.
+  Sur le côté gauche de l&amp;rsquo;image se trouve une lumière colorée que nous devons représenter numériquement. En utilisant trois filtres de couleur idéaux, nous pouvons décomposer cette lumière en trois lumières de couleur primaire à différentes intensités.</description>
+    </item>
+    
+    <item>
+      <title>artefacts de couleur possibles</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/color-artifacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/color-artifacts/</guid>
+      <description>Il existe quelques situations rares qui peuvent encore conduire à des résultats problématiques à moins que l&amp;rsquo;utilisateur ne prenne des mesures. Pour certains modules de l&amp;rsquo;espace colorimétrique Lab, comme niveaux et monochrome, il faut tenir compte du fait que les canaux L transportent toutes les informations de clarté, les canaux a et b représentant, quant à eux, purement la chrominance et la teinte. Les couleurs non bornées avec des valeurs L négatives sont particulièrement problématiques pour ces modules et peuvent conduire à des artefacts de pixels noirs.</description>
+    </item>
+    
+  </channel>
+</rss>

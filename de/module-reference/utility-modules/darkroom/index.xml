@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dunkelkammer on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/</link>
+    <description>Recent content in Dunkelkammer on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anzeige der Über-/Unterbelichtungen der RAW Werte</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/raw-overexposed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/raw-overexposed/</guid>
+      <description>Diese Option warnt dich über Bildteile deines RAW Ausgangsbildes mit beschnittenen Farbkanälen. Beschnittenen Farbkanäle deuten auf Überbelichtung hin mit Verlust an Bildinformationen in den betroffenen Bildteilen. Du kannst folgende Module brauchen Spitzlicht-Rekonstruktion oder Farbrekonstruktion um zu versuchen diese Bildteile zu rekonstruieren.
+Mit Rechtsklick öffnet sich ein Dialog mit den folgenden Parametern.
+ Modus Wähle, wie beschnittene Teile markiert werden sollen:   mit CFA Farben markieren: Zeige ein Muster der zugehörigen Primärfarben (rot, grün und blau) um anzuzeigen, welche Farbkanäle beschnitten sind.</description>
+    </item>
+    
+    <item>
+      <title>Bildinformationslinie</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/image-info-line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/image-info-line/</guid>
+      <description>Zeigt die Informationen des in der Dunkelkammer geöffneten Bildes an. Der Inhalt dieser Informationen kann bestimmt werden in darktable-Voreinstellungen&amp;gt;Dunkelkammer.
+Siehe den Teil Variablen für Informationen welche Variablen hier verwendet werden können. Du kannst auch eine neue Linie hinzufügen mit $(NL).
+Die Bildinformationslinie kann oben, unten links oder rechts platziert werden, was in einer zusätzlichen Schaltfläche in darktable-Voreinstellungen&amp;gt;Dunkelkammer eingestellt werden kann.</description>
+    </item>
+    
+    <item>
+      <title>Duplikat-Manager</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/duplicate-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/duplicate-manager/</guid>
+      <description>Der Duplikat-Manager listet alle Versionen des geöffneten Dunkelkammer-Bildes auf mit deren Miniaturansichten. Halte die linke Maustaste auf eine Miniaturansicht, um diese Miniaturansicht temporär in der Großansicht im Zentrum zu sehen. Mit Doppelklick kannst du auf diese Version umschalten, um diese zu bearbeiten.
+Mit der Schaltfläche duplizieren kannst du neue Duplikate des geöffneten Bildes erstellen. Du kannst entweder eine Version mit einem leeren Verlaufsstapel kreieren (Original) oder eine genaue Kopie des geöffneten Bildes (duplizieren).</description>
+    </item>
+    
+    <item>
+      <title>Farbbeurteilung nach ISO 12646</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/color-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/color-assessment/</guid>
+      <description>Während des Entwickelns eines Bildes wird die Art, wie wir Helligkeit, Kontrast und Sättigung durch die Umgebungsverhältnisse beeinflusst. Falls ein Bild mit einem dunkeln Hintergrund gezeigt wird, wie mit der Normalmaske in darktable, kann das diverse nachteilige Effekte auf die Wahrnehmung dieses Bildes haben:
+  Übertreibungen der wahrgenommenen Darstellung lassen das Bild heller erscheinen, als es wirklich ist. Gut dargestellt wird das in Adelson checkerboard shadow effect.
+  Eine Verminderung der wahrgenommenen Sättigung im Bild wird die Farben weniger leuchtend erscheinen lassen, als diese in Wirklichkeit sind (Hunt Effekt).</description>
+    </item>
+    
+    <item>
+      <title>Gamutüberprüfung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/gamut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/gamut/</guid>
+      <description>Klicke auf das Icon rechts des unteren Bedienfeldes, um die Gamutüberprüfung für dein Bild zu aktivieren. Diese Funktion hebt in türkis alle Pixel hervor, die außerhalb des Gamut liegen bin Bezug auf das gewählte Softproof-Profil. Du kannst die Gamutüberprüfung auch mit der Tastenkombination Ctrl+G. Das gibt eine Anzeige &amp;ldquo;Gamutüberprüfung&amp;quot;links unten im Bild, die anzeigt, dass man in diesem Modus ist. Gamutüberprüfung und Softproof sind gegenseitig unabhängige Modi.
+Mit Rechtsklick auf das Icon öffnet ein Dialog mit Konfigurations-Parametern - diese sind die gleichen wie für die Option Softproof.</description>
+    </item>
+    
+    <item>
+      <title>Maskenverwaltung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/mask-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/mask-manager/</guid>
+      <description>Verwalte alle Masken und Formen für das geöffnete Bild.
+  Dieses Modul wird gebraucht für das Kreieren, Umbenennen, Bearbeiten und Löschen von formen. Du kannst Formen hinzufügen und von Masken entfernen, Formen gruppieren und diese kombinieren mit der Benutzung von Set-Operatoren.
+In der obersten Linie im Bedienfeld sind die Schaltflächen zur Erzeugung neuer Formen. Es sind die gleichen wie in der Benutzeroberfläche gezeichnete Masken der einzelnen Module.
+Im Feld unter diesen Schaltflächen ist eine Liste aller Masken und der einzelnen Formen des geöffneten Bildes.</description>
+    </item>
+    
+    <item>
+      <title>Modul Reihenfolge</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/module-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/module-order/</guid>
+      <description>Ändere die Reihenfolge der Bearbeitung Module in der Dunkelkammer mit Vorgaben.
+Bei der Bearbeitung eines Bildes werden die aktiven Module in einer definierten Reihenfolge abgearbeitet, die im rechten Bedienfeld der Dunkelkammer angezeigt wird. Dieses Modul gibt Auskunft über die jetzige Reihenfolge der Bearbeitungsmodule in der Pixelpipe. Der Parameter &amp;ldquo;gegenwärtige Reihenfolge&amp;rdquo; kann folgende Werte annehmen.
+ v3.0 Das ist die Normal-Reihenfolge für den Ablauf auf Aufnahme bezogen. veraltet Dieses Modul wird verwendet für den veralteten Ablauf Anzeige bezogen.</description>
+    </item>
+    
+    <item>
+      <title>Navigation</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/navigation/</guid>
+      <description>Oben links im Navigations-Panel sehen Sie eine vollständige Vorschau Ihres Bildes mit einem Rechteck, das den aktuell sichtbaren Zoombereich zeigt. Ein Ziehen des Rechtecks im Vorschaubild verschiebt die vergrößerte Ansicht. Der aktuelle Faktor der Vergrößerung wird rechts neben dem Vorschaubild angezeigt. Ein Klick darauf ermöglicht einen schnellen Zugriff auf einige vordefinierte Vergrößerungstufe.
+Die Navigation kann umgeschaltet werden mit der Tastenkombination Ctrl+Shift+N.</description>
+    </item>
+    
+    <item>
+      <title>Pipette</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/global-color-picker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/global-color-picker/</guid>
+      <description>Damit kannst du Proben nehmen an bestimmten Stellen des Bildes, die Werte in verschiedenen Arten anzeigen und Farben an unterschiedlichen Stellen des Bildes vergleichen.
+Die Pipette wird aktiviert mit Anklicken des Pipetten-Symbols. Die Parameter des Moduls bleiben angeschaltet, solange du im Dunkelkammer-Modus bleibst.
+Neben der hier beschriebenen globalen Pipette, gibt es viele darktable Module mit lokalen Pipetten um dort die individuellen Parameter anzupassen (z.B. Tonwert-Equalizer). Es ist zu berücksichtigen, dass diese beiden Pipetten nicht zwingend im gleichen Farbraum arbeiten.</description>
+    </item>
+    
+    <item>
+      <title>Verlaufsstapel</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/history-stack/</guid>
+      <description>Abfrage und Ändern des Verlaufsstapels des geöffneten Bildes.
+Dieses Modul listet jede Änderung des Status (aktivieren/deaktivieren/bewegen/Parameter ändern) aller Bearbeitungsmodule des geöffneten Bildes, die bearbeitet wurden, auf. Du kannst einen Punkt im Verlauf anwählen und zu diesem Punkt der Bearbeitung des Bildes zurückkehren.
+ Vorsicht: Anpassungen an irgendeinem Modul verursacht, dass alle Module oberhalb des gewählten, verworfen werden. So kann viel Entwicklungsarbeit leicht verloren gehen.
+ Es ist also sicherer in dieser Situation das Programm zu verlassen, oder die Dunkelkammer zu verlassen, oder zu einem anderen Bild zu wechseln.</description>
+    </item>
+    
+    <item>
+      <title>Warnung Beschneidung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/clipping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/clipping/</guid>
+      <description>Wenn ein Bild an einem Bildschirm dargestellt wird, wird normalerweise jedes Pixel als Summe von drei Zahlen dargestellt, die eine Aussage machen über die Intensität der Primärfarben rot, grün und blau im Darstellungs-Farbraum. Weil dieser normalerweise eng verknüpft ist mit der Hardware mit deren physikalischen Grenzen, so gibt es einen Maximalwert für die [R,G,B] Kanäle, der die maximale Intensität für diesen Farbraum repräsentiert. Ähnlich gibt es auch einen Minimalwert, unter dem die Pixel auf null gesetzt werden.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/eo/</link>
+    <description>Recent content on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/eo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>superrigardo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/print/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/print/overview/</guid>
+      <description>Ĉi tiu vidpunkto temas pri presado. Ĉar presado ne facilas, estas multaj konsiderindaj teknikaj aspektoj.
+Post elekto de bildo en la lighttable view oni povas eniri la modulon print settings por ĝustigi presilajn agordojn kaj komenci presadon.
+Ĉi tiu modulo subtenas la ICC-profilon de la presilo, kiu estas iom deviga se vi volas fari altkvalitan presaĵon same al la bildo montrata sur la ekrano.
+Gravas noti, ke ICC-profiloj donitaj de la fabrikantoj de papero kaj / aŭ presilo ne povas esti uzataj ĉe GNU / Linukso, ĉar ili dependas de la presiloj.</description>
+    </item>
+    
+    <item>
+      <title>aranĝo de pres-vido</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/print/print-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/print/print-view-layout/</guid>
+      <description>La centra areo montras la aranĝon de bildo sur la papero (la blanka areo). Iom da grizaj bordoj povas esti montrataj ĉirkaŭ la bildo por reprezenti la presotan areon (la paĝa areo sen la bordoj) ne plenigitan de la bildo.
+La filmbendo sub la bildo ebligas al vi elekti pli da bildoj.
+🔗maldekstra panelo  collections Filter the list of images displayed in the lighttable. bildan informon Montri bildan informon  🔗dekstra panelo  print settings Ĝustigi presajn agordojn kaj komenci presadon.</description>
+    </item>
+    
+    <item>
+      <title>administrilo de duplikatoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/</guid>
+      <description>La duplikata administrilo listigas ĉiujn versiojn de la nuna senluma ĉambra bildo kun iliaj antaŭrigardaj bildetoj. Tenu la maldekstran musbutonon sur bildeton por provizore montri tiun version en la centra vido. Duoble alklaku por ŝanĝi al ĉi tiu versio kaj redakti ĝin.
+La butonoj supre-dekstre permesas krei novajn kopiojn de la nuna bildo. Vi povas krei &amp;lsquo;virgan&amp;rsquo; version (kun malplena historia stako) aŭ precizan kopion de la nuna bildo. Por via komforto, vi ankaŭ povas atribui nomon al ĉiu versio.</description>
+    </item>
+    
+    <item>
+      <title>administrilo de maskoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/</guid>
+      <description>Administri ĉiujn maskojn kaj formojn por la aktuala bildo.
+  Ĉi tiu modulo povas esti uzata por krei, renomi, redakti kaj forigi formojn. Vi povas aldoni formojn kaj forigi formojn de masko, grupigi formojn kune kaj kombini ilin per araj operacioj.
+En la supra linio de la maska administrila panelo estas butonoj uzeblaj por krei novajn formojn. Ĉi tiuj samas kiel tiuj en la interfaco desegnita masko de la unuopaj moduloj.</description>
+    </item>
+    
+    <item>
+      <title>bilda informo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/image-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/image-information/</guid>
+      <description>Ĉi tiu modulo montras la informojn enmetitajn en la Exif-datumoj de bildo kaj ankaŭ kelkajn kromajn datumajn kampojn difinitajn de darktable.
+Kiam vi ŝvebas per la muso super bildaj bildetoj, la datumoj de la modulo estas aŭtomate ĝisdatigitaj por montri informojn pri la bildo nuntempe sub la musa kursoro.
+🔗preferoj La opcio &amp;ldquo;preferoj&amp;hellip;&amp;rdquo; en la autaŭagorda menuo aperigas dialogon kun listo de ĉiuj kampoj haveblaj por montriĝo.
+La markobutono videbla permesas al vi elekti kiujn kampojn estas montrendaj.</description>
+    </item>
+    
+    <item>
+      <title>collections</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/collections/</guid>
+      <description>Filtri la bildojn montritajn en la lumtabla vido kaj filmbanda panelo per bildaj atributoj. Ĉi tiu aro de filtritaj bildoj estas konata kiel kolekto.
+Ĉiuj bildoj importitaj en darktable estas konservitaj en la biblioteka datumbazo de darktable, kune kun atributoj priskribantaj ĉiun bildon. Kolekto povas esti difinita per aplikado de filtraj reguloj al ĉi tiuj atributoj, tiel kreante subaron de bildoj por montri en la lumtabla vido kaj la filmbanda modulo.</description>
+    </item>
+    
+    <item>
+      <title>eksporti</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/export/</guid>
+      <description>Eksportu bildojn elektitajn en la lumtablo aŭ la filmbendo de la senluma ĉambra vido.
+Dosieroj povas esti eksportitaj al dosiero sur disko, retpoŝto, diversaj interretaj stokaj lokoj, retalbumo aŭ libro-ŝablono.
+🔗modulaj kontroloj 🔗stokaj opcioj  cela stokado La speco de loko por stoki viajn elektitajn bildojn. Kelkaj diversaj servomoduloj estas efektivigitaj, inkluzive de dosiero sur disko, LaTeX-libra ŝablono kaj diversaj interretaj albumoj. Depende de la elektita celo, oni petos vin doni aldonajn informojn, kiaj dosiernomoj, aŭ nomo de konto kaj pasvorto.</description>
+    </item>
+    
+    <item>
+      <title>elekti</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/select/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/select/</guid>
+      <description>elekti bildojn en la lumtablo laŭ simplaj kriterioj
+🔗modulaj kontroloj  elekti ĉiujn Elekti ĉiujn bildojn montrata en la aktuala lumtabla vido elekti neniujn Malselekti ĉiujn bildojn. inversigi elekton Elektu ĉiujn bildojn ne aktuale elektitajn. elektu filmrulon Elektu ĉiujn bildojn en la sama filmrulo kiel la nun elektitaj bildoj. elekti netuŝitaj Elekti ĉiujn bildojn ankoraŭ ne prilaboritajn.  </description>
+    </item>
+    
+    <item>
+      <title>elektitaj bildoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/</guid>
+      <description>Faru agojn sur bildoj elektitaj en la lumtabla vido.
+🔗modulaj kontroloj La modulaj agordiloj estas disigitaj tra du langetoj, unu por manipuli la bilddosierojn, kaj la alia por manipuli la metadatenojn rilatajn al la bildoj.
+🔗langeto de bildoj  remove Remove the selected images from the darktable library without deleting them. Removed images can no longer be viewed or edited within darktable but the image files remain on the filesystem along with any XMP sidecar files.</description>
+    </item>
+    
+    <item>
+      <title>etikedado</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/tagging/</guid>
+      <description>Administri etikedojn ligitajn al bildoj.
+Etikedoj ebligas metodon por aldoni informojn al bildoj per ŝlosilvortvortaro. Vi ankaŭ povas administri etikedojn kiel hierarkian arbon, kiu povas esti utila kiam ilia nombro fariĝas granda.
+Etikedoj estas fizike stokitaj en XMP-kromĉaraj dosieroj same kiel en la biblioteka datumbazo de darktable kaj povas esti inkluzivitaj en eksportotaj bildoj.
+🔗difinoj La jenaj difinoj supozas, ke vi starigis ununuran etikedon nomatan &amp;ldquo;lokoj|Francujo|Nord|Lille&amp;rdquo;.
+ etikedo Etikedo estas priskriba ĉeno, kiu povas esti ligita al bildo.</description>
+    </item>
+    
+    <item>
+      <title>filmbendo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/</guid>
+      <description>La filmbendo povas esti uzata por rapide ŝanĝi inter bildoj en iu ajn vido de darktable. La bildoj montrataj estas samaj kiel tiuj montrataj en la lumtabla vido kaj estas difinitaj de la aktuale elektita kolekto.
+  La filmbendo povas esti ŝaltita kaj malŝaltita per la ŝparvojo Stir+F. La alteco de la filmbenda panelo povas esti ŝanĝita per klako kaj trenado de ĝia supra rando.
+Rapide navigu tra la bildoj en la filmbendo per rulumado per la muso.</description>
+    </item>
+    
+    <item>
+      <title>fokusa pintado</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/</guid>
+      <description>La modulo fokusa pintado permesas vin eltrovi, kiujn partojn de la bildo estas akraj kaj enfokusigitaj. Ĝi funkcias ambaŭ en la lumtabla vido, kie vi povas facile vidi unuavide kiuj bildoj estas akraj kaj kiuj estas malklaraj, kaj en la vido de senluma ĉambro, kiam vi prilaboras unu bildon.
+La modulo aktiviĝas alklakante la fokus-pintan ikonon (  ). Ĝi reliefigas la akrajn partojn de la bildo per flavaj, verdaj kaj bluaj surmetoj:</description>
+    </item>
+    
+    <item>
+      <title>fotilaj agordoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/</guid>
+      <description>La modulo de agordoj de fotilo permesas agordi bildan kaptan laboron.
+Ĉi tio povas inkluzivi sekvencon, krampon kaj malfruajn kaptojn. Vi ankaŭ povas regi aliajn fotilajn agordojn kiel fokusa reĝimo, aperturo, eksponrapideco, ISO kaj blanka ekvilibro.</description>
+    </item>
+    
+    <item>
+      <title>geoetikedado</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/geotagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/geotagging/</guid>
+      <description>Importi kaj apliki GPX-trakajn datumojn al elekto de bildoj.
+Ĉi tiu modulo estas komuna al la vidoj lighttable kaj map. Tamen plibonigita reĝimo disponeblas en la mapa vido, kiu ebligas al vi antaŭrigardi la pozicion de la bildoj laŭ la GPS-trakoj dum ĝustigado de la dato/tempo (ofseto) kaj horzono de la bildoj.
+🔗superrigardo de laborfluo GPS-ricevilo kalkulas sian nunan pozicion surbaze de la informoj, kiujn ĝi ricevas de satelitoj, kaj registras ĝin en GPX-dosieron, kune kun la nunaj dato kaj horo.</description>
+    </item>
+    
+    <item>
+      <title>historia stako</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/</guid>
+      <description>Pridemandi kaj ŝanĝi la historian stakon de la nuna bildo en senluma ĉambro.
+Ĉi tiu modulo listigas ĉiun statŝanĝon (aktivigi/malaktivigi/movi/ŝanĝi parametrojn) por ĉiuj prilaboraj moduloj ŝanĝitaj por la nuna bildo. Vi povas elekti punkton en la stako por reveni al tiu punkto en la prilabora historio de la bildo.
+ Atentu: ĝustigante iun ajn modulon, ĉiuj moduloj super la nuntempe elektita modulo estos forĵetitaj. Estas tre facile perdi laboron pri bildo tiamaniere!</description>
+    </item>
+    
+    <item>
+      <title>historia stako</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/</guid>
+      <description>Manipuli la historia(j)n stako(j)n de unu aŭ pli elektitaj bildoj.
+🔗modulaj kontroloj  selective copy&amp;hellip; Copy selected parts of the history stack of the selected image. A dialog appears within which you may choose which items from the history stack to include. If more than one image is selected, the history stack is taken from the image that was selected first. Double-click on an item to copy that item only and immediately close the dialog.</description>
+    </item>
+    
+    <item>
+      <title>importi</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/import/</guid>
+      <description>Importi bildojn al unu aŭ pli filmruloj.
+Bildoj povas esti importataj de la loka dosiersistemo aŭ de konektita fotilo. Vidu subtenataj dosierformoj por pluaj informoj.
+🔗importi de dosiersistemo Vi povas importi aŭ unuopan bildon aŭ dosierujon de bildoj de la dosiersistemo alklakante la koncernan butonon. La importotaj bildoj aŭtomate aldoniĝos al filmrulo kun la sama nomo kiel la dosiersistema dosierujo, el kiu ili estas importitaj.
+Alklaku sur &amp;ldquo;bildo&amp;rdquo; aŭ &amp;ldquo;dosierujo&amp;rdquo; por malfermi dialogon de dosierelektilo.</description>
+    </item>
+    
+    <item>
+      <title>informlinio de bildo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/</guid>
+      <description>Montru informojn pri la nuna bildo en senluma ĉambro. La enhavo de ĉi tiu linio povas esti agordita en preferoj &amp;gt; senluma ĉambro.
+Vidu la sekcion variabloj por informoj pri la variabloj uzeblaj ĉi tie. Vi ankaŭ povas enmeti novlinion kun $(NL).
+La bilda informlinio videblas en la supra, malsupra, maldekstra aŭ dekstra panelo laŭ plua agorda ero en preferoj &amp;gt; senluma ĉambro.</description>
+    </item>
+    
+    <item>
+      <title>instalilo de lua skriptoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/</guid>
+      <description>Ĉi tiu panelo provizas interfacon por instali darktable lua skriptojn. La unuan fojon, kiam ĝi funkcias, instrukcioj montriĝas en la modulo.
+Ĝi povas esti malebligita per opcio en preferoj &amp;gt; lua opcioj.</description>
+    </item>
+    
+    <item>
+      <title>kontrolo de gamo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/</guid>
+      <description>Alklaku la piktogramon ĉe la dekstra flanko de la malsupra panelo por aktivigi la montriĝon de la indikilo pri gama kontrolo por via bildo. Ĉi tiu funkcio reliefigas, ciane, ĉiujn pikselojn ekster gamo rilate al la elektita presa pruvo. Vi ankaŭ povas aktivigi gaman kontrolon per la klavkombino Stir+G. Mesaĝo &amp;ldquo;kontrolo de gamo&amp;rdquo; maldekstre malsupre de via bildo diras al vi, ke vi estas en reĝimo de indikilo pri gama kontrolo.</description>
+    </item>
+    
+    <item>
+      <title>kruda troeksponita averto</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/</guid>
+      <description>Ĉi tiu opcio avertas vin pri areoj de via kruda eniga bildo kun detonditaj koloraj kanaloj. Detonditaj koloraj kanaloj implicas troeksponitan bildon kun perdo de informo en la trafitaj lokoj. Vi povas uzi la modulojn brilaĵa rekonstruktado aŭ kolora rekonstruktado provi rekonstrui ĉi tiujn areojn.
+Dekstre alklaku la piktogramon por malfermi dialogujon enhavantan la jenajn agordajn parametrojn.
+ reĝimo Elekti kiel marki tonditajn areojn:   marku per KFA-koloro: Montru ŝablonon de la respektivaj primaraj koloroj (ruĝa, verda kaj blua) por indiki, kiuj koloraj kanaloj estas tonditaj.</description>
+    </item>
+    
+    <item>
+      <title>mapaj agordoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/map/map-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/map/map-settings/</guid>
+      <description>Elektu preferatajn mapajn datumojn de diversaj provizantoj. Iuj provizos aldonajn tavolojn (satelita vido ktp), kiujn vi povas alterni.
+🔗modulaj kontroloj  mapfonto Elektu la provizanton de la fonta mapo. max polygon points The find location module doesn&amp;rsquo;t display polygon larger than this value for performance reason. Usually a country polygon counts between 50.000 and 150.000 points. montri SEM Elektu ĉu montri la agordilojn por Sur-Ekrana-Montraĵo supre-maldekstre de la centra vido. filtritaj bildoj Elektu por montri nur la bildojn de la filmo en la centra vido.</description>
+    </item>
+    
+    <item>
+      <title>navigado</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/</guid>
+      <description>Supre maldekstre de la senluma ĉambro, la navigacia panelo montras plenan antaŭrigardon de la nuna bildo kun rektangulo montranta la nuntempe videblan zoman areon en la centra panelo. Trenu la rektangulon ĉirkaŭe por panorami la enzomitan vidon. La aktuala zoma skalo montriĝas dekstre de la antaŭvida bildo. Alklaku tiun figuron por rapida aliro al iuj oftaj zomaj niveloj.
+La navigada panelo povas esti ŝaltita/malŝaltita per klavkombino (apriore Stir+Maj+N).</description>
+    </item>
+    
+    <item>
+      <title>ordo de moduloj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/</guid>
+      <description>Ŝanĝu la ordon de la prilaboraj moduloj en la senluma ĉambro per antaŭagordoj.
+Prilaborante bildon, la aktivaj moduloj estas aplikataj laŭ specifa ordo, kiu estas montrata en la dekstra panelo de la senluma ĉambra vido. Ĉi tiu modulo donas informojn pri la nuna ordigo de la prilaboraj moduloj en la pikselpipo. La ununura parametro &amp;ldquo;aktuala ordo&amp;rdquo; povas enhavi la jenajn valorojn:
+ v3,0 Ĉi tiu estas la apriora ordo de moduloj por laborfluo scen-referite.</description>
+    </item>
+    
+    <item>
+      <title>presaj agordoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/print/print-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/print/print-settings/</guid>
+      <description>Prizorgi agordojn por la pres-vido kaj komenci presi.
+🔗modulaj kontroloj 🔗presilo  presilo Elekti unu el la instalitaj presiloj rimedoj La speco de rimedoj ŝarĝitaj en la presilo (Simpla Papero, Brila Fotopapero, ktp.). profilo La IKK-profilo de la presilo por la ŝarĝita papero. Ĉi tiu estas la profilo specifa por la presilo kaj papero. Ĉi tiu profilo estas la lasta kolorspaca transformo aplikita al la bildo, kies celo estas krei altkvalitan presaĵon.</description>
+    </item>
+    
+    <item>
+      <title>redaktilo de metadatenoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/</guid>
+      <description>Redakti la metadatenojn (titolo, priskribo, kreinto, eldonisto, rajtoj ktp.) de elektitaj bildoj.
+🔗modulaj kontroloj  metadatenaj eniraj kampoj Aparta kampo montriĝas por ĉiu metadatuma ero. Tenu Stir-klavon rulumante per via muso por pliigi la altecon de kampo. Premu Stir+Enigu por enmeti novan linion. Premu Enigu por apliki ajnan tekston enmetitan en la aktuala kampo de metadatumoj al la elektitaj bildoj. Duoble alklaku la etikedon de kampo por forigi la enhavon de tiu kampo.</description>
+    </item>
+    
+    <item>
+      <title>sesio</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/session/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/session/</guid>
+      <description>Sesio estas vico de malkovroj prenitaj en la ligita reĝimo kaj metitaj en ununuran filmon. Nova sesio signifas kreon de nova filmrulo.
+La sesia modulo ebligas al vi agordi laborkodon, uzeblan por krei vian novan filmrolulon. Vidu preferoj&amp;gt; importi&amp;gt; sesiaj opcioj por detaloj pri kiel krei novajn filmojn per la variablo $ (JOBCODE) en la sesia modulo.</description>
+    </item>
+    
+    <item>
+      <title>stiloj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/styles/</guid>
+      <description>Krei nomitajn stilojn el la historiaj stakoj de elektitaj bildoj kaj apliki stilojn al elektitaj bildoj.
+Stiloj povas esti kreitaj en ĉi tiu panelo aŭ en la modula historio-stako en la senluma ĉambro.
+Listo de ĉiuj disponeblaj stiloj montriĝas supre de la modulo. Serĉa kampo super la listo ebligas al vi trovi stilon laŭ nomo aŭ priskribo. Ĉi tiu modulo ankaŭ permesas redakti kaj forviŝi stilojn.
+Duoble alklaku stilan nomon por apliki tiun stilon al ĉiuj elektitaj bildoj.</description>
+    </item>
+    
+    <item>
+      <title>takso de koloro</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/</guid>
+      <description>Prilaborante bildon, la maniero kiel ni perceptas brilon, kontraston kaj saturiĝon influas la ĉirkaŭajn etosajn kondiĉojn. Se bildo montriĝas kontraŭ malhela fono, kiel ĉe la apriora temo en darktable, ĝi povas havi multajn malutilajn efikojn sur nia percepto de tiu bildo:
+  Troigo de la perceptita ekspozicio igas la bildon ŝajni pli brila ol ĝi vere estas. Ĉi tion bele ilustras la damtabula ombra efiko de Adelson.
+  Malpliiĝo de la perceptita saturiĝo en la bildo igas la kolorojn ŝajni malpli riĉaj ol ili vere estas (la efiko de Hunt).</description>
+    </item>
+    
+    <item>
+      <title>templinio</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/</guid>
+      <description>Rigardu viajn bildojn laŭ la dato/horo, kiam ili estis kaptitaj.
+  En la lumtabla dosieradministrilo, vi povas montri/kaŝi la templinian modulon en la malsupra panelo per la klavkombino Stir+F.
+En la templinio, vi povas montri la sekvan kaj antaŭan datojn per rulumado de via muso; Stir+rulumi por zomi en/el.
+Vi ankaŭ povas uzi templinion por elekti bildojn laŭ datintervalo per musklaki+treni.</description>
+    </item>
+    
+    <item>
+      <title>tondada averto</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/</guid>
+      <description>Kiam bildo estas sendita al ekrana aparato, ĉiu pikselo estas kutime reprezentita kiel aro de 3 nombroj, reprezentantaj la intensecon de la ruĝaj, verdaj kaj bluaj primaraj koloroj en la elira kolora spaco. Ĉar la elira kolorspaco kutime estas proksime rilata al aparataro kun fizikaj limigoj, estas maksimuma permesata valoro por la kanaloj [R,V,B], reprezentante la maksimuman haveblan intensecon en tiu kolora spaco. Simile, ekzistas ankaŭ minimuma valoro sub kiu pikselaj valoroj estos mapitaj al nulo.</description>
+    </item>
+    
+    <item>
+      <title>tutmonda kolora elektilo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/</guid>
+      <description>Preni kolorajn specimenojn de la aktuala senluma ĉambra bildo, montri iliajn valorojn plurmaniere kaj kompari kolorojn el diversaj lokoj.
+La kolora elektilo aktiviĝas premante la piktogramon de la kolora elektilo. La parametroj de la modulo restos validaj ĝis vi eliras la senluman ĉambran reĝimon.
+Krom la tutmonda kolorelektilo ĉi tie priskribita, multaj moduloj de darktable (ekz. _tona kurbo _) enhavas ankaŭ lokajn kolorelektilojn, kiuj estas uzataj por agordi unuopajn modulajn parametrojn.</description>
+    </item>
+    
+    <item>
+      <title>viva vido</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/live-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/live-view/</guid>
+      <description>Ĉi tiu modulo donas al vi kontrolon de la viva vida reĝimo de via fotilo. Funkcieco kiel fokusa agordo, rotacio, aldono de gvidiloj kaj surmeto estas subtenataj.</description>
+    </item>
+    
+  </channel>
+</rss>

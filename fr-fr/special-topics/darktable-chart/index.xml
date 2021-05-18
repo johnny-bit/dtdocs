@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>utilisation de darktable-chart on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/</link>
+    <description>Recent content in utilisation de darktable-chart on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/overview/</guid>
+      <description>darktable-chart est un outil pour extraire les valeurs de clarté et de couleurs d&amp;rsquo;une image. Ces valeurs sont prises dans des cartes de référence couleur comme les chartes IT8.7 / 1. Le but principal de ce module est de comparer une image source (typiquement une image raw non traitée) à une image cible (typiquement une image JPEG créée par le boîtier) et de créer un style darktable capable de convertir les valeurs de clarté et de couleur de l&amp;rsquo;image source pour produire l&amp;rsquo;image cible.</description>
+    </item>
+    
+    <item>
+      <title>usage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/usage/</guid>
+      <description>L&amp;rsquo;outil comporte trois onglets dans la partie supérieure et un cadre de sortie de texte dans la partie inférieure.
+  Le premier onglet est utilisé pour définir l&amp;rsquo;image source, le deuxième onglet définit les valeurs de référence (cible) et le troisième onglet contient les contrôles pour générer le style darktable résultant.</description>
+    </item>
+    
+  </channel>
+</rss>

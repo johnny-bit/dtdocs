@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>masquage et fusion on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/masking-and-blending/</link>
+    <description>Recent content in masquage et fusion on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/darkroom/masking-and-blending/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/masking-and-blending/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/masking-and-blending/overview/</guid>
+      <description>Par défaut, un module reçoit son entrée du module le précédant dans le pipeline graphique, il effectue ses calculs et envoie sa sortie au module le suivant dans le pipeline graphique.
+Les données de sortie d&amp;rsquo;un module peuvent optionnellement être retraitée (combinées) avec son entrée avant que le résultat soit passé au module suivant. Ce traitement supplémentaire est appelé fusion. Entrée et sortie peuvent être traitées avec différents algorithmes, appelés opérateurs de fusion ou modes de fusion.</description>
+    </item>
+    
+  </channel>
+</rss>

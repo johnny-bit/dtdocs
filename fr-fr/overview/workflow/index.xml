@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flux de travail de base on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/</link>
+    <description>Recent content in flux de travail de base on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>importation, évaluation et labels de couleur</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/import-rate-tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/import-rate-tag/</guid>
+      <description>Quand vous souhaitez développer de nouvelles images dans darktable, la première étape est de les importer. Ceci créera des entrées pour les nouvelles images importées dans la base de données de darktable. Il pourra ainsi suivre les modifications que vous leurs apporterez. Il existe deux méthodes principales pour importer des images :
+ importer des images depuis le système de fichiers Vous pouvez importer depuis le système de fichier une seule image ou un dossier contenant des images (optionnellement importer les dossiers récursivement).</description>
+    </item>
+    
+    <item>
+      <title>développer une image : aperçu d&#39;un flux de travail</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-overview/</guid>
+      <description>Cette section va vous guider à travers les bases du développement d&amp;rsquo;une image dans la vue chambre noire, où un arsenal de modules est à votre disposition pour vous aider à atteindre vos objectifs créatifs.
+Pour commencer, ouvrez une image dans la chambre noire en double-cliquant sur la miniature d&amp;rsquo;une image dans la vue table lumineuse.
+Each change you make to the image in the darkroom is turned into a history stack item.</description>
+    </item>
+    
+    <item>
+      <title>développer une image : flux de travail relatif à la scène</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-scene-referred/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-scene-referred/</guid>
+      <description>Le flux de travail relatif à la scène met l&amp;rsquo;accent sur l&amp;rsquo;exécution du traitement d&amp;rsquo;image dans la partie linéaire relative à la scène du pipeline graphique. Cela permet de réduire les artefacts et les décalages de couleur qui peuvent résulter du traitement des valeurs non linéaires des pixels. En découplant le traitement d&amp;rsquo;image des caractéristiques d&amp;rsquo;un écran spécifique, il sera plus facile d&amp;rsquo;adapter ultérieurement votre travail à de nouveaux supports d&amp;rsquo;affichage, tels que les affichages à plage dynamique élevée.</description>
+    </item>
+    
+    <item>
+      <title>développer une image : flux de travail relatif à l&#39;affichage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-display-referred/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-display-referred/</guid>
+      <description>Ceci est un mode traditionnel. Il est conservé pour fournir une rétrocompatibilité avec les développements effectués dans les anciennes versions de darktable et pour permettre aux utilisateurs de continuer avec leur ancienne méthode de travail sans les forcer à utiliser le nouveau flux de travail relatif à la scène.
+Le flux de travail relatif à l&amp;rsquo;affichage met davantage l&amp;rsquo;accent sur l&amp;rsquo;exécution du traitement d&amp;rsquo;image dans la partie non-linéaire relatif à l&amp;rsquo;affichage du pipeline graphique.</description>
+    </item>
+    
+    <item>
+      <title>exportation et téléchargement d&#39;images avec métadonnées</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/export-metadata-upload/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/export-metadata-upload/</guid>
+      <description>Les modifications apportées à une image ne sont pas enregistrées directement dans le fichier image contrairement à un éditeur d&amp;rsquo;image classique. Au contraire, darktable est un éditeur non destructif, ce qui signifie que toutes les modifications sont enregistrées dans la base de données de la bibliothèque de darktable et que l&amp;rsquo;image d&amp;rsquo;origine reste intacte. Par conséquent, vous devez exporter des images afin de sauvegarder vos options de traitement et les modifications de métadonnées dans un fichier de sortie qui peut être distribué en dehors de darktable.</description>
+    </item>
+    
+  </channel>
+</rss>

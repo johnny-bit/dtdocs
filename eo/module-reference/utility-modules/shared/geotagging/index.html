@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="eo">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - geoetikedado</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/geotagging/">Esperanto</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/geotagging/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/geotagging/">German</a>
+		    
+		      <a class="dropdown-item" hreflang="es" role="option" lang="es" href="https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/geotagging/">Espanol</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/" class="">
+          Presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/overview/" class="">
+          superrigardo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/print-view-layout/" class="">
+          aranĝo de pres-vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/" class="">
+          Module-references
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/" class="">
+          utilecaj moduloj
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/" class="">
+          dividita
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/" class="">
+          bilda informo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/" class="">
+          collections
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/export/" class="">
+          eksporti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/" class="">
+          etikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/" class="">
+          filmbendo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/" class="">
+          fokusa pintado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/geotagging/" class=" active">
+          geoetikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/" class="">
+          redaktilo de metadatenoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/" class="">
+          ligitado
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/" class="">
+          fotilaj agordoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/session/" class="">
+          sesio
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/live-view/" class="">
+          viva vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/" class="">
+          lumtablo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/select/" class="">
+          elekti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/" class="">
+          elektitaj bildoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/import/" class="">
+          importi
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          instalilo de lua skriptoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/styles/" class="">
+          stiloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/" class="">
+          templinio
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/" class="">
+          mapo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/map-settings/" class="">
+          mapaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/" class="">
+          presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/print-settings/" class="">
+          presaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/" class="">
+          senluma ĉambro
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          administrilo de duplikatoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          administrilo de maskoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          informlinio de bildo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/" class="">
+          kontrolo de gamo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          kruda troeksponita averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/" class="">
+          navigado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/" class="">
+          ordo de moduloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          takso de koloro
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/" class="">
+          tondada averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          tutmonda kolora elektilo
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+
+<a href='/dtdocs/eo/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/eo/module-reference/'>Module-references</a> / <a href='/dtdocs/eo/module-reference/utility-modules/'>utilecaj moduloj</a> / <a href='/dtdocs/eo/module-reference/utility-modules/shared/'>dividita</a> / geoetikedado
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/" class="next">&lt; fokusa pintado</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/" class="prev">redaktilo de metadatenoj &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        geoetikedado
+    </h1>
+
+    
+
+    <p>Importi kaj apliki GPX-trakajn datumojn al elekto de bildoj.</p>
+<p>Ĉi tiu modulo estas komuna al la vidoj <a href="../../../lighttable/_index.md">lighttable</a> kaj <a href="../../../map/_index.md">map</a>. Tamen plibonigita reĝimo disponeblas en la mapa vido, kiu ebligas al vi antaŭrigardi la pozicion de la bildoj laŭ la GPS-trakoj dum ĝustigado de la dato/tempo (ofseto) kaj horzono de la bildoj.</p>
+<h1 id="superrigardo-de-laborfluo"><a href="#superrigardo-de-laborfluo">🔗</a>superrigardo de laborfluo</h1>
+<p>GPS-ricevilo kalkulas sian nunan pozicion surbaze de la informoj, kiujn ĝi ricevas de satelitoj, kaj registras ĝin en GPX-dosieron, kune kun la nunaj dato kaj horo. La Exif-datumoj de la bildoj ankaŭ enhavas horstampon difinitan per la fotilaj agordoj. La modulo <em>geoetikado</em> prenas la horstampon de la bildo, serĉas la pozicion en la GPX-dosiero tiutempe kaj stokas la taŭgajn koordinatojn (latitudo/longitudo/alto) en sia datumbazo kaj la XMP-kromĉara dosiero de la bildo.</p>
+<p>Du problemoj povas okazi dum ĉi tiu procezo:</p>
+<ul>
+<li>Kontraste al GPS-aparatoj, plej multaj fotiloj ne registras la tempon precize.</li>
+<li>La tempo konservita en la Exif-datumoj ne inkluzivas la horzonon. Plej multaj homoj agordas sian fotilon laŭ loka tempo, dum la GPS-aparatoj konservas la horon en la horzono UTC (Universala Tempo, Kunordigita, t.e. Greenwich (Londono)) horzono. Se la horzonoj de la fotilo kaj la GPX-dosiero malsamas, tiam la rilata loko malĝustos.</li>
+</ul>
+<p>Se via bildo jam montras la ĝustan daton/horon kaj portas la UTC-horstampon, vi povas rekte apliki la GPX spuran dosieron sen pluaj ĝustigoj.</p>
+<p>Alie sekvu la jenan procezon por korelacii la horon de la fotilo kaj GPS-spurilo</p>
+<ol>
+<li>
+<p>Riparu la agordon de fotila horo por individua bildo permane enigante la ĝustan daton/horon por tiu bildo en la kampo <em>dato/horo</em>. Bona maniero fari tion estas preni foton pri fidinda fonto de horo. Tiu povas esti iu ajn preciza horloĝo aŭ, eĉ pli bone, la horo montrata sur via GPS-aparato, konsiderante ke GPS-aparatoj kutime <em>montras</em> la lokan horon kvankam ili <em>stokas</em> universalan horon. La diferenco (ofseto) inter la enirita horo kaj la horo konservita en la Exif-datumoj de la bildo estos montrita en la kampo pri <em>data/horaa kompensado</em>.</p>
+</li>
+<li>
+<p>Premu la butonon <em>ŝlosi</em> por ŝlosi la kalkulitan ofseton.</p>
+</li>
+<li>
+<p>Elekti ĉiujn bildojn, kiujn vi volas ĝustigi, kaj apliki la kalkulitan ofseton al tiuj bildoj.</p>
+</li>
+<li>
+<p>Se la fotila horzono ne estas UTC, agordu la horzonon en la kampo <em>horzono de foltilo</em>.</p>
+</li>
+</ol>
+<p>Post ol la hora agordo estas korektita, vi povas apliki GPX spurajn datumojn per la butono <em>apliki GPX spuran dosieron</em>.</p>
+<h1 id="modulaj-kontroloj-komunaj"><a href="#modulaj-kontroloj-komunaj">🔗</a>modulaj kontroloj (komunaj)</h1>
+<dl>
+<dt>dato/horo</dt>
+<dd>Ĉi tiu kampo estas pravalorizita per la dato/horo legita el la unua elektita bildo (formato <code>jjjj:mm:tt hh:mm:ss</code>) kaj povas esti modifita por korekti la daton/horon por tiu bildo. La unuopaj dataj/horaj kampoj povas esti ŝanĝitaj per rulumado super ili per via muso. Se iu kampo atingas sian limon, la najbaraj kampoj estas aŭtomate ĝisdatigitaj. Ekzemple, se vi superas 60 en la minutokampo, la hora kampo aŭtomate plialtiĝos.</dd>
+<dt>originala dato/horo</dt>
+<dd>La originala dato/horo de la bildo montriĝas ĉi tie por referenco.</dd>
+<dt>dato/tempo ofseto</dt>
+<dd>La kalkulita diferenco inter la originala dato/horo, kiu eniĝis en la kampo <em>dato/horo</em>. Se la kalkulita diferenco estas pli granda ol pozitive aŭ negative 99 tagoj 23 horoj 59 minutoj kaj 59 sekundoj, la ofseto estas nuligita.</dd>
+<dt>ŝlosila butono</dt>
+<dd>Se la ŝlosila butono estas aktivigita, la ofseta valoro estas frostigita. Se vi poste ŝanĝas la elektita(j)n bildo(j)n, la nova bilda dato/horo estas ĝisdatigita per la ŝlosita ofseto. Tio permesas vin apliki la saman ofseton al malsamaj bildaj elektoj.</dd>
+<dt>apliki ofsetan butonon</dt>
+<dd>Apliki la ofseton al elektitaj bildoj.</dd>
+<dt>apliki datan/horan butonon</dt>
+<dd>Fojfoje utilas povi agordi la absolutan bildan daton/horon por bildo, ekzemple kie mankas ĉi tiu informo. Ĉi tiu butono permesas vin apliki la daton/horon enmetitan en la kampo <em>dato/horo</em> al la elektitaj bildoj, sen konsideri la antaŭan valoron. Vi povas uzi Stir+Z por malfari iujn nedeziratajn ŝanĝojn.</dd>
+<dt>horzono de fotilo</dt>
+<dd>Elekti la horzonon de la fotilo. Komencu tajpi por montri liston de permesitaj valoroj.</dd>
+<dt>apliki GPX spuran dosieron (nur lumtabla vido)</dt>
+<dd>Apliki GPX spuran dosieron. Alklaku la respondan butonon kaj navigu al la GPX-dosiero. Kiel supre vi povas uzi Stir+Z por malfari iujn nedeziratajn ŝanĝojn. Ene de la fenestro de dosierelektilo, la antaŭvida butono listigas la spurojn de la elektita GPX-dosiero kune kun la jenaj informoj: spurnomo, komenca kaj fina dato/horo (loka horo), nombro da spurpunktoj kaj nombro da elektitaj bildoj, kiuj estos geoetikeditaj. .</dd>
+</dl>
+<h1 id="modulaj-kontroloj-mapa-vido"><a href="#modulaj-kontroloj-mapa-vido">🔗</a>modulaj kontroloj (mapa vido)</h1>
+<dl>
+<dt>gpx-dosieroj</dt>
+<dd>La vojo de la gpx-dosiero elektita.</dd>
+<dt>spurlisto</dt>
+<dd>Ĉi tiu tabelo montras la komencan daton/horon de ĉiu spuraĵo, kune kun la nombro da spurpunktoj kaj kongruaj bildoj. Kiam markobutono estas aktivigita, la rilata spuraĵo montriĝas sur la mapo. Markobutono en la tabelaj kaplinioj ebligas al vi elekti aŭ malelekti ĉiujn spurojn samtempe. Ŝvebante super vico per via muso montras la komencajn kaj finajn horojn kaj en loka tempo (LT) kaj UTC.</dd>
+<dt>antaŭrigardi bildojn</dt>
+<dd>Se markita, la kongruaj bildoj montriĝas sur la mapo laŭ la videblaj spuroj.</dd>
+<dt>elekti bildojn</dt>
+<dd>Se vi ne volas apliki ofseton al ĉiuj elektitaj bildoj, sed nur al la kongruaj bildoj, uzu ĉi tiun butonon por elekti bildojn. Se vi ne volas perdi la nunan ofseton, vi eble ŝlosu ĝin antaŭ ol ŝanĝi la elekton.</dd>
+<dt>kalkuloj</dt>
+<dd>Kalkulo de la nombro de kongruaj bildoj kaj la nombro de elektitaj bildoj montriĝas dekstre de la butono <em>selekti bildojn</em>.</dd>
+<dt>apliki geolokon</dt>
+<dd>Ĉi tiu butono montriĝas kiam la ofseto estas nula. La butono <em>apliki geolokon</em> aplikas la GPX-datumojn al kongruaj bildoj sur elektitaj spuroj.</dd>
+<dt>apliki ofseton kaj geolokon</dt>
+<dd>Ĉi tiu butono montriĝas post eniro de ofseto. Memorige, la butono <em>apliki ofseton</em> aplikas la ofseton al ĉiuj elektitaj bildoj. Male al <em>apliki ofseton</em>, la butono <em>apliki ofseton kaj geo-lokon</em> aplikas la ofseton kaj la GPX-datumojn al kongruaj bildoj sur elektitaj spuroj.</dd>
+</dl>
+<p>Kiel kutime, vi povas uzi Stir+Z por malfari iujn nedeziratajn ŝanĝojn (dufoje en kazo de <em>apliki ofseton kaj geolokon</em>).</p>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/shared/geotagging/">
+            English: geotagging
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/utility-modules/shared/geotagging/">
+            German: Geotagging
+        </a></li>
+        
+        <li><a href="/dtdocs/es/module-reference/utility-modules/shared/geotagging/">
+            Espanol: geoetiquetado
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/" class="next">&lt; fokusa pintado</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/" class="prev">redaktilo de metadatenoj &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

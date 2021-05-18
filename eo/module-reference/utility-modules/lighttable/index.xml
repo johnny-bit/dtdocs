@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lumtablo on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/</link>
+    <description>Recent content in lumtablo on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>elekti</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/select/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/select/</guid>
+      <description>elekti bildojn en la lumtablo laŭ simplaj kriterioj
+🔗modulaj kontroloj  elekti ĉiujn Elekti ĉiujn bildojn montrata en la aktuala lumtabla vido elekti neniujn Malselekti ĉiujn bildojn. inversigi elekton Elektu ĉiujn bildojn ne aktuale elektitajn. elektu filmrulon Elektu ĉiujn bildojn en la sama filmrulo kiel la nun elektitaj bildoj. elekti netuŝitaj Elekti ĉiujn bildojn ankoraŭ ne prilaboritajn.  </description>
+    </item>
+    
+    <item>
+      <title>elektitaj bildoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/</guid>
+      <description>Faru agojn sur bildoj elektitaj en la lumtabla vido.
+🔗modulaj kontroloj La modulaj agordiloj estas disigitaj tra du langetoj, unu por manipuli la bilddosierojn, kaj la alia por manipuli la metadatenojn rilatajn al la bildoj.
+🔗langeto de bildoj  remove Remove the selected images from the darktable library without deleting them. Removed images can no longer be viewed or edited within darktable but the image files remain on the filesystem along with any XMP sidecar files.</description>
+    </item>
+    
+    <item>
+      <title>historia stako</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/</guid>
+      <description>Manipuli la historia(j)n stako(j)n de unu aŭ pli elektitaj bildoj.
+🔗modulaj kontroloj  selective copy&amp;hellip; Copy selected parts of the history stack of the selected image. A dialog appears within which you may choose which items from the history stack to include. If more than one image is selected, the history stack is taken from the image that was selected first. Double-click on an item to copy that item only and immediately close the dialog.</description>
+    </item>
+    
+    <item>
+      <title>importi</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/import/</guid>
+      <description>Importi bildojn al unu aŭ pli filmruloj.
+Bildoj povas esti importataj de la loka dosiersistemo aŭ de konektita fotilo. Vidu subtenataj dosierformoj por pluaj informoj.
+🔗importi de dosiersistemo Vi povas importi aŭ unuopan bildon aŭ dosierujon de bildoj de la dosiersistemo alklakante la koncernan butonon. La importotaj bildoj aŭtomate aldoniĝos al filmrulo kun la sama nomo kiel la dosiersistema dosierujo, el kiu ili estas importitaj.
+Alklaku sur &amp;ldquo;bildo&amp;rdquo; aŭ &amp;ldquo;dosierujo&amp;rdquo; por malfermi dialogon de dosierelektilo.</description>
+    </item>
+    
+    <item>
+      <title>instalilo de lua skriptoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/</guid>
+      <description>Ĉi tiu panelo provizas interfacon por instali darktable lua skriptojn. La unuan fojon, kiam ĝi funkcias, instrukcioj montriĝas en la modulo.
+Ĝi povas esti malebligita per opcio en preferoj &amp;gt; lua opcioj.</description>
+    </item>
+    
+    <item>
+      <title>stiloj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/styles/</guid>
+      <description>Krei nomitajn stilojn el la historiaj stakoj de elektitaj bildoj kaj apliki stilojn al elektitaj bildoj.
+Stiloj povas esti kreitaj en ĉi tiu panelo aŭ en la modula historio-stako en la senluma ĉambro.
+Listo de ĉiuj disponeblaj stiloj montriĝas supre de la modulo. Serĉa kampo super la listo ebligas al vi trovi stilon laŭ nomo aŭ priskribo. Ĉi tiu modulo ankaŭ permesas redakti kaj forviŝi stilojn.
+Duoble alklaku stilan nomon por apliki tiun stilon al ĉiuj elektitaj bildoj.</description>
+    </item>
+    
+    <item>
+      <title>templinio</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/</guid>
+      <description>Rigardu viajn bildojn laŭ la dato/horo, kiam ili estis kaptitaj.
+  En la lumtabla dosieradministrilo, vi povas montri/kaŝi la templinian modulon en la malsupra panelo per la klavkombino Stir+F.
+En la templinio, vi povas montri la sekvan kaj antaŭan datojn per rulumado de via muso; Stir+rulumi por zomi en/el.
+Vi ankaŭ povas uzi templinion por elekti bildojn laŭ datintervalo per musklaki+treni.</description>
+    </item>
+    
+  </channel>
+</rss>

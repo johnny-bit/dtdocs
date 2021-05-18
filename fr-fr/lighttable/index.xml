@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Table lumineuse on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/</link>
+    <description>Recent content in Table lumineuse on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/lighttable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/overview/</guid>
+      <description>La vue de la table lumineuse vous permet de visualiser et de gérer votre collection d&amp;rsquo;images.
+La zone centrale contient des miniatures de vos images &amp;ndash; la manière dont elles sont affichées dépend du mode dans lequel vous travaillez.
+Lorsque la souris se trouve sur une miniature d&amp;rsquo;image ou lorsque des images sont sélectionnées, vous pouvez effectuer un certain nombre d&amp;rsquo;actions :
+0 – 5 set the rating of the image if an image has 1 star and you hit the 1 key, the image will become unrated R rate the image as &amp;quot;rejected&amp;quot; F1 – F5 set a color label Ctrl+C copy the history stack Ctrl+V paste the copied history stack D open in darkroom view for developing W fully zoom into the current image while the key is pressed Ctrl+W fully zoom into the current image and show areas in focus </description>
+    </item>
+    
+    <item>
+      <title>disposition de la vue table lumineuse</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-view-layout/</guid>
+      <description>🔗panneau gauche De haut en bas :
+ importer Importer des images depuis le système de fichiers ou depuis un boîtier connecté. collections Filter the images displayed in the lighttable center panel &amp;ndash; also used to control the images displayed in the filmstrip and timeline modules. collections récentes Montrer les collections d&amp;rsquo;images récemment utilisées informations de l&amp;rsquo;image  Afficher les informations de l&amp;rsquo;image installer les scripts lua (optionnel) Installer les scripts lua  🔗panneau droit De haut en bas :</description>
+    </item>
+    
+  </channel>
+</rss>

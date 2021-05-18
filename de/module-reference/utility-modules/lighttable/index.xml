@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leuchttisch on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/</link>
+    <description>Recent content in Leuchttisch on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ausgewählte Bilder</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/selected-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/selected-image/</guid>
+      <description>Führe folgende Aktionen an Bildern durch, die im Leuchttisch angewählt sind.
+🔗Modul Einstellungen Die Modulsteuerung sind auf zwei Registerkarten verteilt, eine für die Arbeiten an den Bildern, die zweite für Arbeiten an den Metadaten der jeweiligen Bilder.
+🔗Registerkarte Bilder  remove Remove the selected images from the darktable library without deleting them. Removed images can no longer be viewed or edited within darktable but the image files remain on the filesystem along with any XMP sidecar files.</description>
+    </item>
+    
+    <item>
+      <title>Import</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/import/</guid>
+      <description>Importiere Bilder in eine oder mehr als eine Filmrolle.
+Bilder können ab einem lokalen Verzeichnis oder einer verbundenen Kamera importiert werden. Für zusätzliche Informationen siehe unterstützte Datei-Formate.
+🔗Import ab Verzeichnis Du kannst entweder ein einzelnes Bild oder einen Ordner mit Bildern importieren durch Anwahl der zugehörigen Schaltfläche. Das/die importierte(n) Bild(er) werden automatisch einer Filmrolle zugeordnet, die den gleichen Namen hat wie das Verzeichnis, von dem aus sie importiert werden.
+Klicke auf &amp;ldquo;Bild&amp;hellip;&amp;rdquo; oder &amp;ldquo;Verzeichnis&amp;hellip;&amp;rdquo; um einen Dateiwähl-Dialog zu öffnen.</description>
+    </item>
+    
+    <item>
+      <title>Lua Skript Installation</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/lua-scripts-installer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/lua-scripts-installer/</guid>
+      <description>Dieses Bedienfeld gibt eine Schnittstelle für die Installation Lua Skripte. Beim ersten Aufruf werden im Modul Instruktionen angezeigt.
+Das kann in einer Option deaktiviert werden in darktable-Voreinstellungen&amp;gt;Lua-Optionen.</description>
+    </item>
+    
+    <item>
+      <title>Stile</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/styles/</guid>
+      <description>Kreiere Stile mit Namen von angewählten Bildern Verlaufs-stapel und füge Stile angewählten Bilder hinzu.
+Stile können entweder innerhalb dieses Bedienungsfeldes oder im Modul Verlaufs-stapel in der Dunkelkammer erarbeitet werden.
+Eine Liste aller vorhandenen Stile wird oben im Modul angezeigt. Ein Suchfeld über der Liste dient für die Suche mit Namen oder Beschreibung. Das Modul erlaubt es auch Stile zu bearbeiten oder zu löschen.
+Doppelklick auf einen Namen der Stile um diesen an alle angewählten Bilder anzuwenden.</description>
+    </item>
+    
+    <item>
+      <title>Verlaufsstapel</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/history-stack/</guid>
+      <description>Bearbeite den Verlaufsstapel eines oder mehrerer angewählter Bilder.
+🔗Modul Einstellungen  selective copy&amp;hellip; Copy selected parts of the history stack of the selected image. A dialog appears within which you may choose which items from the history stack to include. If more than one image is selected, the history stack is taken from the image that was selected first. Double-click on an item to copy that item only and immediately close the dialog.</description>
+    </item>
+    
+    <item>
+      <title>Wähle</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/select/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/select/</guid>
+      <description>Wähle Bilder im Leuchttisch anhand von einfachen Kriterien.
+🔗Modul Einstellungen  alles auswählen Wähle alle in der aktuellen Ansicht Leuchttische angezeigten Bilder. nichts auswählen Alle Bilder abwählen. Auswahl invertieren invertiere die An/Abwahl der gegenwärtigen Auswahl. Filmrolle auswählen Wähle alle Bilder in der gleichen Filmrolle, wie die gegenwärtig ausgewählten Bilder. unbearbeitete Wähle alle bis jetzt noch nicht bearbeiteten Bilder.  </description>
+    </item>
+    
+    <item>
+      <title>Zeitleiste</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/timeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/timeline/</guid>
+      <description>Betrachte deine Bilder in der Zeit/Datum, in der sie fotografiert wurden.
+  In der Ansicht Leuchttisch Dateiverwaltung, kann man mit der Tastenkombination Ctrl+F das Zeitleisten Modul am unteren Ende zeigen/verstecken .
+Innerhalb der Zeitleiste kannst du die vorherigen oder nächsten Daten mit dem Scrollrad der Maus hinein/heraus-zoomen, Ctrl+scroll.
+Du kannst auf der Zeitleiste auch Bilder eines Datumsbereiches auswählen mit Klick+ziehen.</description>
+    </item>
+    
+  </channel>
+</rss>

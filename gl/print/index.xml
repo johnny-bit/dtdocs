@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>imprimir on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/gl/print/</link>
+    <description>Recent content in imprimir on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/gl/print/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>deseño da vista de impresión</title>
+      <link>https://darktable-org.github.io/dtdocs/gl/print/print-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/gl/print/print-view-layout/</guid>
+      <description>A área central mostra o deseño da imaxe no papel (a área branca). É posible que se mostren algúns bordos grises arredor da imaxe para representar a área imprimible (a páxina menos os bordos) que non enche a imaxe.
+A filmstrip debaixo da imaxe permítelle seleccionar máis imaxes .
+🔗panel da esquerda  collections Filter the list of images displayed in the lighttable.  image information :Mostrar información da imaxe</description>
+    </item>
+    
+  </channel>
+</rss>

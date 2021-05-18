@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="eo">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - collections</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/collections/">Esperanto</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/collections/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/collections/">German</a>
+		    
+		      <a class="dropdown-item" hreflang="es" role="option" lang="es" href="https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/collections/">Espanol</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/" class="">
+          Presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/overview/" class="">
+          superrigardo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/print-view-layout/" class="">
+          aranĝo de pres-vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/" class="">
+          Module-references
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/" class="">
+          utilecaj moduloj
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/" class="">
+          dividita
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/" class="">
+          bilda informo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/" class=" active">
+          collections
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/export/" class="">
+          eksporti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/" class="">
+          etikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/" class="">
+          filmbendo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/" class="">
+          fokusa pintado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/geotagging/" class="">
+          geoetikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/" class="">
+          redaktilo de metadatenoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/" class="">
+          ligitado
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/" class="">
+          fotilaj agordoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/session/" class="">
+          sesio
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/live-view/" class="">
+          viva vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/" class="">
+          lumtablo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/select/" class="">
+          elekti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/" class="">
+          elektitaj bildoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/import/" class="">
+          importi
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          instalilo de lua skriptoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/styles/" class="">
+          stiloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/" class="">
+          templinio
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/" class="">
+          mapo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/map-settings/" class="">
+          mapaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/" class="">
+          presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/print-settings/" class="">
+          presaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/" class="">
+          senluma ĉambro
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          administrilo de duplikatoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          administrilo de maskoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          informlinio de bildo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/" class="">
+          kontrolo de gamo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          kruda troeksponita averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/" class="">
+          navigado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/" class="">
+          ordo de moduloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          takso de koloro
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/" class="">
+          tondada averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          tutmonda kolora elektilo
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+
+<a href='/dtdocs/eo/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/eo/module-reference/'>Module-references</a> / <a href='/dtdocs/eo/module-reference/utility-modules/'>utilecaj moduloj</a> / <a href='/dtdocs/eo/module-reference/utility-modules/shared/'>dividita</a> / collections
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/" class="next">&lt; bilda informo</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/export/" class="prev">eksporti &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        collections
+    </h1>
+
+    
+
+    <p>Filtri la bildojn montritajn en la lumtabla vido kaj filmbanda panelo per bildaj atributoj. Ĉi tiu aro de filtritaj bildoj estas konata kiel <em>kolekto</em>.</p>
+<p>Ĉiuj bildoj importitaj en darktable estas konservitaj en la biblioteka datumbazo de darktable, kune kun atributoj priskribantaj ĉiun bildon. Kolekto povas esti difinita per aplikado de filtraj reguloj al ĉi tiuj atributoj, tiel kreante subaron de bildoj por montri en la lumtabla vido kaj la filmbanda modulo.</p>
+<p>La apriora kolekto baziĝas sur la atributo <em>film-rulo</em> kaj montras ĉiujn bildojn de la laste importita aŭ elektita film-rulo.</p>
+<h1 id="disponeblaj-filtraj-atributoj"><a href="#disponeblaj-filtraj-atributoj">🔗</a>disponeblaj filtraj atributoj</h1>
+<p>La bildoj en kolekto povas esti filtritaj per la jenaj bildaj atributoj:</p>
+<h2 id="dosieroj"><a href="#dosieroj">🔗</a>dosieroj</h2>
+<dl>
+<dt>filmrulo</dt>
+<dd>La nomo de la filmrulo, al kiu apartenas la bildo (kiu samas al la nomo de la dosierujo, en kiu la bildo loĝas). Alklaku premante Stir+Majusklo por ŝanĝi al la responda dosierujo. Dekstre alklaku por forigi la kolekton aŭ diri al darktable ke ĝia loko ŝanĝiĝis en la dosiersistemo.</dd>
+<dt>dosierujo</dt>
+<dd>La dosierujo (dosiera vojo) kie troviĝas la bilddosiero. Alklaku premante Stir+Maj por ŝanĝi al la responda filmrulo. Dekstre alklaku por forigi la kolekton aŭ diri al darktable ke ĝia loko ŝanĝiĝis en la dosiersistemo. Duoble alklaku por montri nur la bildojn en la elektita dosierujo; Stir+Klaki por montri nur la bildojn de iuj subdosierujoj; Maj+Klaki por montri la bildojn de la aktuala dosierujo plus ĉiujn subdosierujojn.</dd>
+<dt>dosiernomo</dt>
+<dd>La dosiernomo de la bildo</dd>
+</dl>
+<h2 id="metadatenoj"><a href="#metadatenoj">🔗</a>metadatenoj</h2>
+<dl>
+<dt>etikedo</dt>
+<dd>Ajna etikedo ligita al la bildo. Senetikedaj bildoj estas grupigitaj sub la eniro &ldquo;ne etikedita&rdquo;. Se aktivigita, hierarkia listo de konataj etikedoj montriĝas</dd>
+<dt>kreinto</dt>
+<dd>La kampo &ldquo;kreinto&rdquo; de la metadatumoj de la bildo</dd>
+<dt>eldonisto</dt>
+<dd>La kampo &ldquo;eldonisto&rdquo; de la metadatenoj de la bildo</dd>
+<dt>titolo</dt>
+<dd>La kampo &ldquo;titolo&rdquo; de la metadatenoj de la bildo</dd>
+<dt>priskribo</dt>
+<dd>La kampo &ldquo;priskribo&rdquo; de la metadatenoj de la bildo</dd>
+<dt>rajtoj</dt>
+<dd>La kampo &ldquo;rajtoj&rdquo; de la metadatenoj de la bildo</dd>
+<dt>notoj</dt>
+<dd>La kampo &ldquo;notoj&rdquo; de la metadatenoj de la bildo</dd>
+<dt>kolora etikedo</dt>
+<dd>Ajna kolora etikedo ligita al la bildo (&ldquo;ruĝa&rdquo;, &ldquo;flava&rdquo;, &ldquo;verda&rdquo;, &ldquo;blua&rdquo;, &ldquo;purpura&rdquo;)</dd>
+<dt>geoetikado</dt>
+<dd>La geo-loko de la bildo (vidu <a href="../map/locations.md">lokoj</a>)</dd>
+</dl>
+<h2 id="tempoj"><a href="#tempoj">🔗</a>tempoj</h2>
+<dl>
+<dt>dato kaptite</dt>
+<dd>La dato, kiam la foto estis kaptita, en la formato <code>JJJJ:MM:TT</code></dd>
+<dt>dato-horo kaptita</dt>
+<dd>La dato kaj horo, kiam la foto estis kaptita, en la formato <code>JJJJ:MM:TT hh:mm:ss</code></dd>
+<dt>horstampo de importo</dt>
+<dd>La dato/horo, kiam la dosiero estis importita, en la formato <code>JJJJ:MM:TT hh:mm:ss</code></dd>
+<dt>horstampo de ŝanĝiĝo</dt>
+<dd>La dato/horo, kiam la dosiero estis laste ŝanĝita, en la formato <code>JJJJ:MM:TT hh:mm:ss</code></dd>
+<dt>horstampo de eksporto</dt>
+<dd>La dato/horo, kiam la dosiero estis laste eksportita, en la formato <code>JJJJ:MM:TT hh:mm:ss</code></dd>
+<dt>horstampo de preso</dt>
+<dd>La dato/horo, kiam la dosiero estis laste presita, en la formato <code>JJJJ:MM:TT hh:mm:ss</code></dd>
+</dl>
+<h2 id="detaloj-de-kaptado"><a href="#detaloj-de-kaptado">🔗</a>detaloj de kaptado</h2>
+<dl>
+<dt>fotilo</dt>
+<dd>La datuma eniro Exif priskribanta la fotilan fabrikiston kaj modelon</dd>
+<dt>lenso</dt>
+<dd>La priskribo de la lenso, kiel derivita el Exif-datumoj</dd>
+<dt>aperturo</dt>
+<dd>La aperturo, kiel derivita el Exif-datumoj</dd>
+<dt>ekspozicio</dt>
+<dd>La eksponrapideco, kiel derivita el Exif-datumoj</dd>
+<dt>fokusa distanco</dt>
+<dd>La fokusa distanco, kiel derivita el Exif-datumoj</dd>
+<dt>ISO</dt>
+<dd>La ISO, kiel derivita el Exif-datumoj</dd>
+<dt>bildproporcio</dt>
+<dd>La bildproporcio de la bildo, inkluzive de ajna tondado en darktable</dd>
+</dl>
+<h2 id="darktable"><a href="#darktable">🔗</a>darktable</h2>
+<dl>
+<dt>grupiĝo</dt>
+<dd>Elektu inter &ldquo;grupanoj&rdquo; kaj &ldquo;grupestroj&rdquo;</dd>
+<dt>loka kopio</dt>
+<dd>Montri dosierojn, kiuj estas, aŭ ne estas, kopiitaj loken</dd>
+<dt>historio</dt>
+<dd>Elektu bildojn, kies historiaj stakoj estis ŝanĝitaj aŭ ne</dd>
+<dt>modulo</dt>
+<dd>Filtrilo surbaze de kiuj prilaboraj moduloj estis aplikita al la bildo</dd>
+<dt>modula ordo</dt>
+<dd>Elektu bildojn kun &ldquo;v3.0&rdquo;, &ldquo;hereda&rdquo; aŭ &ldquo;laŭmenda&rdquo; modulo-mendoj</dd>
+</dl>
+<h1 id="modulaj-kontroloj"><a href="#modulaj-kontroloj">🔗</a>modulaj kontroloj</h1>
+<h2 id="difinante-filtrilajn-kriteriojn"><a href="#difinante-filtrilajn-kriteriojn">🔗</a>difinante filtrilajn kriteriojn</h2>
+<p>La supra linio de la modulo povas esti uzata por difini filtrilojn por via kolekto jene:</p>
+<dl>
+<dt>bilda atributo</dt>
+<dd>La maldekstra kombinejo ebligas al vi elekti kiun atributon uzi por filtri vian kolekton (el la listo priskribita en la antaŭa sekcio)</dd>
+<dt>serĉa ŝablono</dt>
+<dd>En la tekstokampo dekstre de la atributokombinejo, vi povas skribi kongruan ŝablonon. La ŝablono estas komparita kontraŭ ĉiuj datumbazaj eniroj kun la elektita atributo. La filtrila meĥanismo detektas kongruon, se iu atributo de iu bildo enhavas la ŝablonon en sia kompleta teksto. Vi povas uzi <code>%</code> kiel ĵokera signo. La kolekto limiĝos al nur la kongruaj bildoj. Lasu la tekstokampon malplena por kongrui kun ĉiuj bildoj kun tiu atributo.</dd>
+<dd>
+<p>Atributoj kun nombraj aŭ dataj/horaj atributoj povas esti uzataj kune kun komparaj kaj gamaj operacioj. Uzu <code>&lt;</code>, <code>&lt;=</code>, <code>&gt;</code>, <code>&gt; =</code>, <code>&lt;&gt;</code>, kaj <code>=</code> por elekti bildojn kun atributoj malpli ol, malpli ol aŭ egalaj al, pli grandaj ol, pli grandaj ol aŭ egalaj al, ne egala, aŭ egala al la donita valoro, respektive. Esprimo en la formo <code>[de; ĝis]</code> povas esti uzata por elekti uzante gamon de valoroj.</p>
+</dd>
+<dt>elektu laŭ valoro</dt>
+<dd>Krom difini filtrajn kriteriojn per serĉa ŝablono, vi ankaŭ povas permane elekti el listo de eniroj prenitaj el la nuntempe aro de kongruaj bildoj.</dd>
+<dd>
+<p>La skatolo sub la <em>serĉa ŝablono</em> listigos valorojn por la elektita atributo, kiuj ĉeestas en la nun elektitaj bildoj. Ĉi tiu listo estas kontinue ĝisdatigita dum vi tajpas. Vi ankaŭ povas elekti ordigokriteriojn per paĝrulado tra la listo kaj duobla klako.</p>
+</dd>
+<dd>
+<p>Se vi ebligas unu-klakan reĝimon (vidu <a href="../../../preferences-settings/lighttable.md">preferoj &gt; lumtablo</a>) vi povas elekti per unu-klako anstataŭ duoble alklaki. Ĉi tiu reĝimo ankaŭ permesas al vi elekti gamon da valoroj per la muso. Ĉi tio funkcias nur por nombraj kaj dathoraj atributoj.</p>
+</dd>
+</dl>
+<h2 id="kombinante-plurajn-filtrilojn"><a href="#kombinante-plurajn-filtrilojn">🔗</a>kombinante plurajn filtrilojn</h2>
+<p>Vi povas kombini plurajn filtrilojn kune por krei pli kompleksajn bildojn de bildoj per serio de reguloj. Regulo estas kombinaĵo de filtrila kritikisto kune kun logika operacio, kiu difinas kiel tiu kriterio estas kombinita kun iuj antaŭaj reguloj.</p>
+<p>Click on the 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/shared/collections/collect-expander.png"><img src="/dtdocs/module-reference/utility-modules/shared/collections/collect-expander.png" alt="collect-expander-icon"  class="icon"    /></a>
+
+ button (to the right of the search field) to open a menu with the following options:</p>
+<dl>
+<dt>forigi ĉi tiun regulon</dt>
+<dd>Forigu la nunan regulon - aŭ restarigu aprioren se ĉi tiu estas la sola difinita regulo.</dd>
+<dt>malvastigi serĉadon</dt>
+<dd>Aldoni novan regulon, kiu estas kombinita kun la antaŭa(j) regulo(j) en logika KAJ operacio. Bildo estas konservata kiel parto de la kolekto, nur se ĝi ankaŭ plenumas la novajn kriteriojn.</dd>
+<dt>aldoni pli da bildoj</dt>
+<dd>Aldonu novan regulon, kiu estas kombinita kun la antaŭa(j) regulo(j) en logika AŬ operacio. Bildoj, kiuj plenumas la novajn kriteriojn, estas aldonitaj al la kolekto.</dd>
+<dt>ekskludi bildojn</dt>
+<dd>Aldonu novan regulon, kiu estas kombinita kun la antaŭaj reguloj en logika EKCEPTE operacio. Bildoj elektitaj de la novaj kriterioj estas ekskluditaj de la kolekto.</dd>
+</dl>
+<p>The logical operators defining how rules are combined are indicated with icons to the right of each added rule: AND by the 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/shared/collections/collect-and.png"><img src="/dtdocs/module-reference/utility-modules/shared/collections/collect-and.png" alt="collect-and-icon"  class="icon"    /></a>
+
+ symbol, OR by the 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/shared/collections/collect-or.png"><img src="/dtdocs/module-reference/utility-modules/shared/collections/collect-or.png" alt="collect-or-icon"  class="icon"    /></a>
+
+ symbol, and EXCEPT by the 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/shared/collections/collect-except.png"><img src="/dtdocs/module-reference/utility-modules/shared/collections/collect-except.png" alt="collect-except-icon"  class="icon"    /></a>
+
+ symbol. Clicking on any of these icons allows you to change the logical operation for that rule.</p>
+<h2 id="ĝisdatigante-la-dosierujon-de-movitaj-bildoj"><a href="#%c4%9disdatigante-la-dosierujon-de-movitaj-bildoj">🔗</a>ĝisdatigante la dosierujon de movitaj bildoj</h2>
+<p>While it is best to not touch imported files behind darktable&rsquo;s back, this module can help you recover from situations when you have moved or renamed image folders after importing them. The collections module has a feature that allows you to update darktable&rsquo;s library database with the new folder location. The process is as follows:</p>
+<ol>
+<li>
+<p>Agordi la kombinejo <em>bildan atributon</em> al &ldquo;dosierujo&rdquo; aŭ &ldquo;filmrulo&rdquo;.</p>
+</li>
+<li>
+<p>La originala nomo de filmarulo aŭ dosierujo montriĝos kun strekita formato por emfazi, ke ĝi ne troveblas.</p>
+</li>
+<li>
+<p>Dekstre alklaku la nomon de la dosierujo aŭ filmrulo, elektu &ldquo;serĉi filmrolulon &hellip;&rdquo; aŭ &ldquo;serĉi dosierujon &hellip;&rdquo;, kaj tiam elektu la novan lokon de la dosierujo.</p>
+</li>
+</ol>
+<h2 id="preferoj"><a href="#preferoj">🔗</a>preferoj</h2>
+<p>The &ldquo;preferences&hellip;&rdquo; option in the presets menu allows you to adjust the behavior of the collections module as follows:</p>
+<dl>
+<dt>ne starigu la &lsquo;nekategoriitan&rsquo; por etikedoj</dt>
+<dd>Ne starigu la kategorion &lsquo;nekategoriita&rsquo; por etikedoj, kiuj ne havas etikedidojn (defaŭlte malŝaltita).</dd>
+<dt>etikedo usklecodistinga</dt>
+<dd>Agordu ĉu etikedoj devas distingi usklecon aŭ ne - sen la <code>sqlite</code> ICU-etendo tio validos nur por la 26 latinaj literoj (defaŭlte nedistinge).</dd>
+<dt>nombro de dosierujaj niveloj montrendaj en listoj</dt>
+<dd>La nombro de dosierujaj niveloj por montri en filmaj nomoj, komencante dekstre (apriore 1).</dd>
+<dt>ordigi filmrulojn per</dt>
+<dd>Ordigu filmrulojn per aŭ la &ldquo;dosierujo&rdquo; (vojo) aŭ la &ldquo;id&rdquo; (proksimume ekvivalente al la dato, kiam la filmruloj estis unue importitaj) (apriore &ldquo;id&rdquo;).</dd>
+<dt>ordigi kolektojn decende</dt>
+<dd>Ordigi la jenajn kolektojn laŭ descenda sinsekvo: &ldquo;filmrulo&rdquo; (kiam ordigita laŭ dosierujo), &ldquo;dosierujo&rdquo;, dato/horo (ekz. dato/horo prenita) (apriore sur)</dd>
+</dl>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/shared/collections/">
+            English: collections
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/utility-modules/shared/collections/">
+            German: collections
+        </a></li>
+        
+        <li><a href="/dtdocs/es/module-reference/utility-modules/shared/collections/">
+            Espanol: collections
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/" class="next">&lt; bilda informo</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/export/" class="prev">eksporti &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

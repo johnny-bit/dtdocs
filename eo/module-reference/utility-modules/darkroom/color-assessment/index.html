@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="eo">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - takso de koloro</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/">Esperanto</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/darkroom/color-assessment/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/color-assessment/">German</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/" class="">
+          Presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/overview/" class="">
+          superrigardo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/print-view-layout/" class="">
+          aranĝo de pres-vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/" class="">
+          Module-references
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/" class="">
+          utilecaj moduloj
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/" class="">
+          dividita
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/" class="">
+          bilda informo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/" class="">
+          collections
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/export/" class="">
+          eksporti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/" class="">
+          etikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/" class="">
+          filmbendo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/" class="">
+          fokusa pintado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/geotagging/" class="">
+          geoetikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/" class="">
+          redaktilo de metadatenoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/" class="">
+          ligitado
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/" class="">
+          fotilaj agordoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/session/" class="">
+          sesio
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/live-view/" class="">
+          viva vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/" class="">
+          lumtablo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/select/" class="">
+          elekti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/" class="">
+          elektitaj bildoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/import/" class="">
+          importi
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          instalilo de lua skriptoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/styles/" class="">
+          stiloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/" class="">
+          templinio
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/" class="">
+          mapo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/map-settings/" class="">
+          mapaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/" class="">
+          presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/print-settings/" class="">
+          presaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/" class="">
+          senluma ĉambro
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          administrilo de duplikatoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          administrilo de maskoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          informlinio de bildo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/" class="">
+          kontrolo de gamo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          kruda troeksponita averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/" class="">
+          navigado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/" class="">
+          ordo de moduloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/" class=" active">
+          takso de koloro
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/" class="">
+          tondada averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          tutmonda kolora elektilo
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+
+<a href='/dtdocs/eo/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/eo/module-reference/'>Module-references</a> / <a href='/dtdocs/eo/module-reference/utility-modules/'>utilecaj moduloj</a> / <a href='/dtdocs/eo/module-reference/utility-modules/darkroom/'>senluma ĉambro</a> / takso de koloro
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/" class="next">&lt; ordo de moduloj</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/" class="prev">tondada averto &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        takso de koloro
+    </h1>
+
+    
+
+    <p>Prilaborante bildon, la maniero kiel ni perceptas brilon, kontraston kaj saturiĝon influas la ĉirkaŭajn etosajn kondiĉojn. Se bildo montriĝas kontraŭ malhela fono, kiel ĉe la apriora temo en darktable, ĝi povas havi multajn malutilajn efikojn sur nia percepto de tiu bildo:</p>
+<ul>
+<li>
+<p>Troigo de la perceptita ekspozicio igas la bildon ŝajni pli brila ol ĝi vere estas. Ĉi tion bele ilustras la <a href="https://en.wikipedia.org/wiki/Checker_shadow_illusion" target="_blank">damtabula ombra efiko de Adelson</a>.</p>
+</li>
+<li>
+<p>Malpliiĝo de la perceptita saturiĝo en la bildo igas la kolorojn ŝajni malpli riĉaj ol ili vere estas (la efiko de Hunt).</p>
+</li>
+<li>
+<p>Malpliiĝo de la perceptita kontrasto en la bildo igas la tonojn ŝajni pli plataj ol ili vere estas (efiko 3 de Bartleson-Breneman)</p>
+</li>
+</ul>
+<p>La fina rezulto estas, ke la bildo povas esti tro malhela kaj tro prilaborita laŭ kontrasto kaj kolora saturado. Por eviti tion, la normo &ldquo;ISO 12646: 2008&rdquo; faras kelkajn rekomendojn pri la kondiĉoj sub kiuj la koloroj de bildo estu taksitaj. La modulo <em>kolora takso</em> en la senluma ĉambro metas kadron ĉirkaŭ la bildon por helpi la uzanton pli bone taksi la kolorojn en la bildo, laŭ la spirito de tiuj rekomendoj.</p>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/color-assessment/color-assessment-overview.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/color-assessment/color-assessment-overview.png" alt="color-assessment-overview"  class="w75"    /></a>
+
+</p>
+<p>When the lightbulb icon (
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/color-assessment/bulb-icon.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/color-assessment/bulb-icon.png" alt="bulb-icon"  class="icon"    /></a>
+
+) is selected in the bottom panel, the image is zoomed out so that a thick mid-gray border appears around the image to act as a reference against which to compare the image&rsquo;s tones. A thinner white border is placed immediately around the image to give the eyes a basis for comparison when looking at parts of the image that are meant to be a bright white.</p>
+<p>Although the color assessment mode provides a mid-gray surrounding to the image, it is recommended that you also set your user interface (in <a href="../../../preferences-settings/general.md">preferences &gt; general</a>) to one of the &ldquo;gray&rdquo; themes. These themes are designed to provide a user interface that is close to middle gray (it is actually slightly darker to allow better contrast with the text in the user interface). When one of these themes is used together with the color assessment mode, this will help to avoid the above perception issues.</p>
+<p>Kolora takso-reĝimo ankaŭ povas esti ŝaltita premante Stir+B.</p>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/darkroom/color-assessment/">
+            English: color assessment
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/utility-modules/darkroom/color-assessment/">
+            German: Farbbeurteilung nach ISO 12646
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/" class="next">&lt; ordo de moduloj</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/" class="prev">tondada averto &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

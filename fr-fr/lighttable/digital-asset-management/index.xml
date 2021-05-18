@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gestion des actifs numériques on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/</link>
+    <description>Recent content in gestion des actifs numériques on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>miniatures</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/thumbnails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/thumbnails/</guid>
+      <description>Dans la vue table lumineuse et dans le module pellicule, chaque image de la collection courante est représentée par une miniature. darktable conserve un cache des miniatures les plus récemment utilisées dans un fichier disque et le charge en mémoire au démarrage. Sa taille peut être ajustée dans l&amp;rsquo;onglet préférences &amp;gt; cpu/gpu/memoire.
+🔗Création des miniatures Une miniature est créée quand darktable importe une image pour la première fois, quand une image a été modifiée dans la chambre noire, ou quand on revisite une image dont la miniature n&amp;rsquo;est plus disponible.</description>
+    </item>
+    
+    <item>
+      <title>métadonnées et mots clés</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/metadata-tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/metadata-tagging/</guid>
+      <description>darktable vous permet de stocker des informations supplémentaires concernant vos images pour leur permettre d&amp;rsquo;être plus facilement recherchées et groupées. Ces informations sont stockées dans la base de données de darktable et dans des fichiers liés XMP. Elles peuvent également être incluses dans les images exportées.
+🔗métadonnées Les métadonnées (par exemple, le titre, la description) sont du texte au format libre. Elles sont généralement différentes pour chaque image.
+Voir le module éditeur de métadonnées pour plus de détails sur l&amp;rsquo;ajout de métadonnées aux images.</description>
+    </item>
+    
+  </channel>
+</rss>

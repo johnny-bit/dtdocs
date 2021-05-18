@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opencl on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/</link>
+    <description>Recent content in opencl on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>activer OpenCL dans darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/activate-opencl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/activate-opencl/</guid>
+      <description>L’utilisation d’OpenCL dans darktable nécessite que votre PC soit équipé d’une carte graphique adaptée et que les bibliothèques requises soient installées. Les cartes graphiques modernes de NVIDIA et d&amp;rsquo;ATI prennent en charge complètement OpenCL. Le compilateur OpenCL fait normalement partie du pilote graphique propriétaire ; il est utilisé sous la forme d&amp;rsquo;une bibliothèque dynamique appelée libOpenCL.so. Cette bibliothèque doit se trouver dans un répertoire qui puisse être trouvé par l’éditeur dynamique de liens de votre système.</description>
+    </item>
+    
+    <item>
+      <title>configurer opencl</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/setting-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/setting-up/</guid>
+      <description>La grande diversité des systèmes, les différences marquées entre les vendeurs OpenCL et les versions de pilotes, ne permettent pas de donner une vue d&amp;rsquo;ensemble de la manière de configurer OpenCL. Nous ne pouvons que vous donner un exemple pour la version du pilote NVIDIA 331.89 sur Ubuntu 14.04. Nous espérons que cela va vous servir pour une première impression et vous aidera à résoudre les problèmes éventuels de votre configuration spécifique.</description>
+    </item>
+    
+    <item>
+      <title>problèmes possibles et solutions</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/problems-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/problems-solutions/</guid>
+      <description>darktable détecte automatiquement les problèmes d’OpenCL en cours de fonctionnement. Il effectuera alors le traitement sur le CPU ; seule la vitesse est affectée et le résutat final ne sera pas impacté.
+Il y a de nombreuses raison qui font qu’OpenCL peut échouer lors de sa phase d’initialisation. OpenCL dépend des exigences matérielles et de la présence de certains pilotes et bibliothèques. De plus tout ceci doit correspondre en termes de modèle et de numéro de version.</description>
+    </item>
+    
+    <item>
+      <title>périphériques amd/ati</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/amd-ati/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/amd-ati/</guid>
+      <description>Alors que les cartes NVIDIA et la plupart des cartes AMD/ATI modernes fonctionnent immédiatement la plupart du temps, il y a un peu plus de travail à faire pour les cartes graphiques AMD/ATI plus anciennes, c’est-à-dire celles avant les séries HD7xxx. Ceci commence avec le fait que ces cartes ne reportent à darktable qu’une partie de la mémoire totale du GPU. Pour un système possédant 1GB de mémoire, ceci donne typiquement une valeur de 512MB, une valeur que darktable refuse dans sa configuration standard parce qu&amp;rsquo;elle est insuffisante pour exécuter ses tâches.</description>
+    </item>
+    
+    <item>
+      <title>optimisation des performances</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/performance/</guid>
+      <description>Certains paramètres de configuration dans $HOME/.config/darktable/darktablerc permettent d’ajuster finement les performances OpenCL de votre système. Performances, dans ce contexte signifie principalement la latence de darktable lors du travail interactif. Par exemple le temps qu&amp;rsquo;il faut pour retraiter votre pipeline graphique. Afin d’avoir un flux de travail confortable, il est essentiel de maintenir une faible latence.
+De manière à obtenir des informations de profilage, démarrez darktable depuis un terminal avec darktable -d opencl -d perf.</description>
+    </item>
+    
+    <item>
+      <title>opencl ne fonctionne toujours pas pour moi</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/still-doesnt-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/still-doesnt-work/</guid>
+      <description>Comme nous l’avons dit précédemment, les systèmes OpenCL possèdent une énorme variété de configurations : différents fabricants de GPU, différents modèles de GPU, une quantité de mémoire variable pour le GPU, différents pilotes, différentes distributions, etc.
+Beaucoup des problèmes potentiels n&amp;rsquo;apparaîtront qu&amp;rsquo;avec une combinaison spécifique de ces facteurs. Comme les développeurs de darktable ont seulement accès à un nombre limité de ces variantes, comprenez que nous pouvons ne pas être à même de résoudre votre problème spécifique.</description>
+    </item>
+    
+  </channel>
+</rss>

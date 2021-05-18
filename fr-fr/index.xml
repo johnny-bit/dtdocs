@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/</link>
+    <description>Recent content on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable/</guid>
+      <description>Le binaire darktable démarre darktable avec son interface graphique et ses fonctionnalités complètes. C&amp;rsquo;est la manière standard d&amp;rsquo;utiliser darktable.
+darktable peut être appelé avec les paramètres de ligne de commande suivants :
+darktable [-d {all,cache,camctl,camsupport,control,dev, fswatch,input,lighttable,lua,masks,memory,nan, opencl,perf,pwstorage,print,sql,ioporder, imageio,undo,signal}] [&amp;lt;input file&amp;gt;|&amp;lt;image folder&amp;gt;] [--version] [--disable-opencl] [--library &amp;lt;library file&amp;gt;] [--datadir &amp;lt;data directory&amp;gt;] [--moduledir &amp;lt;module directory&amp;gt;] [--tmpdir &amp;lt;tmp directory&amp;gt;] [--configdir &amp;lt;user config directory&amp;gt;] [--cachedir &amp;lt;user cache directory&amp;gt;] [--localedir &amp;lt;locale directory&amp;gt;] [--luacmd &amp;lt;lua command&amp;gt;] [--noiseprofiles &amp;lt;noiseprofiles json file&amp;gt;] [--d-signal &amp;lt;signal&amp;gt;] [--d-signal-act &amp;lt;all,raise,connect,disconnect,print-trace&amp;gt;] [--conf &amp;lt;key&amp;gt;=&amp;lt;value&amp;gt;] [-t &amp;lt;num openmp threads&amp;gt;] Tous les paramètres sont optionnels.</description>
+    </item>
+    
+    <item>
+      <title>entête d&#39;un module</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/module-header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/module-header/</guid>
+      <description>En haut de chaque module de traitement se trouve l&#39;entête du module.
+  Cliquez sur le nom du module pour développer le module et afficher les paramètres qui contrôlent son fonctionnement.
+Par défaut, darktable n&amp;rsquo;autorisera qu&amp;rsquo;un seul module de traitement à être déplié à la fois &amp;ndash; si vous cliquez sur l&amp;rsquo;entête d&amp;rsquo;un autre module, le module précédemment ouvert sera replié. Si vous souhaitez déplier plus d&amp;rsquo;un module, vous pouvez le faire en Shift+cliquant sur les entêtes d&amp;rsquo;autres modules et tous ceux qui ont été précédemment dépliés le resteront.</description>
+    </item>
+    
+    <item>
+      <title>importation, évaluation et labels de couleur</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/import-rate-tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/import-rate-tag/</guid>
+      <description>Quand vous souhaitez développer de nouvelles images dans darktable, la première étape est de les importer. Ceci créera des entrées pour les nouvelles images importées dans la base de données de darktable. Il pourra ainsi suivre les modifications que vous leurs apporterez. Il existe deux méthodes principales pour importer des images :
+ importer des images depuis le système de fichiers Vous pouvez importer depuis le système de fichier une seule image ou un dossier contenant des images (optionnellement importer les dossiers récursivement).</description>
+    </item>
+    
+    <item>
+      <title>l&#39;anatomie d&#39;un module de traitement</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/pixelpipe/the-anatomy-of-a-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/pixelpipe/the-anatomy-of-a-module/</guid>
+      <description>Les éléments de base du traitement d&amp;rsquo;image dans darktable sont les modules de traitement. Afin de traiter une image raw, un certain nombre de ces modules agissent en séquence sur l&amp;rsquo;image d&amp;rsquo;entrée, chacun effectuant une opération différente sur les données de l&amp;rsquo;image. Pour ceux qui sont familiers avec Adobe Photoshop, le concept d&amp;rsquo;un module de traitement dans darktable est analogue à celui d&amp;rsquo;un calque d&amp;rsquo;ajustement car tous les deux effectuent un ajustement incrémentiel de l&amp;rsquo;image, en s&amp;rsquo;appuyant sur les ajustements précédents.</description>
+    </item>
+    
+    <item>
+      <title>navigateur de fichiers</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-modes/filemanager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-modes/filemanager/</guid>
+      <description>Dans le mode par défaut, les images sont affichées dans une grille avec un nombre réglable d&amp;rsquo;images par ligne.
+🔗contrôles  zoomer Le nombre d&amp;rsquo;images dans chaque ligne peut être modifié à l&amp;rsquo;aide du curseur dans le panneau inférieur ou en maintenant la touche Ctrl enfoncée tout en faisant défiler la vue centrale avec votre souris. navigate You can navigate through the images using the arrow keys (←/→/↑/↓) or by scrolling with your mouse.</description>
+    </item>
+    
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/masking-and-blending/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/masking-and-blending/overview/</guid>
+      <description>Par défaut, un module reçoit son entrée du module le précédant dans le pipeline graphique, il effectue ses calculs et envoie sa sortie au module le suivant dans le pipeline graphique.
+Les données de sortie d&amp;rsquo;un module peuvent optionnellement être retraitée (combinées) avec son entrée avant que le résultat soit passé au module suivant. Ce traitement supplémentaire est appelé fusion. Entrée et sortie peuvent être traitées avec différents algorithmes, appelés opérateurs de fusion ou modes de fusion.</description>
+    </item>
+    
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/overview/</guid>
+      <description>La vue chambre noire est l&amp;rsquo;endroit où vous développez vos images. Le panneau central contient l&amp;rsquo;image en cours de développement.
+🔗zoom Cliquez avec le bouton central sur le panneau central pour zoomer à 1:1 et double-cliquez avec le bouton central pour zoomer à 2:1.
+Vous pouvez également effectuer un zoom avant et arrière entre 1:1 et adapter à l&amp;rsquo;écran en faisant défiler avec votre souris. Faites défiler avec votre souris tout en maintenant la touche Ctrl enfoncée pour étendre la plage de zoom entre 2:1 et 1:10.</description>
+    </item>
+    
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/overview/</guid>
+      <description>La vue de la table lumineuse vous permet de visualiser et de gérer votre collection d&amp;rsquo;images.
+La zone centrale contient des miniatures de vos images &amp;ndash; la manière dont elles sont affichées dépend du mode dans lequel vous travaillez.
+Lorsque la souris se trouve sur une miniature d&amp;rsquo;image ou lorsque des images sont sélectionnées, vous pouvez effectuer un certain nombre d&amp;rsquo;actions :
+0 – 5 set the rating of the image if an image has 1 star and you hit the 1 key, the image will become unrated R rate the image as &amp;quot;rejected&amp;quot; F1 – F5 set a color label Ctrl+C copy the history stack Ctrl+V paste the copied history stack D open in darkroom view for developing W fully zoom into the current image while the key is pressed Ctrl+W fully zoom into the current image and show areas in focus </description>
+    </item>
+    
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/overview/</guid>
+      <description>Les modules de cette section de référence sont divisés en deux types :
+ les modules de traitement Ces modules sont utilisés exclusivement dans la vue chambre noire, et chacun effectue son opération de traitement sur l&amp;rsquo;image avant de la passer au module suivant pour un traitement ultérieur. Ensemble, cette séquence d&amp;rsquo;étapes de traitement forme le pipeline graphique. les modules techniques Ces modules peuvent être utilisés dans n&amp;rsquo;importe quelle vue de darktable.</description>
+    </item>
+    
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/overview/</guid>
+      <description>darktable est livré avec un certain nombre de préférences configurables par l&amp;rsquo;utilisateur. Celles-ci peuvent être ajustées dans la boîte de dialogue des préférences, accessible en cliquant sur l&amp;rsquo;icône d&amp;rsquo;engrenage à droite du panneau supérieur. Les préférences sont séparées en onglets, dont chacun est décrit plus en détail dans les sections suivantes.
+Lorsqu&amp;rsquo;il est ouvert depuis les vues table lumineuse ou chambre noire, l&amp;rsquo;onglet approprié sera chargé par défaut pour vous permettre de modifier les paramètres de cette vue.</description>
+    </item>
+    
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/print/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/print/overview/</guid>
+      <description>Cette vue concerne l&amp;rsquo;impression. Parce qu&amp;rsquo;imprimer n&amp;rsquo;est pas aisé, de nombreux aspects techniques doivent être pris en compte.
+Après avoir sélectionné une image dans la table lumineuse on peut entrer dans le module paramètres d&amp;rsquo;impression pour ajuster les paramètres d&amp;rsquo;impression et lancer l&amp;rsquo;impression.
+Ce module prend en charge le profil ICC de l&amp;rsquo;imprimante, ce qui est quelque peu obligatoire si vous souhaitez obtenir une impression de haute qualité proche de l&amp;rsquo;image affichée à l&amp;rsquo;écran.</description>
+    </item>
+    
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/overview/</guid>
+      <description>darktable utilise un flux de travail entièrement géré par la couleur :
+  Les spécifications de couleur d&amp;rsquo;entrée proviennent de profils ICC intégrés ou fournis par l&amp;rsquo;utilisateur ou, dans le cas de fichiers raw, d&amp;rsquo;une bibliothèque de matrices de couleurs spécifiques à l&amp;rsquo;appareil photo.
+  darktable lit automatiquement le profil d&amp;rsquo;affichage de votre moniteur (s&amp;rsquo;il est correctement configuré) pour un rendu précis des couleurs à l&amp;rsquo;écran. Les configurations multi-écrans sont entièrement prises en charge tant qu&amp;rsquo;un service système tel que colord est en place et correctement configuré pour informer darktable du profil correct des moniteurs.</description>
+    </item>
+    
+    <item>
+      <title>présentation</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/overview/</guid>
+      <description>darktable-chart est un outil pour extraire les valeurs de clarté et de couleurs d&amp;rsquo;une image. Ces valeurs sont prises dans des cartes de référence couleur comme les chartes IT8.7 / 1. Le but principal de ce module est de comparer une image source (typiquement une image raw non traitée) à une image cible (typiquement une image JPEG créée par le boîtier) et de créer un style darktable capable de convertir les valeurs de clarté et de couleur de l&amp;rsquo;image source pour produire l&amp;rsquo;image cible.</description>
+    </item>
+    
+    <item>
+      <title>vues</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/views/</guid>
+      <description>Il y a six vues différentes disponibles dans darktable :
+ table lumineuse Gérer les images et les collections. chambre noire Développer une seule image. carte Montrer sur une carte les images contenant des données de géolocalisation et des nouvelles images géolocalisées manuellement. impression Envoyer des images à votre imprimante. diaporama Affichez les images sous forme de diaporama, en les traitant à la volée. capture Capturez à distance et enregistrer des images prises avec un appareil photo connecté.</description>
+    </item>
+    
+    <item>
+      <title>darktable-cli</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-cli/</guid>
+      <description>L&amp;rsquo;exécutable darktable-cli lance la variante en ligne de commande de l’interface de darktable qui permet l’exportation d’images.
+This variant does not open any display &amp;ndash; it works in pure console mode without launching a GUI. This mode is particularly useful for servers running background jobs.
+darktable-cli peut être appelé avec les paramètres suivants de la ligne de commande :
+darktable-cli [&amp;lt;input file or folder&amp;gt;] [&amp;lt;xmp file&amp;gt;] &amp;lt;output file or folder&amp;gt; [--width &amp;lt;max width&amp;gt;] [--height &amp;lt;max height&amp;gt;] [--bpp &amp;lt;bpp&amp;gt;] [--hq &amp;lt;0|1|true|false&amp;gt;] [--upscale &amp;lt;0|1|true|false&amp;gt;] [--style &amp;lt;style name&amp;gt;] [--style-overwrite] [--apply-custom-presets &amp;lt;0|1|false|true&amp;gt;] [--out-ext &amp;lt;extension&amp;gt;] [--import &amp;lt;file or dir&amp;gt;] [--icc-type &amp;lt;type&amp;gt;] [--icc-file &amp;lt;file&amp;gt;] [--icc-intent &amp;lt;intent&amp;gt;] [--verbose] [--help [option]] [--core &amp;lt;darktable options&amp;gt;] L’utilisateur doit fournir un nom de fichier d’entrée et un nom de fichier de sortie.</description>
+    </item>
+    
+    <item>
+      <title>disposition de l&#39;affichage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/screen-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/screen-layout/</guid>
+      <description>La disposition de l&amp;rsquo;affichage est la même pour toutes les vues. Elle consiste en une zone centrale bordée par des panneaux :
+    zone centrale : Contient des informations et la fonctionnalité spécifique de la vue actuelle.
+  panneau gauche : Contient des modules principalement utilisés pour fournir des informations.
+  panneau droit : Contient des modules principalement utilisés pour le traitement d&amp;rsquo;image.
+  bannière supérieure : Contient des informations sur la version actuelle de darktable et vous permet de basculer entre les vues.</description>
+    </item>
+    
+    <item>
+      <title>disposition de la vue chambre noire</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/darkroom-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/darkroom-view-layout/</guid>
+      <description>🔗panneau gauche De haut en bas :
+ navigation Naviguer et zoomer la vue centrale instantanés Prendre et afficher des instantanés pour comparaison avec le développement actuel gestion des clones Afficher et gérer les clones pipette de couleur Sélectionnez et affichez les informations de couleur provenant de parties de l&amp;rsquo;image mots-clés Gérer les mots-clés informations de l&amp;rsquo;image Afficher des informations sur l&amp;rsquo;image actuelle gestion des masques Afficher et modifier les formes dessinées exporter Exportez les images sélectionnées vers des fichiers locaux ou des services externes.</description>
+    </item>
+    
+    <item>
+      <title>disposition de la vue impression</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/print/print-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/print/print-view-layout/</guid>
+      <description>La zone centrale affiche la disposition de l&amp;rsquo;image sur le papier (la zone blanche). Des bordures grises peuvent être affichées autour de l&amp;rsquo;image pour représenter la zone imprimable (la page moins les bordures) non remplie par l&amp;rsquo;image.
+La pellicule sous l&amp;rsquo;image vous permet de sélectionner plus d&amp;rsquo;images.
+🔗panneau gauche  collections Filter the list of images displayed in the lighttable. informations de l&amp;rsquo;image  Afficher les informations de l&amp;rsquo;image  🔗panneau droit  paramètres d&amp;rsquo;impression Ajuster les paramètres d&amp;rsquo;impression et initialiser l&amp;rsquo;impression.</description>
+    </item>
+    
+    <item>
+      <title>disposition de la vue table lumineuse</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-view-layout/</guid>
+      <description>🔗panneau gauche De haut en bas :
+ importer Importer des images depuis le système de fichiers ou depuis un boîtier connecté. collections Filter the images displayed in the lighttable center panel &amp;ndash; also used to control the images displayed in the filmstrip and timeline modules. collections récentes Montrer les collections d&amp;rsquo;images récemment utilisées informations de l&amp;rsquo;image  Afficher les informations de l&amp;rsquo;image installer les scripts lua (optionnel) Installer les scripts lua  🔗panneau droit De haut en bas :</description>
+    </item>
+    
+    <item>
+      <title>développer une image : aperçu d&#39;un flux de travail</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-overview/</guid>
+      <description>Cette section va vous guider à travers les bases du développement d&amp;rsquo;une image dans la vue chambre noire, où un arsenal de modules est à votre disposition pour vous aider à atteindre vos objectifs créatifs.
+Pour commencer, ouvrez une image dans la chambre noire en double-cliquant sur la miniature d&amp;rsquo;une image dans la vue table lumineuse.
+Each change you make to the image in the darkroom is turned into a history stack item.</description>
+    </item>
+    
+    <item>
+      <title>formats de fichier supportés</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/supported-file-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/supported-file-formats/</guid>
+      <description>darktable supports a huge number of file formats from various camera manufacturers. In addition darktable can read specific low dynamic range and high dynamic range images &amp;ndash; mainly for data exchange between darktable and other software.
+Pour que darktable puisse importer un fichier, il doit avoir l’une des extensions suivantes (la casse n’a pas d’importance) : 3FR, ARI, ARW, BAY, BMQ, CAP, CINE, CR2, CRW, CS1, DC2, DCR, DNG, GPR, ERF, FFF, EXR, IA, IIQ, JPEG, JPG, K25, KC2, KDC, MDC, MEF, MOS, MRW, NEF, NRW, ORF, PEF, PFM, PNG, PXN, QTK, RAF, raw, RDC, RW1, RW2, SR2, SRF, SRW, STI, TIF, TIFF, X3F</description>
+    </item>
+    
+    <item>
+      <title>général</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/general/</guid>
+      <description>Les préférences de cet onglet contrôlent l&amp;rsquo;aspect général de darktable.
+ langue pour l&amp;rsquo;interface Définissez la langue de l&amp;rsquo;interface utilisateur. La valeur par défaut du système est marquée d&amp;rsquo;un * (nécessite un redémarrage) theme Set the theme for the user interface. Apart from any aesthetic considerations, the recommended interface color for color evaluation is middle gray. Indeed, visual perception is affected by ambient brightness, and a low brightness of the interface causes all kinds of illusions.</description>
+    </item>
+    
+    <item>
+      <title>importer des fichiers liés générés par d&#39;autres applications</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/sidecar-files/sidecar-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/sidecar-files/sidecar-import/</guid>
+      <description>Lorsqu&amp;rsquo;il importe une image, darktable teste automatiquement s&amp;rsquo;il est accompagné d&amp;rsquo;un fichier lié. En plus de rechercher les fichiers nommés &amp;lt;basename&amp;gt;.&amp;lt;extension&amp;gt;.xmp et &amp;lt;basename&amp;gt;_nn.&amp;lt;extension&amp;gt;.xmp (les formats de dénomination des fichiers XMP de darktable), il vérifie également la présence d&amp;rsquo;un fichier sous la forme &amp;lt;basename&amp;gt; .xmp (le format de dénomination des fichiers lié XMP de Lighroom). Les fichiers avec ce dernier format de dénomination seront lus par darktable mais il n&amp;rsquo;y écrira pas.</description>
+    </item>
+    
+    <item>
+      <title>instances multiples</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/multiple-instances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/multiple-instances/</guid>
+      <description>De nombreux modules de darktable peuvent être appliqués plus d&amp;rsquo;une fois dans le pipeline graphique. Chaque instance d&amp;rsquo;un module se comporte de manière indépendante, obtenant son entrée du module qui le précède dans le pipeline graphique et délivrant sa sortie au module qui le suit.
+Comme pour l&amp;rsquo;instance de base d&amp;rsquo;un module, toutes les instances peuvent être déplacées indépendamment dans le pipeline graphique soit en maintenant Ctrl+Maj pendant le glisser-déposer, soit en choisissant monter ou descendre dans le menu déroulant multiples instances.</description>
+    </item>
+    
+    <item>
+      <title>le pipeline graphique &amp; l&#39;ordre des modules</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/pixelpipe/the-pixelpipe-and-module-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/pixelpipe/the-pixelpipe-and-module-order/</guid>
+      <description>La séquence ordonnée des modules de traitement opérant sur un fichier d&amp;rsquo;entrée pour générer une image de sortie est connue sous le nom de pipeline graphique.
+L&amp;rsquo;ordre des modules du pipeline graphique est représenté graphiquement par l&amp;rsquo;ordre dans lequel les modules sont présentés dans l&amp;rsquo;interface utilisateur &amp;ndash; le pipeline graphique commence par une image raw en bas de la liste, et applique les modules de traitement un par un, en empilant une à une les couches de traitement de bas en haut, jusqu&amp;rsquo;à ce qu&amp;rsquo;il atteigne le haut de la liste, où il produit l&amp;rsquo;image entièrement traitée.</description>
+    </item>
+    
+    <item>
+      <title>profil d&#39;affichage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/display-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/display-profile/</guid>
+      <description>Pour que darktable rende fidèlement les couleurs à l&amp;rsquo;écran, il doit trouver le profil d&amp;rsquo;affichage correct pour votre moniteur. En général, cela nécessite que votre moniteur soit correctement calibré et profilé, et il a besoin que le profil soit correctement installé sur votre système. darktable interroge le xatom de votre serveur d&amp;rsquo;affichage X ainsi que le service colord du système (si disponible) pour le bon profil. Si nécessaire, vous pouvez appliquer une méthode spécifique dans préférences&amp;gt;divers.</description>
+    </item>
+    
+    <item>
+      <title>table lumineuse zoomable</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-modes/zoomable-lighttable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-modes/zoomable-lighttable/</guid>
+      <description>Le mode table lumineuse zoomable fournit une manière différente de parcourir de grandes collections d&amp;rsquo;images.
+🔗contrôles  zoomer Faites défiler avec la molette de la souris pour effectuer un zoom avant et arrière de la table lumineuse (à comparer à Ctrl+défilement dans le mode navigateur de fichiers Le zoom des miniatures ne modifie pas le nombre de miniatures par ligne, de sorte que la table lumineuse peut dépasser la zone visible de tous les côtés.</description>
+    </item>
+    
+    <item>
+      <title>usage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/usage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/darktable-chart/usage/</guid>
+      <description>L&amp;rsquo;outil comporte trois onglets dans la partie supérieure et un cadre de sortie de texte dans la partie inférieure.
+  Le premier onglet est utilisé pour définir l&amp;rsquo;image source, le deuxième onglet définit les valeurs de référence (cible) et le troisième onglet contient les contrôles pour générer le style darktable résultant.</description>
+    </item>
+    
+    <item>
+      <title>activer OpenCL dans darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/activate-opencl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/activate-opencl/</guid>
+      <description>L’utilisation d’OpenCL dans darktable nécessite que votre PC soit équipé d’une carte graphique adaptée et que les bibliothèques requises soient installées. Les cartes graphiques modernes de NVIDIA et d&amp;rsquo;ATI prennent en charge complètement OpenCL. Le compilateur OpenCL fait normalement partie du pilote graphique propriétaire ; il est utilisé sous la forme d&amp;rsquo;une bibliothèque dynamique appelée libOpenCL.so. Cette bibliothèque doit se trouver dans un répertoire qui puisse être trouvé par l’éditeur dynamique de liens de votre système.</description>
+    </item>
+    
+    <item>
+      <title>copies locales</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/sidecar-files/local-copies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/sidecar-files/local-copies/</guid>
+      <description>Assez souvent les utilisateurs ont d&amp;rsquo;énormes collections d’images qu&amp;rsquo;ils stockent sur des disques durs supplémentaires de leur ordinateur de bureau ou sur un support externe comme un NAS en RAID, etc.
+It is a common requirement to be able to develop a number of images while travelling using a laptop and then later synchronize them back to the original storage medium. However, copying images manually from the main storage to the laptop and back is cumbersome and prone to errors.</description>
+    </item>
+    
+    <item>
+      <title>darktable-generate-cache</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-generate-cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-generate-cache/</guid>
+      <description>L&amp;rsquo;exécutable darktable-generate-cache met à jour le cache des miniatures. Vous pouvez lancer ce programme, en arrière-plan quand votre ordinateur est inactif, pour générer toutes les miniatures manquantes .
+darktable-generate-cache est appelé avec les paramètres suivants de la ligne de commande :
+darktable-generate-cache [-h, --help] [--version] [--min-mip &amp;lt;0-7&amp;gt;] [-m, --max-mip &amp;lt;0 - 7&amp;gt;] [--min-imgid &amp;lt;N&amp;gt;] [--max-imgid &amp;lt;N&amp;gt;] [--core &amp;lt;darktable options&amp;gt;] Tous les paramètres sont optionnels. S&amp;rsquo;il est démarré sans paramètre darktable-generate-cache utilise des valeurs par défaut raisonnables.</description>
+    </item>
+    
+    <item>
+      <title>développer une image : flux de travail relatif à la scène</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-scene-referred/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-scene-referred/</guid>
+      <description>Le flux de travail relatif à la scène met l&amp;rsquo;accent sur l&amp;rsquo;exécution du traitement d&amp;rsquo;image dans la partie linéaire relative à la scène du pipeline graphique. Cela permet de réduire les artefacts et les décalages de couleur qui peuvent résulter du traitement des valeurs non linéaires des pixels. En découplant le traitement d&amp;rsquo;image des caractéristiques d&amp;rsquo;un écran spécifique, il sera plus facile d&amp;rsquo;adapter ultérieurement votre travail à de nouveaux supports d&amp;rsquo;affichage, tels que les affichages à plage dynamique élevée.</description>
+    </item>
+    
+    <item>
+      <title>importer</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/import/</guid>
+      <description>Cet onglet contient un certain nombre de paramètres par défaut pour le module importer de la table lumineuse importer.
+🔗options de session Ces options définissent un modèle de nommage pour organiser les images sur le disque lors de l&amp;rsquo;importation à partir d&amp;rsquo;un appareil photo connecté et lors de la prise de photos dans la vue capture.
+Le modèle de nommage se compose de trois parties : une partie de base définissant le dossier parent, une partie session définissant un sous-répertoire (qui est spécifique à la session d&amp;rsquo;importation individuelle) et une partie nom de fichier définissant la structure de nom de fichier pour chaque image importée.</description>
+    </item>
+    
+    <item>
+      <title>l&#39;historique</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/pixelpipe/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/pixelpipe/history-stack/</guid>
+      <description>L&#39;historique stocke l&amp;rsquo;intégralité de l&amp;rsquo;historique de développement pour une image donnée, dans l&amp;rsquo;ordre dans lequel les modifications ont été appliquées. Il est enregistré dans la base de données de la bibliothèque de darktable et dans le fichier lié XMP de l&amp;rsquo;image et persiste entre les sessions d&amp;rsquo;édition.
+Chaque fois qu&amp;rsquo;un module de traitement est activé, désactivé, déplacé ou modifié, une nouvelle entrée est ajoutée en haut de l&#39;historique.
+L’historique peut être consulté et modifié dans le module historique de la chambre noire.</description>
+    </item>
+    
+    <item>
+      <title>miniatures</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/thumbnails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/thumbnails/</guid>
+      <description>Dans la vue table lumineuse et dans le module pellicule, chaque image de la collection courante est représentée par une miniature. darktable conserve un cache des miniatures les plus récemment utilisées dans un fichier disque et le charge en mémoire au démarrage. Sa taille peut être ajustée dans l&amp;rsquo;onglet préférences &amp;gt; cpu/gpu/memoire.
+🔗Création des miniatures Une miniature est créée quand darktable importe une image pour la première fois, quand une image a été modifiée dans la chambre noire, ou quand on revisite une image dont la miniature n&amp;rsquo;est plus disponible.</description>
+    </item>
+    
+    <item>
+      <title>méthode de rendu</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/rendering-method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/rendering-method/</guid>
+      <description>darktable peut rendre les couleurs soit avec ses algorithmes internes, soit en utilisant la bibliothèque externe LittleCMS2. La méthode interne de darktable est plus rapide, d&amp;rsquo;un ordre de grandeur, que la méthode externe. L&amp;rsquo;option externe vous donne le choix de l&amp;rsquo;intention rendu et peut offrir une précision légèrement supérieure dans certains cas.
+Vous pouvez changer la méthode par défaut dans préférences&amp;gt; traitement&amp;gt;toujours utiliser LittleCMS 2 pour le profil de couleur de sortie</description>
+    </item>
+    
+    <item>
+      <title>pellicule</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/filmstrip/</guid>
+      <description>La pellicule, lorsqu&amp;rsquo;elle est activée, est affichée en bas de l&amp;rsquo;écran ; sauf dans la vue table lumineuse, où elle est remplacée par le module chronologie. Elle affiche les images de la collection actuellement sélectionnée dans la vue table lumineuse. Vous pouvez naviguer le long de la pellicule en faisant défiler avec la molette de la souris.
+La pellicule vous permet d&amp;rsquo;interagir avec les images lorsque vous n&amp;rsquo;êtes pas dans la vue table lumineuse.</description>
+    </item>
+    
+    <item>
+      <title>préréglages</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/presets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/presets/</guid>
+      <description>Les préréglages vous permettent de stocker pour une utilisation future les paramètres d&amp;rsquo;un module couramment utilisé. Certains modules sont déjà livrés avec des préréglages prédéfinis et vous pouvez également définir les vôtres. Les préréglages internes et définis par l&amp;rsquo;utilisateur peuvent être affichés en cliquant sur le menu des préréglages dans [entête du module](./ module-header.md).
+Most of the functionality described here applies to processing modules only. However, presets can also be used with some utility modules.</description>
+    </item>
+    
+    <item>
+      <title>sélection</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-modes/culling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-modes/culling/</guid>
+      <description>La disposition sélection permet d&amp;rsquo;afficher les images côte à côte pour les comparer facilement.
+🔗contrôles  zoom En mode de sélection, vous pouvez zoomer les images (jusqu&amp;rsquo;à 100%) en maintenant la touche Ctrl enfoncée tout en faisant défiler avec la molette de la souris. Effectuez un panoramique dans les images zoomées avec un clic+glisser. Par défaut, zoomer et faire un panoramique sont synchronisés entre toutes les images visibles. Si vous souhaitez zoomer ou faire un panoramique uniquement sur une image spécifique, ajoutez la touche Maj aux actions ci-dessus.</description>
+    </item>
+    
+    <item>
+      <title>annuler/refaire</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/pixelpipe/undo-redo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/pixelpipe/undo-redo/</guid>
+      <description>Pendant que vous modifiez votre image, darktable enregistre toutes les modifications que vous apportez à cette image. Grâce à ce processus d&amp;rsquo;enregistrement, il est possible d&amp;rsquo;annuler et de refaire des modifications pour récupérer un état d&amp;rsquo;édition précédent. Notez que la fonction annuler/refaire est illimitée dans le nombre d&amp;rsquo;étapes lors de l&amp;rsquo;édition d&amp;rsquo;une image, mais est réinitialisée chaque fois que la chambre noire passe à une nouvelle image.
+Tapez Ctrl+Z pour annuler la dernière modification et Ctrl+Y pour refaire la dernière modification annulée (s&amp;rsquo;il y en a une).</description>
+    </item>
+    
+    <item>
+      <title>aperçu complet</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-modes/full-preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/lighttable-modes/full-preview/</guid>
+      <description>Dans chacun des modes de la table lumineuse, vous pouvez afficher un aperçu entièrement agrandi de l&amp;rsquo;image qui se trouve actuellement sous le pointeur de la souris en appuyant et en maintenant enfoncée la touche W. Cela est utile pour inspecter de plus près une image tout en notant et en sélectionnant des images.
+Maintenez les touches Ctrl+W enfoncées pour effectuer un zoom complet sur l&amp;rsquo;image et pour identifier aussi toutes les régions de netteté de l&amp;rsquo;image qui peuvent indiquer que l&amp;rsquo;image a bien été mise au point.</description>
+    </item>
+    
+    <item>
+      <title>configurer opencl</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/setting-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/setting-up/</guid>
+      <description>La grande diversité des systèmes, les différences marquées entre les vendeurs OpenCL et les versions de pilotes, ne permettent pas de donner une vue d&amp;rsquo;ensemble de la manière de configurer OpenCL. Nous ne pouvons que vous donner un exemple pour la version du pilote NVIDIA 331.89 sur Ubuntu 14.04. Nous espérons que cela va vous servir pour une première impression et vous aidera à résoudre les problèmes éventuels de votre configuration spécifique.</description>
+    </item>
+    
+    <item>
+      <title>darktable-chart</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-chart/</guid>
+      <description>Cet exécutable est un utilitaire dédié à la création de styles à partir de paires d&amp;rsquo;images telles que raw+JPEG fournies par le boîtier. Des détails de son utilisation peuvent être trouvés dans la section utiliser darktable-chart
+darktable-chart soit démarre une interface graphique soit est utilisé comme programme en ligne de commande.
+darktable-chart [--help] [&amp;lt;input Lab pfm file&amp;gt;] [&amp;lt;cht file&amp;gt;] [&amp;lt;reference cgats/it8 or Lab pfm file&amp;gt;] Tous les paramètres sont optionnels, cependant, si vous voulez fournir le deuxième nom de fichier vous devez aussi fournir le premier, etc.</description>
+    </item>
+    
+    <item>
+      <title>développer une image : flux de travail relatif à l&#39;affichage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-display-referred/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/edit-display-referred/</guid>
+      <description>Ceci est un mode traditionnel. Il est conservé pour fournir une rétrocompatibilité avec les développements effectués dans les anciennes versions de darktable et pour permettre aux utilisateurs de continuer avec leur ancienne méthode de travail sans les forcer à utiliser le nouveau flux de travail relatif à la scène.
+Le flux de travail relatif à l&amp;rsquo;affichage met davantage l&amp;rsquo;accent sur l&amp;rsquo;exécution du traitement d&amp;rsquo;image dans la partie non-linéaire relatif à l&amp;rsquo;affichage du pipeline graphique.</description>
+    </item>
+    
+    <item>
+      <title>intention de rendu</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/rendering-intent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/rendering-intent/</guid>
+      <description>Si le rendu avec LittleCMS2 est activé (voir méthode de rendu), vous pouvez définir comment les couleurs hors gamut sont gérées lors de la conversion entre les espaces colorimétriques. Une boîte de sélection dans le module exporter, le module profil de couleur de sortie et le module épreuvage écran vous donnent le choix entre les intentions de rendu suivants :
+ perceptif Convient aux photographies car il maintient la position relative des couleurs.</description>
+    </item>
+    
+    <item>
+      <title>les contrôles du module</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/module-controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/module-controls/</guid>
+      <description>🔗curseurs Les curseurs proposent cinq méthodes d&amp;rsquo;interaction différentes, en fonction du niveau de contrôle dont vous avez besoin.
+ clic gauche Cliquez n&amp;rsquo;importe où dans la zone du curseur pour définir la valeur. Vous pouvez également cliquer et faire glisser pour le modifier. Vous n&amp;rsquo;avez pas à viser le triangle ou même la ligne &amp;ndash; vous pouvez cliquer n&amp;rsquo;importe où sur toute la hauteur du curseur, y compris le label. molette de la souris Survolez le curseur avec votre souris, puis utilisez la molette de votre souris pour ajuster la valeur.</description>
+    </item>
+    
+    <item>
+      <title>panneau supérieur</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/top-panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/top-panel/</guid>
+      <description>Le panneau supérieur est commun à toutes les vues darktable et fournit un certain nombre de fonctions utilitaires courantes.
+  🔗Sur le côté gauche  afficher Choisir les images à afficher dans la table lumineuse/la pellicule, en fonction du nombre d&amp;rsquo;étoiles et du statut de rejet. trier par Choisir le critère de tri dans la liste déroulante.   ordre de tri Changer l&amp;rsquo;ordre de tri (croissant/décroissant) avec la bascule flèche.</description>
+    </item>
+    
+    <item>
+      <title>table lumineuse</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/lighttable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/lighttable/</guid>
+      <description>Les options suivantes contrôlent les fonctionnalités de la vue et des modules de la table lumineuse.
+🔗général  cacher les préréglages internes des modules utilitaires Si cette option est activée, seuls les préréglages définis par l&amp;rsquo;utilisateur seront affichés dans le menu des préréglages des modules utilitaires &amp;ndash; les préréglages intégrés seront masqués (par défaut désactivé). use single-click in the collections module Enable &amp;ldquo;single click&amp;rdquo; mode in the collections module, which allows ranges to be selected (default off).</description>
+    </item>
+    
+    <item>
+      <title>darktable-cltest</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-cltest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-cltest/</guid>
+      <description>L&amp;rsquo;exécutable darktable-cltest vérifie s&amp;rsquo;il y a sur votre système un environnement OpenCL utilisable par darktable. Il émet une sortie de débogage équivalente à celle qu&amp;rsquo;on obtient par l&amp;rsquo;appel darktable -d opencl et puis s&amp;rsquo;arrête.
+darktable-cltest est appelé sans paramètre sur la ligne de commande.</description>
+    </item>
+    
+    <item>
+      <title>espaces colorimétriques de darktable</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/color-spaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/color-spaces/</guid>
+      <description>darktable&amp;rsquo;s input images are either RGB files (like JPEGs or TIFFs) or camera RAWs. Both store visual information as a combination of primary colors (such as red, green and blue) which together describe a light emission to be later recreated by a display.
+L&amp;rsquo;image suivante illustre ce concept.
+  Sur le côté gauche de l&amp;rsquo;image se trouve une lumière colorée que nous devons représenter numériquement. En utilisant trois filtres de couleur idéaux, nous pouvons décomposer cette lumière en trois lumières de couleur primaire à différentes intensités.</description>
+    </item>
+    
+    <item>
+      <title>exportation et téléchargement d&#39;images avec métadonnées</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/export-metadata-upload/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/workflow/export-metadata-upload/</guid>
+      <description>Les modifications apportées à une image ne sont pas enregistrées directement dans le fichier image contrairement à un éditeur d&amp;rsquo;image classique. Au contraire, darktable est un éditeur non destructif, ce qui signifie que toutes les modifications sont enregistrées dans la base de données de la bibliothèque de darktable et que l&amp;rsquo;image d&amp;rsquo;origine reste intacte. Par conséquent, vous devez exporter des images afin de sauvegarder vos options de traitement et les modifications de métadonnées dans un fichier de sortie qui peut être distribué en dehors de darktable.</description>
+    </item>
+    
+    <item>
+      <title>problèmes possibles et solutions</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/problems-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/problems-solutions/</guid>
+      <description>darktable détecte automatiquement les problèmes d’OpenCL en cours de fonctionnement. Il effectuera alors le traitement sur le CPU ; seule la vitesse est affectée et le résutat final ne sera pas impacté.
+Il y a de nombreuses raison qui font qu’OpenCL peut échouer lors de sa phase d’initialisation. OpenCL dépend des exigences matérielles et de la présence de certains pilotes et bibliothèques. De plus tout ceci doit correspondre en termes de modèle et de numéro de version.</description>
+    </item>
+    
+    <item>
+      <title>raccourcis clavier</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/keyboard-shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/overview/user-interface/keyboard-shortcuts/</guid>
+      <description>La plupart des fonctionnalités de darktable peuvent être contrôlées via des raccourcis clavier qui peuvent être personnalisés dans préférences&amp;gt;raccourcis clavier.
+Appuyez sur la touche H (pour obtenir de l&amp;rsquo;aide) dans n&amp;rsquo;importe quelle vue de darktable pour afficher une liste de tous les raccourcis applicables à cette vue.</description>
+    </item>
+    
+    <item>
+      <title>ondelettes</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/wavelets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/darkroom/processing-modules/wavelets/</guid>
+      <description>Les ondelettes sont une technique utilisée dans le traitement d&amp;rsquo;image pour séparer (ou décomposer) une image en un certain nombre de couches distinctes, chacune contenant un niveau de détail différent. Après avoir décomposé une image de cette manière, un module peut limiter son traitement à une ou plusieurs de ces couches de détail, puis reconstituer les couches à la fin pour former son image de sortie. Cela nous permet d&amp;rsquo;avoir une précision chirurgicale sur les caractéristiques de l&amp;rsquo;image que nous souhaitons impacter lorsque nous travaillons avec un module.</description>
+    </item>
+    
+    <item>
+      <title>autres vues</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/other-views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/other-views/</guid>
+      <description>Les options suivantes contrôlent les fonctionnalités dans les vues carte et diaporama.
+🔗carte/géolocalisation  nombre maximum d&amp;rsquo;images affichées sur la carte Le nombre maximum d&amp;rsquo;images géolocalisées dessinées sur la carte. L&amp;rsquo;augmentation de ce nombre peut ralentir l&amp;rsquo;affichage de la carte. Nécessite un redémarrage en cas de modification (par défaut 100). affichage plus clair de la localisation d&amp;rsquo;image Afficher une représentation plus lisible de la géolocalisation dans le module informations de l&amp;rsquo;image (activé par défaut).</description>
+    </item>
+    
+    <item>
+      <title>darktable-cmstest</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-cmstest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/program-invocation/darktable-cmstest/</guid>
+      <description>L&amp;rsquo;exécutable darktable-cmstest (sous Linux uniquement) détermine si le sous-système de votre ordinateur gérant la couleur est correctement configuré et affiche des informations utiles sur le(s) profil(s)-moniteur installé(s) .
+darktable-cmstest est appelé sans paramètre sur la ligne de commande.</description>
+    </item>
+    
+    <item>
+      <title>métadonnées et mots clés</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/metadata-tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/lighttable/digital-asset-management/metadata-tagging/</guid>
+      <description>darktable vous permet de stocker des informations supplémentaires concernant vos images pour leur permettre d&amp;rsquo;être plus facilement recherchées et groupées. Ces informations sont stockées dans la base de données de darktable et dans des fichiers liés XMP. Elles peuvent également être incluses dans les images exportées.
+🔗métadonnées Les métadonnées (par exemple, le titre, la description) sont du texte au format libre. Elles sont généralement différentes pour chaque image.
+Voir le module éditeur de métadonnées pour plus de détails sur l&amp;rsquo;ajout de métadonnées aux images.</description>
+    </item>
+    
+    <item>
+      <title>périphériques amd/ati</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/amd-ati/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/amd-ati/</guid>
+      <description>Alors que les cartes NVIDIA et la plupart des cartes AMD/ATI modernes fonctionnent immédiatement la plupart du temps, il y a un peu plus de travail à faire pour les cartes graphiques AMD/ATI plus anciennes, c’est-à-dire celles avant les séries HD7xxx. Ceci commence avec le fait que ces cartes ne reportent à darktable qu’une partie de la mémoire totale du GPU. Pour un système possédant 1GB de mémoire, ceci donne typiquement une valeur de 512MB, une valeur que darktable refuse dans sa configuration standard parce qu&amp;rsquo;elle est insuffisante pour exécuter ses tâches.</description>
+    </item>
+    
+    <item>
+      <title>variables</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/variables/</guid>
+      <description>darktable prend en charge la substitution de variables dans un certain nombre de modules et dans les préférences. Par exemple :
+  Définition des noms de fichiers dans le module exporter sélection
+  Affichage des informations de l&amp;rsquo;image dans la ligne d&amp;rsquo;informations de l&amp;rsquo;image de la chambre noire
+  Affichage des informations de l&amp;rsquo;image dans les superpositions et les info-bulles de la table lumineuse (voir préférences &amp;gt; table lumineuse)</description>
+    </item>
+    
+    <item>
+      <title>artefacts de couleur possibles</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/color-artifacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/color-management/color-artifacts/</guid>
+      <description>Il existe quelques situations rares qui peuvent encore conduire à des résultats problématiques à moins que l&amp;rsquo;utilisateur ne prenne des mesures. Pour certains modules de l&amp;rsquo;espace colorimétrique Lab, comme niveaux et monochrome, il faut tenir compte du fait que les canaux L transportent toutes les informations de clarté, les canaux a et b représentant, quant à eux, purement la chrominance et la teinte. Les couleurs non bornées avec des valeurs L négatives sont particulièrement problématiques pour ces modules et peuvent conduire à des artefacts de pixels noirs.</description>
+    </item>
+    
+    <item>
+      <title>optimisation des performances</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/performance/</guid>
+      <description>Certains paramètres de configuration dans $HOME/.config/darktable/darktablerc permettent d’ajuster finement les performances OpenCL de votre système. Performances, dans ce contexte signifie principalement la latence de darktable lors du travail interactif. Par exemple le temps qu&amp;rsquo;il faut pour retraiter votre pipeline graphique. Afin d’avoir un flux de travail confortable, il est essentiel de maintenir une faible latence.
+De manière à obtenir des informations de profilage, démarrez darktable depuis un terminal avec darktable -d opencl -d perf.</description>
+    </item>
+    
+    <item>
+      <title>ordre des modules par défaut</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/module-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/module-order/</guid>
+      <description>Les sections suivantes décrivent l&amp;rsquo;ordre des modules par défaut dans le nouveau flux de travail relatif à la scène et le flux de travail originel relatif à l&amp;rsquo;affichage. Notez que dans les sections suivantes, l&amp;rsquo;ordre des modules va du haut (fichier d&amp;rsquo;entrée) au bas (image de sortie).
+🔗ordre des modules relatif à la scène L&amp;rsquo;ordre par défaut des modules lors de l&amp;rsquo;utilisation du nouveau flux de travail relatif à la scène est le suivant :</description>
+    </item>
+    
+    <item>
+      <title>contribuer à dtdocs</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/contributing/</guid>
+      <description>Cette page définit le guide de style pour dtdocs et donne des informations sur la manière de contribuer au projet.
+La page est incluse dans le manuel de l&amp;rsquo;utilisateur afin que vous puissiez voir comment elle est écrite et rendue. Veuillez aller sur GitHub pour voir la source de cette page.
+The manual structure and content have been carefully considered based on the following critera:
+ The manual should be comprehensive &amp;ndash; it should describe all of the functionality available in darktable It should have a consistent and logical structure and every piece of functionality should have its own logical place within that structure It should be as long as necessary but as short as possible &amp;ndash; brevity is a must It should be objective Functionality should be explained once and only once (with the exception of the basic workflow guidelines in the overview section) Images should be included only where necessary to improve understanding of key principles and should not contain text unless it is unavoidable  We are generally not interested in:</description>
+    </item>
+    
+    <item>
+      <title>cpu/gpu/mémoire</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/cpu-gpu-memory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/cpu-gpu-memory/</guid>
+      <description>Cet onglet des préférences contient principalement des paramètres liés aux performances :
+ mémoire en mégaoctets à utiliser pour le cache des miniatures Afin d&amp;rsquo;accélérer l&amp;rsquo;affichage des pellicules, darktable stocke les miniatures dans un fichier cache sur le disque (cache principal) et le charge en mémoire au démarrage. Ce paramètre contrôle la taille du cache en mégaoctets. Un redémarrage est nécessaire en cas de modification (256 Mo par défaut). utilisation du disque dur pour le cache des miniatures Si activé, darktable stocke toutes les miniatures sur le disque dur en tant que cache secondaire, et les garde ainsi accessibles si elles sont supprimées du cache principal.</description>
+    </item>
+    
+    <item>
+      <title>opencl ne fonctionne toujours pas pour moi</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/still-doesnt-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/opencl/still-doesnt-work/</guid>
+      <description>Comme nous l’avons dit précédemment, les systèmes OpenCL possèdent une énorme variété de configurations : différents fabricants de GPU, différents modèles de GPU, une quantité de mémoire variable pour le GPU, différents pilotes, différentes distributions, etc.
+Beaucoup des problèmes potentiels n&amp;rsquo;apparaîtront qu&amp;rsquo;avec une combinaison spécifique de ces facteurs. Comme les développeurs de darktable ont seulement accès à un nombre limité de ces variantes, comprenez que nous pouvons ne pas être à même de résoudre votre problème spécifique.</description>
+    </item>
+    
+    <item>
+      <title>stockage</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/storage/</guid>
+      <description>Les options suivantes sont relatives à la base de données de darktable et aux fichiers liés XMP.
+🔗base de données  vérifier pour la maintenance de la base de données Indique quand darktable doit vérifier la fragmentation de la base de données et effectuer la maintenance. Les options sont &amp;ldquo;jamais&amp;rdquo;, &amp;ldquo;au démarrage&amp;rdquo;, &amp;ldquo;à la fermeture&amp;rdquo;, et &amp;ldquo;au deux&amp;rdquo;. Chacun de ceux-ci est également disponible avec une option supplémentaire &amp;ldquo;(sans confirmation)&amp;rdquo; pour effectuer les vérifications automatiquement et sans invite (par défaut &amp;ldquo;à la fermeture&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title>traduire dtdocs</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/translating/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/special-topics/translating/</guid>
+      <description>Traduire la documentation de darktable se fait via notre instance de Weblate.
+Vous pouvez soit utiliser l&amp;rsquo;interface utilisateur Web de Weblate pour traduire la documentation, soit télécharger la traduction de Weblate sur votre ordinateur, la modifier, puis téléverser les modifications.
+Veuillez effectuer tous les travaux de traduction via Weblate. Nous n&amp;rsquo;accepterons pas les pull resquests directement sur github pour mettre à jour les fichiers PO.
+🔗Créer une nouvelle branche dans git  Créez une nouvelle branche avec git pour y travailler.</description>
+    </item>
+    
+    <item>
+      <title>divers</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/miscellaneous/</guid>
+      <description>🔗interface  trier les préréglages internes en premier Choisir comment le menu des préréglages est trié. Si cette option est activée, les préréglages internes sont montrés en premier. Si cette option est désactivée, les préréglages de l&amp;rsquo;utilisateur sont montrés en premier (activée par défaut). déplacement des panneaux latéraux avec la molette Lorsqu&amp;rsquo;elle est activée, par défaut, la molette de la souris fait défiler les panneaux latéraux et Ctrl+Alt+molette fait défiler les champs de saisie de données.</description>
+    </item>
+    
+    <item>
+      <title>autres ressources</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/guides-tutorials/other-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/guides-tutorials/other-resources/</guid>
+      <description>Les sites officiels pour obtenir des informations concernant darktable sont les suivants :
+  darktable.org
+  GitHub wiki
+  Les articles suivants fournissent des informations générales utiles sur le flux de travail relatif à la scène de darktable :
+  darktable 3.0 for dummies in 3 modules
+  darktable 3.0 for dummies &amp;ndash; hardcore edition
+  darktable 3.0 : RGB or Lab ? Which modules ?</description>
+    </item>
+    
+    <item>
+      <title>options lua</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/lua-options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/preferences-settings/lua-options/</guid>
+      <description> ne plus montrer l&amp;rsquo;installeur de scripts lua Cochez cette case pour masquer dans la table lumineuse le programme d&amp;rsquo;installation des scripts lua si aucun script lua n&amp;rsquo;est installé.  </description>
+    </item>
+    
+    <item>
+      <title>adoucir (effet Orton)</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/soften/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/soften/</guid>
+      <description>Créer une image adoucie en utilisant l&#39;effet Orton.
+Michael Orton a obtenu ses résultats sur des diapositives en utilisant deux expositions de la même scène, une bien exposée et une surexposée. Il a ensuite utilisé une technique de chambre noire pour fusionner ces deux images en une image finale où l&amp;rsquo;image surexposée était floue.
+Ce module est une quasi-copie du processus analogique d&amp;rsquo;Orton dans le domaine numérique.
+🔗les contrôles du module  taille La taille du flou de l&amp;rsquo;image surexposée.</description>
+    </item>
+    
+    <item>
+      <title>ajustements de base (déprécié)</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/basic-adjustments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/basic-adjustments/</guid>
+      <description>Veuillez noter que ce module est déprécié dans darktable 3.6 et ne devrait plus être utilisé pour de nouveaux développements. Veuillez utiliser le panneau d&amp;rsquo;accès rapide.
+ Un module pratique qui combine les contrôles des modules exposition, reconstruction des hautes lumières, balance couleur et vibrance en un seul module.
+Bien que ce module puisse fournir un moyen rapide et pratique d&amp;rsquo;effectuer des ajustements simples d&amp;rsquo;une image, il doit être utilisé avec précaution.</description>
+    </item>
+    
+    <item>
+      <title>balance couleur</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/color-balance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/color-balance/</guid>
+      <description>Un outil polyvalent pour ajuster la balance des couleurs de l&amp;rsquo;image.
+Ce module peut être utilisé pour inverser les dominantes de couleurs parasites ou pour améliorer l&amp;rsquo;atmosphère visuelle d&amp;rsquo;une image à l&amp;rsquo;aide de l&amp;rsquo;étalonnage des couleurs, une technique populaire dans l&amp;rsquo;industrie du cinéma.
+🔗présentation Le module balance couleur vous permet de décaler les couleurs de manière sélective par plage de luminance : ombres, tons moyens et hautes lumières. Il le fait en utilisant deux méthodes différentes :</description>
+    </item>
+    
+    <item>
+      <title>balance des blancs</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/white-balance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/white-balance/</guid>
+      <description>Ajuster la balance des blancs de l&amp;rsquo;image en modifiant la température et la teinte, en définissant un coefficient pour chaque canal (RVB) ou en choisissant dans la liste des paramètres de balance des blancs prédéfinis.
+Les paramètres par défaut de ce module sont dérivés de la balance des blancs du boîtier stockée dans les données Exif de l&amp;rsquo;image.
+La balance des blancs n&amp;rsquo;est pas conçue comme un module «créatif» &amp;ndash; son objectif principal est de corriger techniquement la balance des blancs de l&amp;rsquo;image en s&amp;rsquo;assurant que les objets de couleur neutre de la scène sont rendus sous forme de couleurs neutres dans l&amp;rsquo;image.</description>
+    </item>
+    
+    <item>
+      <title>paramètres de la capture</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/utility-modules/tethering/camera-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/utility-modules/tethering/camera-settings/</guid>
+      <description>La section paramètres de la capture vous permet de mettre en place une tâche de capture.
+Celle-ci peut comporter une séquence, un bracketing ou une prise de vue retardée. Vous pouvez aussi contrôler d’autres paramètres de l’appareil comme le mode de mise au point, l’ouverture, la vitesse d’obturation, la sensibilité ISO et la balance des blancs.</description>
+    </item>
+    
+    <item>
+      <title>pellicule</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/utility-modules/shared/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/utility-modules/shared/filmstrip/</guid>
+      <description>La pellicule peut être utilisée pour basculer rapidement entre les images dans n&amp;rsquo;importe quelle vue de darktable. Les images dont les miniatures sont affichées dans la pellicules sont les mêmes que celles qui sont affichées dans la vue table lumineuse et sont définies par la collection actuellement sélectionnée.
+  La pellicule peut être activée et désactivée à l&amp;rsquo;aide du raccourci Ctrl+F. La hauteur du panneau de la pellicule peut être modifiée en cliquant et en faisant glisser sa bordure supérieure.</description>
+    </item>
+    
+    <item>
+      <title>session</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/utility-modules/tethering/session/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/utility-modules/tethering/session/</guid>
+      <description>Dans la vue capture une session est une séquence de prises de vues qui vont être mises dans une même pellicule. Une nouvelle session signifie une nouvelle pellicule.
+Le module session vous permet de définir un numéro de tâche, qui peut être utilisé pour créer votre nouvelle pellicule. Voir préférences &amp;gt; importer &amp;gt; options de session pour plus de détails sur la création de nouvelles pellicules en utilisant la variable $(JOBCODE) dans le module session.</description>
+    </item>
+    
+    <item>
+      <title>visée directe</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/utility-modules/tethering/live-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/utility-modules/tethering/live-view/</guid>
+      <description>Ce module vous permet de contrôler le mode de visualisation en direct de votre appareil. Des fonctionnalités telles que le réglage de la mise au point, la rotation, l&amp;rsquo;ajout de guides et de superpositions sont prises en charge.</description>
+    </item>
+    
+  </channel>
+</rss>

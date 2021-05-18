@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/es/</link>
+    <description>Recent content on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resumen</title>
+      <link>https://darktable-org.github.io/dtdocs/es/print/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/print/overview/</guid>
+      <description>Esta vista es sobre impresión. Porque imprmir no es fácil, hay varios aspectos técnicos a tener en cuenta.
+Después de seleccionar una imagen en la [vista de mesa de luz] (../ mesa de luz / _index.md), uno puede ingresar el módulo [configuración de impresión] (../ module-reference / utility-modules / print / print-settings.md) para ajuste la configuración de la impresora e inicie la impresión.
+Este módulo admite el perfil ICC de la impresora, que es algo obligatorio si desea obtener una impresión de alta calidad cercana a la imagen que se muestra en la pantalla.</description>
+    </item>
+    
+    <item>
+      <title>vista de imprimir</title>
+      <link>https://darktable-org.github.io/dtdocs/es/print/print-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/print/print-view-layout/</guid>
+      <description>El área central muestra el diseño de la imagen en el papel (el área blanca). Es posible que aparezcan algunos bordes grises alrededor de la imagen para representar el área imprimible (la página menos los bordes) no rellenada por la imagen.
+La [tira de imágenes] (../module-reference /utility-modules/shared/filmstrip.md) debajo de la imagen le permite seleccionar más imágenes.
+🔗panel izquierdo  collections Filter the list of images displayed in the lighttable. [información de la imagen] (.</description>
+    </item>
+    
+    <item>
+      <title>ajustes de impresión</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/print/print-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/print/print-settings/</guid>
+      <description>Administre la configuración de la [vista de impresión] (../../../ print / _index.md) e inicie la impresión.
+🔗controles del módulo 🔗impresora  impresora Seleccione una de las impresoras instaladas. medios de comunicación El tipo de soporte cargado en la impresora (papel normal, papel fotográfico brillante, etc.). perfil El perfil ICC de la impresora para el papel cargado. Este es el perfil específico de la impresora y el papel. Este perfil es la última transformación del espacio de color aplicada a la imagen cuyo objetivo es crear una impresión de alta calidad.</description>
+    </item>
+    
+    <item>
+      <title>ajustes de la cámara</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/tethering/camera-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/tethering/camera-settings/</guid>
+      <description>El módulo de configuración de la cámara le permite configurar un trabajo de captura de imágenes.
+Esto puede incluir secuencias, horquillado y capturas retrasadas. También puede controlar otros ajustes de la cámara, como el modo de enfoque, la apertura, la velocidad de obturación, ISO y balance de blancos.</description>
+    </item>
+    
+    <item>
+      <title>collections</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/collections/</guid>
+      <description>Filtre las imágenes que se muestran en la vista de la mesa de luz y el panel de tira de película utilizando atributos de imagen. Este conjunto de imágenes filtradas se conoce como colección.
+Todas las imágenes importadas a darktable se almacenan en la base de datos de la biblioteca de darktable, junto con los atributos que describen cada imagen. Se puede definir una colección aplicando reglas de filtrado a estos atributos, creando así un subconjunto de imágenes para mostrar en la vista de la mesa de luz y el módulo de tira de película.</description>
+    </item>
+    
+    <item>
+      <title>editor de metadatos</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/metadata-editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/metadata-editor/</guid>
+      <description>Edite los metadatos (título, descripción, creador, editor, derechos, etc.) de las imágenes seleccionadas.
+🔗controles del módulo  campos de entrada de metadatos Se muestra un campo separado para cada elemento de metadatos. Mantenga presionada la tecla Ctrl mientras se desplaza con el mouse para aumentar la altura de un campo. Presione Ctrl + Enter para insertar una nueva línea. Presione Entrar para aplicar cualquier texto ingresado en el campo de metadatos actual a las imágenes seleccionadas.</description>
+    </item>
+    
+    <item>
+      <title>geoetiquetado</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/geotagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/geotagging/</guid>
+      <description>Importe y aplique datos de seguimiento GPX a una selección de imágenes.
+Este módulo es común a las [mesa de luz] (../../../ lighttable / _index.md) y [map] (../../../ map / _index.md). Sin embargo, se proporciona un modo mejorado en la vista de mapa que le permite obtener una vista previa de la posición de las imágenes a lo largo de las pistas GPS mientras ajusta la fecha / hora (desplazamiento) y la zona horaria de las imágenes.</description>
+    </item>
+    
+    <item>
+      <title>información de la imagen</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/image-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/image-information/</guid>
+      <description>Este módulo muestra la información incrustada dentro de los datos Exif de una imagen, así como una serie de campos de datos adicionales definidos por darktable.
+Al pasar el ratón sobre las miniaturas de imágenes, los datos del módulo se actualizan automáticamente para mostrar información sobre la imagen que se encuentra actualmente debajo del cursor del ratón.
+🔗preferencias La opción &amp;ldquo;preferencias &amp;hellip;&amp;rdquo; en el menú de ajustes preestablecidos abre un cuadro de diálogo con una lista de todos los campos que están disponibles para su visualización.</description>
+    </item>
+    
+    <item>
+      <title>picos de enfoque</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/focus-peaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/focus-peaking/</guid>
+      <description>El módulo picos de enfoque le permite identificar qué partes de la imagen son nítidas y enfocadas. Funciona tanto en la vista de mesa de luz, donde puede ver fácilmente de un vistazo qué imágenes son nítidas y cuáles están borrosas, y en la vista de cuarto oscuro, cuando está procesando una sola imagen.
+El módulo se activa haciendo clic en el icono de pico de enfoque (! [Icono de pico de enfoque] (.</description>
+    </item>
+    
+    <item>
+      <title>sesión</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/tethering/session/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/tethering/session/</guid>
+      <description>Una sesión es una secuencia de exposiciones tomadas en modo de captura y colocadas en un solo rollo de película. Una nueva sesión significa la creación de un nuevo rollo de película.
+El módulo de sesión le permite establecer un código de trabajo, que puede usarse para crear su nuevo rollo de película. Consulte [Preferencias&amp;gt; Importar&amp;gt; Opciones de sesión] (../../../ Preferencias-Configuración / Import.md) para obtener detalles sobre cómo crear nuevos rollos de película utilizando la variable $ (JOBCODE) en el módulo de sesión.</description>
+    </item>
+    
+    <item>
+      <title>tira de película</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/shared/filmstrip/</guid>
+      <description>La tira de película se puede utilizar para cambiar rápidamente entre imágenes en cualquier vista de la mesa oscura. Las imágenes que se muestran son las mismas que se muestran en la vista de la mesa de luz y están definidas por la colección seleccionada actualmente.
+  La tira de película se puede encender y apagar usando el atajo Ctrl + F. La altura del panel de la tira de película se puede cambiar haciendo clic y arrastrando su borde superior.</description>
+    </item>
+    
+    <item>
+      <title>visión en directo</title>
+      <link>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/tethering/live-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/tethering/live-view/</guid>
+      <description>Este módulo le da control del modo de visualización en vivo de su cámara. Se admiten funcionalidades como la configuración del enfoque, la rotación, la adición de guías y superposiciones.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1219 @@
+<!doctype html>
+<html lang="de">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - Entrauschen (Profil)</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/processing-modules/denoise-profiled/">German</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/processing-modules/denoise-profiled/">English</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/print/" class="">
+          Drucken
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/print/overview/" class="">
+          Übersicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/print/print-view-layout/" class="">
+          Gestaltung des Druckfensters
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/" class="">
+          Modul Referenz
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/astrophoto-denoise/" class="">
+          Astrophoto Entrauschen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/output-color-profile/" class="">
+          Ausgabe Farbprofil
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/exposure/" class="">
+          Belichtung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/defringe/" class="">
+          defringe (deprecated)
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/" class="">
+          Dienst Module
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/print/" class="">
+          drucken
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/print/print-settings/" class="">
+          Drucken Einstellungen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/" class="">
+          Dunkelkammer
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          Anzeige der Über-/Unterbelichtungen der RAW Werte
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          Bildinformationslinie
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          Duplikat-Manager
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          Farbbeurteilung nach ISO 12646
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/gamut/" class="">
+          Gamutüberprüfung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          Maskenverwaltung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/module-order/" class="">
+          Modul Reihenfolge
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/navigation/" class="">
+          Navigation
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          Pipette
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/history-stack/" class="">
+          Verlaufsstapel
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/darkroom/clipping/" class="">
+          Warnung Beschneidung
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/" class="">
+          geteilt
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/image-information/" class="">
+          Bildinformationen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/collections/" class="">
+          collections
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/export/" class="">
+          Exportieren
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/filmstrip/" class="">
+          Filmstreifen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/focus-peaking/" class="">
+          Fokus-Peaking
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/geotagging/" class="">
+          Geotagging
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/metadata-editor/" class="">
+          Metadaten-Editor
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/shared/tagging/" class="">
+          Verschlagwortung
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/map/" class="">
+          Karte
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/map/map-settings/" class="">
+          Karteneinstellungen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/" class="">
+          Leuchttisch
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/selected-image/" class="">
+          Ausgewählte Bilder
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/import/" class="">
+          Import
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          Lua Skript Installation
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/styles/" class="">
+          Stile
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/history-stack/" class="">
+          Verlaufsstapel
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/select/" class="">
+          Wähle
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/lighttable/timeline/" class="">
+          Zeitleiste
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/" class="">
+          Tethering
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/camera-settings/" class="">
+          Kamera Einstellungen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/live-view/" class="">
+          Live Ansicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/utility-modules/tethering/session/" class="">
+          Session
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/dithering/" class="">
+          Dithering
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/haze-removal/" class="">
+          Dunstentfernung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/colorize/" class="">
+          Einfärben
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/demosaic/" class="">
+          Entrastern
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/denoise-profiled/" class=" active">
+          Entrauschen (Profil)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-reconstruction/" class="">
+          Farb Rekonstruktion
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-calibration/" class="">
+          Farbkalibrierung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-contrast/" class="">
+          Farbkontrast
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-correction/" class="">
+          Farbkorrektur
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/color-mapping/" class="">
+          Farbtransfer
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/filmic-rgb/" class="">
+          Filmisch RGB
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/surface-blur/" class="">
+          Flächenweichzeichner
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/fill-light/" class="">
+          Fülllicht (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/global-tonemap/" class="">
+          Globales Tonemapping (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/basic-adjustments/" class="">
+          Grundlegende Anpassungen (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/highpass/" class="">
+          Hochpass
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/unbreak-input-profile/" class="">
+          Input Profil brechen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/invert/" class="">
+          Invertieren (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/channel-mixer/" class="">
+          Kanalmixer (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/contrast-equalizer/" class="">
+          Kontrast Equalizer
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/contrast-brightness-saturation/" class="">
+          Kontrast Helligkeit Sättigung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/grain/" class="">
+          Körnung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/vibrance/" class="">
+          Lebendigkeit (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/monochrome/" class="">
+          Monochrome
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/lowlight-vision/" class="">
+          Nachtsicht
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/negadoctor/" class="">
+          Negadoctor
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/lens-correction/" class="">
+          Objektiv-Korrektur
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/perspective-correction/" class="">
+          Perspektiv-Korrektur
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/rotate-pixels/" class="">
+          Pixel Drehung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/framing/" class="">
+          Rahmen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/raw-black-white-point/" class="">
+          RAW Schwarz-/Weißpunkt
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/rgb-curve/" class="">
+          RGB Kurve
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/sharpen/" class="">
+          schärfen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/tone-mapping/" class="">
+          Tonemapping (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/hot-pixels/" class="">
+          Tote Pixel
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/velvia/" class="">
+          Velvia
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/graduated-density/" class="">
+          Verlaufsfilter
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/vignetting/" class="">
+          Vignettierung
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/watermark/" class="">
+          Wasserzeichen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/soften/" class="">
+          Weichzeichnen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/levels/" class="">
+          Werte
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/zone-system/" class="">
+          Zonensystem (veraltet)
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/de/module-reference/processing-modules/crop-rotate/" class="">
+          Zuschneiden und drehen
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/de/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+<a href='/dtdocs/de/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/de/module-reference/'>Modul Referenz</a> / Entrauschen (Profil)
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/module-reference/processing-modules/demosaic/" class="next">&lt; Entrastern</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/module-reference/processing-modules/color-reconstruction/" class="prev">Farb Rekonstruktion &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        Entrauschen (Profil)
+    </h1>
+
+    
+
+    <p>Dieses Modul wird verwendet, um hochauflösende ISO-Bilder zu entrauschen, angelehnt an die Rausch-Profile spezifischer Kameras.</p>
+<p>Ein Resultat einer großen Reihe von Entrauschungs-Algorithmen ist es, dass die Abweichung des Rauschens unabhängig der Helligkeit des Signals ist. Beim Erstellen der Rauschcharakteristiken einer Kamera bei unterschiedlichen ISO Werten, kann die Abweichung verschiedener Helligkeiten beurteilt werden und der Entrauschungs-Algorithmus kann so eingestellt werden, dass das Rauschen gleichmäßiger geglättet werden kann.</p>
+<p>Gegenwärtig hat darktable Rauschprofile von über 300 populären Kameras aller Marken. Falls du dein eigenes Rauschen-Profil entwickelst für eine Kamera, die bis jetzt noch nicht in darktable vertreten ist, mache es dem darktable Entwicklungsteam zugängig, damit es in der nächsten Ausgabe von darktable eingebunden werden kann! Für mehr Informationen siehe die Seite <a href="https://github.com/darktable-org/darktable/wiki/Camera-support" target="_blank">Kamera-Unterstützung</a>.</p>
+<h1 id="modi"><a href="#modi">🔗</a>Modi</h1>
+<p>Das Modul _ Entrauschen (Profil)_ kann Rauschen durch zwei verschiedene Kernalgorithmen eliminieren, beide können entweder in einfachen &ldquo;Auto&rdquo; Modus oder einem fortgeschrittenen Modus mit zusätzlichen Einstellmöglichkeiten.</p>
+<dl>
+<dt>nicht lokales Mittel</dt>
+<dd>Dieser Algorithmus arbeitet in einer räumlichen Umgebung, ähnlich wie das Modul <a href="/dtdocs/de/module-reference/processing-modules/astrophoto-denoise/"><em>Astrofotografie-Entrauschen</em></a>. Dieser Algorithmus bildet einen Durchschnitt jedes Pixels mit den umgebenden Pixeln im Bild. Das Gewicht eines solchen Pixels im Durchschnitts-Prozess hängt von der Ähnlichkeit der Umgebung mit der Umgebung der zu entrauschenden Pixel ab. Eine Fläche mit definierter Größe wird benutzt, um die Ähnlichkeit zu messen.</dd>
+<dd>
+<p>Beachte, dass dieser Algorithmus recht speicherintensiv ist.</p>
+</dd>
+<dt>Wavelets</dt>
+<dd>Dieser Algorithmus arbeitet mit der <a href="../../darkroom/processing-modules/wavelets.md">Wavelet</a> Domäne, und hat ein einfacheres User-Interface. Wavelet-Zerlegung erlaubt dir die Stärke des Entrauschens festzulegen abhängig von der Intensität des Rauschens des Bildes. Dieser Modus kann entweder in <em>Y0U0V0 color mode</em> (was die Möglichkeit Luminanz- und Chromarauschen zu kontrollieren) oder <em>RGB Farbmodus</em> (der es erlaubt in jedem Farbkanal das Rauschen zu kontrollieren.</dd>
+<dd>
+<p>Der Wavelet Algorithmus ist weniger Ressourcenintensiv als <em>nicht lokales Mittel</em>.</p>
+</dd>
+</dl>
+<h2 id="luminanz-versus-chroma-rauschen"><a href="#luminanz-versus-chroma-rauschen">🔗</a>Luminanz versus Chroma-Rauschen</h2>
+<p>Sowohl “nicht lokale Mittel&quot; wie &ldquo;Wavelets&rdquo; Algorithmen kommen mit Luminanz- und Chromarauschen effizient zurecht.</p>
+<p>Früher wurde vorgeschlagen zwei sseparate Phasen des Moduls <em>Entrauschen (Profil)</em> anwenden. Die erste Phase würde zusammen mit einem Farbmischverfahren angewendet, um das _Chroma_Rauschen, und die zweite Phase mit einem Belichtungsmischverfahren um das _Luminanz_Rauschen zu behandeln.</p>
+<p>Das ist nicht mehr unbedingt nötig, weil das Modul <em>Entrauschen (Profil)</em> bereits früh in der Pixelpipe vorkommt, vor dem Input Farbprofil (damit die Profil-Parameter genau sind), jedoch sollten Farbmischmodi erst angewendet werden, nachdem das Input Farbprofil angewendet wurde.</p>
+<p>Die neuen Algorithmen in diesem Modul behandeln mit eigenen Methoden jeweils Luminanz- und Chromarauschen und in beiden Fällen kann dies mit einem einzigen Modul bearbeitet werden.</p>
+<h1 id="modul-einstellungen"><a href="#modul-einstellungen">🔗</a>Modul Einstellungen</h1>
+<p>Im Modul <em>Entrauschen (Profil)</em> gibt es einige Einstellungen, die unabhängig vom angewendeten Algorithmus sind. Diese werden als Erstes vor den Algorithmus-spezifischen beschrieben.</p>
+<p>Beim Beschrieb der spezifischen Einstellungen für einen Algorithmus, werden wir zuerst eine vereinfachte Benutzeroberfläche beschreiben und dann zu den schwierigeren Einstellungen für diesen Algorithmus gehen.</p>
+<p>Beachte, dass normalerweise Schieberegler mit Minimum und Maximum-Einstellungen vorhanden sind. Das sind aber nur &ldquo;weiche&rdquo; Begrenzungen, höhere Werte können mit der Tastatur eingegeben werden nach Rechtsklick auf den Schieberegler.</p>
+<h2 id="allgemeine-einstellungen"><a href="#allgemeine-einstellungen">🔗</a>Allgemeine Einstellungen</h2>
+<dl>
+<dt>Profil</dt>
+<dd>Basierend auf den Exif-Daten Ihrer Rohdatei ermittelt darktable automatisch das Kameramodell und die ISO-Einstellung der RAW Datei. Wenn es in der Datenbank gefunden wird, dann wird das entsprechende Rauschprofil verwendet. Wenn Ihr Bild einen ISO-Zwischenwert hat, werden die statistischen Eigenschaften zwischen den beiden nächstgelegenen Datensätzen in der Datenbank interpoliert, und diese interpolierte Einstellung wird als erste Zeile in der Combobox angezeigt. Sie haben auch die Möglichkeit, diese Auswahl manuell zu überschreiben, um Ihren persönlichen Vorlieben besser gerecht zu werden. Der oberste Eintrag in der Combobox bringt Sie zurück zu dem Profil, das Sie für am besten geeignet halten.</dd>
+<dt>Modus</dt>
+<dd>Wähle, welchen Entrauschungs-Algorithmus du anwenden willst (siehe oben) und ob du jeweils das vereinfachte (&ldquo;Auto&rdquo;) oder voll manuell vorgehen willst.</dd>
+<dt>Weißabgleich adaptive Transformation</dt>
+<dd>Da der Weißabgleich die RGB-Kanäle unterschiedlich verstärkt, weisen sie unterschiedliche Rauschpegel auf. Dieses Kontrollkästchen macht den Algorithmus anpassungsfähig an den Weißabgleich. Diese Option sollte in der zweiten Instanz deaktiviert sein, wenn Sie eine erste Instanz mit einem Farbmischmodus verwenden.</dd>
+<dt>adjust autoset parameters (auto mode only)</dt>
+<dd>Automatically adjust all the other parameters on the current denoising algorithm using a single slider interface. This is particularly useful when you have had to increase the exposure on an under-exposed image, which normally introduces additional noise as if you had taken the shot with a higher ISO. This control compensates for that by using settings similar to what it would use for a higher ISO image. The &ldquo;effective ISO&rdquo; used by the denoise algorithm is the actual ISO used, multiplied by the value of this slider.</dd>
+<dt>Stärke</dt>
+<dd>Dieser Parameter dient zur Feinabstimmung der Stärke des Denoise-Effekts. Der Standardwert wurde gewählt, um das Signal-Rausch-Verhältnis zu maximieren. Es ist meist Geschmackssache, ob Sie einen eher niedrigen Rauschpegel auf Kosten eines höheren Detailverlustes bevorzugen oder ob Sie mehr Restrauschen akzeptieren, um feinere Strukturen besser in Ihrem Bild zu erhalten.</dd>
+<dd>
+<p>Im Falle von <em>Wavelets</em> Modus, kann der Normalwert dieses Schiebers nicht ausreichend sein. Wenn du nicht eine genügende Stärke einstellst, werden die Wavelets-Kurven keinen genügenden Effekt haben. Es ist deshalb zu raten, eine ausreichend hohe Stärke an diesem Schieberegler einzustellen, um dann die Feinregulierung an den Wavelet-Kurven vorzunehmen. Wähle durchaus auch mit Rechtsklick einen höheren Wert.</p>
+</dd>
+<dt>Schatten erhalten (nicht in Auto Modus)</dt>
+<dd>Es ermöglicht eine aggressivere Entrauschung der Schatten oder der Lichter. Verringern Sie den Wert, um mehr die Schatten als die Lichter zu entrauschen. Normalerweise, wenn das Rauschen zunimmt, müssen Sie diesen Wert senken.</dd>
+<dt>Bias-Korrektur (nicht im Auto Modus)</dt>
+<dd>Es ermöglicht die Korrektur des Farbstichs, der in den Schatten erscheinen kann. Erhöhen Sie diesen Wert, wenn dunkle Schatten zu grünlich erscheinen, verringern Sie ihn, wenn sie violett erscheinen.</dd>
+</dl>
+<h2 id="nicht-lokales-mitttel-auto-schieberegler"><a href="#nicht-lokales-mitttel-auto-schieberegler">🔗</a>nicht-lokales Mitttel Auto Schieberegler</h2>
+<dl>
+<dt>Zentrale Pixelgewichtung (Details)</dt>
+<dd>Es steuert die Anzahl der Details, die durch den Algorithmus erhalten werden sollen. Es kann als eine Möglichkeit verwendet werden, die Menge der Luminanz-Rauschunterdrückung zu steuern: Wenn Sie diesem Schieberegler einen großen Wert geben, führt dies hauptsächlich zu einer Glättung des Chroma-Rauschens mit einer geringen Glättung des Luminanz-Rauschens. Diesen Regler zusammen mit dem Regler <em>Stärke</em> zu steuern, ergibt eine gute Balance zwischen Luminanz- und Chroma-Entrauschung.</dd>
+</dl>
+<h2 id="nicht-lokale-mittel-schieberegler"><a href="#nicht-lokale-mittel-schieberegler">🔗</a>nicht-lokale Mittel Schieberegler</h2>
+<p>Ohne den Schieberegler <em>Autoset-Parameter</em> werden die folgenden Schieberegler eingeblendet. Wobei du immer als Erstes für die ersten Einstellungen den Autoset-Parameter benutzen kannst und dann die manuellen Einstellungen für die Feineinstellungen benutzest.</p>
+<dl>
+<dt>Blockgröße</dt>
+<dd>Er steuert die Größe der Patches, die bei der Entscheidung, welche Pixel zu mitteln sind, angepasst werden siehe <a href="/dtdocs/de/module-reference/processing-modules/astrophoto-denoise/"><em>Astrofot-Entrauschung</em></a>. Stellen Sie diesen auf höhere Werte ein, wenn das Rauschen höher wird. Beachten Sie jedoch, dass hohe Werte kleine Kanten glätten können. Die Verarbeitungszeit bleibt in etwa gleich.</dd>
+<dt>Suchradius</dt>
+<dd>Es steuert, wie weit entfernt von einem Pixel der Algorithmus versuchen wird, ähnliche Patches zu finden. Eine Erhöhung des Wertes kann bei sehr verrauschten Bildern zu besseren Ergebnissen führen, wenn grobkörniges Rauschen sichtbar ist, aber Sie sollten stattdessen besser den Streuschieber verwenden. Die Verarbeitungszeit wird durch diesen Parameter sehr stark beeinflusst: Sie hängt vom Quadrat des Parameters ab. Ein niedrigerer Wert macht die Ausführung schneller, ein höherer Wert macht sie langsamer.</dd>
+<dt>Streuung (grobe Körnung-Rauschen)</dt>
+<dd>Wie der <em>Suchradius</em> steuert er, wie weit der Algorithmus von einem Pixel entfernt versucht, ähnliche Patches zu finden, tut dies aber ohne die Anzahl der betrachteten Patches zu erhöhen. Somit bleibt die Bearbeitungszeit in etwa gleich. Eine Erhöhung des Wertes reduziert das grobkörnige Rauschen, kann aber den lokalen Kontrast glätten. Dieser Schieberegler ist besonders effektiv, um Chroma-Rauschen zu reduzieren.</dd>
+</dl>
+<h2 id="wavelets-kurven"><a href="#wavelets-kurven">🔗</a>Wavelets-Kurven</h2>
+<p>Diese Kurven sind nur verfügbar, wenn der Modus „Wavelet“ ausgewählt ist. Das Rauschen eines Bildes ist in der Regel nicht nur feinkörnig, sondern auch mehr oder weniger grob. Diese Kurven erlauben es die Stärke der Entrauschung der Grobheit des sichtbaren Rauschens anzupassen. Die linke Seite der Kurve wirkt auf sehr grobkörniges Rauschen, während die rechte Seite der Kurve auf sehr feines Rauschen wirkt. Ein verschieben der Kurve nach oben verstärkt die Glättung, währen ein Verschieben nach unten die Glättung verringert.</p>
+<p>Als Beispiel kann das sehr feine Rauschen der Körnung beibehalten werden, indem der rechte Teil der Kurve nach unten bis zum Minimalwert ziehen. Als weiteres Beispiel, wenn Sie das Chroma-Rauschen mit einem Mischmodus bearbeiten, kann der rechten Teil der Kurve nach oben geschoben werden, da sich die Farben von feinkörnigen Rauschen nicht stark ändern sollen: Dies ist hilfreich, wenn einige nicht entrauschte Pixel zu sehen sind.</p>
+<h2 id="wavelets-_y0u0v0_-farb-modus"><a href="#wavelets-_y0u0v0_-farb-modus">🔗</a>Wavelets <em>Y0U0V0</em> Farb-Modus</h2>
+<p>Der bevorzugte Weg Wavelets zu benutzen ist mit dem neuen <em>Y0U0V0 Farb-Modus</em>. Das separiert die Entrauschungs-Kurven in die Komponenten Luminanz (<em>Y0</em>) und Farben (<em>U0V0</em>). Dabei kannst du die <em>Y0</em> Kurve mit unterschiedlichen Skalen für das Luminanz-Rauschen und die _U0V0_Kuurve für das Chroma-Rauschen mit unterschiedlichen Skalen nutzen.</p>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+<a href="/dtdocs/module-reference/processing-modules/denoise-profiled/denoise-y0u0v0.png"><img src="/dtdocs/module-reference/processing-modules/denoise-profiled/denoise-y0u0v0.png" alt="denoise-y0u0v0"  class="w33"    /></a>
+
+</p>
+<h2 id="wavelets-_rgb_-farb-modus"><a href="#wavelets-_rgb_-farb-modus">🔗</a>Wavelets <em>RGB</em> Farb-Modus</h2>
+<p>Früher konnte für das <em>Y0U0V0 Farb-Modus</em> Wavelet-basierte Entrauschen nur direkt die Kanäle <em>R</em>, <em>G</em> und <em>B</em>, entweder alle zusammen in einem Arbeitsgang oder individuell angewendet werden.</p>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+<a href="/dtdocs/module-reference/processing-modules/denoise-profiled/denoise-rgb.png"><img src="/dtdocs/module-reference/processing-modules/denoise-profiled/denoise-rgb.png" alt="denoise-rgb"  class="w33"    /></a>
+
+</p>
+<p>If you want to denoise the channels separately, the best way to do this is to use an instance of the <a href="/dtdocs/de/module-reference/processing-modules/color-calibration/"><em>color calibration</em></a> module immediately before the <em>denoise (profiled)</em> module so that it outputs a gray channel based on the <em>red</em> channel only, then denoise that monochrome image using the <em>red</em> wavelet curve. Repeat this procedure for the blue and green channels. This procedure is time-consuming, but gives the best result because looking at the color of a noisy pixel is not a reliable way to determine which channel to adjust (e.g. a noisy red pixel could be due to a noise peak on the red channel, but could also be due to a noise lull on the blue and green channels).</p>
+<p>Das Thema der Entrauschung der _RGB_Kanäle auf diese Art einzeln ist es, dass dann immer noch einiges an verbleibendem Chroma-Rauschen da ist, das exzessives Glätten erfordert. Das hat letztlich zur Einführung des <em>Y0U0V0 Farb-Modus</em> geführt.</p>
+<h2 id="wavelets-schieberegler"><a href="#wavelets-schieberegler">🔗</a>Wavelets-Schieberegler</h2>
+<p>Wenn <em>Wavelets</em> nicht im <em>Auto</em> Modus ist, wird der Schieber <em>Autoset-Parameter</em> ersetzt durch <em>Schatten erhalten</em> und Bias-Korrektur_, wie oben aufgelistet in der Aufstellung _Allgemeine Konrollen_.</p>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/processing-modules/denoise-profiled/">
+            English: denoise (profiled)
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/module-reference/processing-modules/demosaic/" class="next">&lt; Entrastern</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/de/module-reference/processing-modules/color-reconstruction/" class="prev">Farb Rekonstruktion &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

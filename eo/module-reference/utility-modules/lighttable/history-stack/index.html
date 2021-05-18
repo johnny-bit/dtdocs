@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="eo">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - historia stako</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/">Esperanto</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/lighttable/history-stack/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/lighttable/history-stack/">German</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/" class="">
+          Presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/overview/" class="">
+          superrigardo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/print-view-layout/" class="">
+          aranĝo de pres-vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/" class="">
+          Module-references
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/" class="">
+          utilecaj moduloj
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/" class="">
+          dividita
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/" class="">
+          bilda informo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/" class="">
+          collections
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/export/" class="">
+          eksporti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/" class="">
+          etikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/" class="">
+          filmbendo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/" class="">
+          fokusa pintado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/geotagging/" class="">
+          geoetikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/" class="">
+          redaktilo de metadatenoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/" class="">
+          ligitado
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/" class="">
+          fotilaj agordoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/session/" class="">
+          sesio
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/live-view/" class="">
+          viva vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/" class="">
+          lumtablo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/select/" class="">
+          elekti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/" class="">
+          elektitaj bildoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/" class=" active">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/import/" class="">
+          importi
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          instalilo de lua skriptoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/styles/" class="">
+          stiloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/" class="">
+          templinio
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/" class="">
+          mapo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/map-settings/" class="">
+          mapaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/" class="">
+          presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/print-settings/" class="">
+          presaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/" class="">
+          senluma ĉambro
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          administrilo de duplikatoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          administrilo de maskoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          informlinio de bildo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/" class="">
+          kontrolo de gamo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          kruda troeksponita averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/" class="">
+          navigado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/" class="">
+          ordo de moduloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          takso de koloro
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/" class="">
+          tondada averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          tutmonda kolora elektilo
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+
+<a href='/dtdocs/eo/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/eo/module-reference/'>Module-references</a> / <a href='/dtdocs/eo/module-reference/utility-modules/'>utilecaj moduloj</a> / <a href='/dtdocs/eo/module-reference/utility-modules/lighttable/'>lumtablo</a> / historia stako
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/" class="next">&lt; elektitaj bildoj</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/lighttable/import/" class="prev">importi &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        historia stako
+    </h1>
+
+    
+
+    <p>Manipuli la historia(j)n stako(j)n de unu aŭ pli elektitaj bildoj.</p>
+<h1 id="modulaj-kontroloj"><a href="#modulaj-kontroloj">🔗</a>modulaj kontroloj</h1>
+<dl>
+<dt>selective copy&hellip;</dt>
+<dd>Copy selected parts of the history stack of the selected image. A dialog appears within which you may choose which items from the history stack to include. If more than one image is selected, the history stack is taken from the image that was selected first. Double-click on an item to copy that item only and immediately close the dialog.</dd>
+<dt>kopii</dt>
+<dd>Kopii la kompletan historian stakon de la elektita bildo. Se pli ol unu bildo estas elektita, la historia stako estas prenita de la bildo kiu estis unue elektita.</dd>
+<dd>
+<p>Informoj rilate al interna ekrano-kodigo kaj maska mastrumado estas konsiderataj nesekuraj por aŭtomate kopii al aliaj bildoj kaj do ne estos kopiataj uzante ĉi tiun butonon.</p>
+</dd>
+<dd>
+<p>La jenaj moduloj estas ekskluditaj de la <em>kopio</em> operacio:</p>
+</dd>
+<dd>
+<ul>
+<li><a href="../../processing-modules/orientation.md"><em>orientiĝo</em></a></li>
+</ul>
+</dd>
+<dd><ul>
+<li><a href="../../processing-modules/lens-correction.md"><em>lenskorektado</em></a></li>
+</ul>
+</dd>
+<dd><ul>
+<li><a href="../../processing-modules/raw-black-white-point.md"><em>kruda nigra/blanka punkto</em></a></li>
+</ul>
+</dd>
+<dd><ul>
+<li><a href="../../processing-modules/rotate-pixels.md"><em>rotacii pikselojn</em></a></li>
+</ul>
+</dd>
+<dd><ul>
+<li><a href="../../processing-modules/scale-pixels.md"><em>skali pikselojn</em></a></li>
+</ul>
+</dd>
+<dd><ul>
+<li><a href="../../processing-modules/white-balance.md"><em>blanka ekvilibro</em></a></li>
+</ul>
+</dd>
+<dd><ul>
+<li>malrekomendataj moduloj</li>
+</ul>
+</dd>
+<dd>
+<p>You can override all of these exclusions by using &ldquo;selective paste&hellip;&rdquo; and choosing which modules to paste to the target image(s).</p>
+</dd>
+<dt>kunpremi historion</dt>
+<dd>Generi la plej mallongan historian stakon, kiu reproduktas la nunan bildon. Se iu modulo aperas plurfoje en la stako, ĉi tiuj okazaĵoj estos <em>kunpremitaj</em> en unu paŝon en la historio. _Atentu, ĉi tiu ago ne povas esti malfarita! _</dd>
+<dt>forĵeti historion</dt>
+<dd>Fizike forviŝi la historian stakon de la elektitaj bildoj. _ Atentu, ĉi tiu ago ne povas esti malfarita! _</dd>
+<dt>selective paste&hellip;</dt>
+<dd>Paste selected parts of a previously copied history stack onto all selected images. A dialog appears within which you may choose which items from the source history stack to include.</dd>
+<dt>alglui</dt>
+<dd>Alglui ĉiujn erojn de kopiita historia stako sur ĉiujn elektitajn bildojn.</dd>
+<dt>reĝimo</dt>
+<dd>Ĉi tiu agordo difinas kiel la algluaj agoj sin kondutas kiam aplikitaj al bildo, kiu jam havas historian stakon. En simplaj vortoj la reĝimo &ldquo;anstataŭigi&rdquo; forigas la antaŭan historian stakon antaŭ algluado, dum &ldquo;aldoni&rdquo; kunligos la du historiajn stakojn kune.</dd>
+<dd>
+<p>Kopiita historia stako povas havi plurajn enirojn de la sama modulo (kun la sama nomo aŭ malsamaj nomoj) kaj alglui kondutas malsame por ĉi tiuj eniroj en aldoni kaj anstataŭigi reĝimojn.</p>
+</dd>
+<dd>
+<p>En <em>aldoni</em> reĝimo, por ĉiu kopiita modulo de la fonta bildo, se estas modulo en la cela bildo kun la sama nomo, ĝi estos anstataŭigita. Se ne ekzistas tia modulo, nova okazaĵo kreiĝos. Ambaŭkaze la algluita okazaĵo estas metita supre en la historia stako. Se aparta modulo aperas plurfoje en unu aŭ alia historia stako, nur la lasta okazaĵo de tiu modulo estos prilaborita.</p>
+</dd>
+<dd>
+<p>En <em>anstataŭiga</em> reĝimo la konduto estas la sama ekcepte de la historio de la cela bildo estas forigita antaŭ ol komenci la algluan operacion. La agoj &ldquo;kopii ĉiujn&rdquo;/&ldquo;alglui ĉiujn&rdquo; en ĉi tiu reĝimo ĝuste duplikados la tutan historian stakon de la fonta bildo al la cela (inkluzive de iuj duplikataj okazaĵoj).</p>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>Notoj</dt>
+<dd><ul>
+<li>Aŭtomataj modulaj antaŭagordoj aldoniĝas al bildo nur kiam ĝi unue malfermiĝas en la senluma ĉambro. Se vi uzas <em>anstataŭiga</em> reĝimon por alglui historajn stakajn enirojn al bildoj, kiuj antaŭe ne estis malfermitaj en la senluma ĉambro, tiam la venontan fojon, ke tiu bildo malfermiĝos en la senluma ĉambro, aŭtomataj antaŭagordoj aplikiĝos al la bildo. Do eble ŝajnas kvazaŭ la &ldquo;anstataŭiga&rdquo; reĝimo ne precize duplikatis la ekzistantan historian stakon, sed ĉi-kaze tiuj aŭtomataj moduloj aldoniĝis poste.</li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li>La <em>aldona</em> reĝimo permesas vin poste rekonstrui vian antaŭekzistan historian stakon (ĉar antaŭaj historiaj eroj konserviĝas en la stako de la cela bildo). Tamen en reĝimo &ldquo;anstataŭigi&rdquo; ĉiuj antaŭaj redaktoj estas nerevokeble perditaj.</li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li>La <em>reĝimo</em> agordo konserviĝas kiam vi fermas darktable - se vi ŝanĝas ĝin por unufoja kopio kaj algluo, certigu ŝanĝi ĝin reen denove.</li>
+</ul>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>ŝargi kromĉaran dosieron</dt>
+<dd>Malfermu dialogujon, kiu ebligas al vi importi la historian stakon de elektita XMP-dosiero. Ĉi tiu kopiita historio-stako tiam povas esti algluita al unu aŭ pli bildo(j).</dd>
+<dd>
+<p>Bildoj eksportitaj de darktable tipe enhavas la plenan historian stakon se la dosierformato subtenas enigitajn metadatenojn (vidu la modulon <a href="/dtdocs/eo/module-reference/utility-modules/shared/export/">eksporti</a> por detaloj de ĉi tiu funkcio kaj ĝiaj limoj). Vi povas ŝarĝi eksportitan bildon kiel kromĉara dosiero same kiel kun XMP-dosiero. Ĉi tiu funkcio permesas al vi rekuperi ĉiujn parametrojn, se vi hazarde perdis aŭ anstataŭigis la XMP-dosieron. Vi nur bezonas la fontan bildon, kutime krudan, kaj la eksportitan dosieron.</p>
+</dd>
+<dt>skribu kromĉarajn dosierojn</dt>
+<dd>Skribu XMP-kromĉarajn dosierojn por ĉiuj elektitaj bildoj. La dosiernomo estas generita aldonante &ldquo;.xmp&rdquo; al la nomo de la baza eniga dosiero.</dd>
+<dd>
+<p>Apriore darktable generas kaj ĝisdatigas kromĉarajn dosierojn aŭtomate kiam ajn vi laboras pri bildo kaj ŝanĝas la historian stakon. Vi povas malŝalti aŭtomatan kromĉaran dosieran generadon en <a href="../../../preferences-settings/storage.md">preferoj &gt; stokado</a>. Ĉi tio povas esti utila kiam vi uzas plurajn versiojn de darktable (tiel ke redaktoj en ĉiu versio ne konfliktu unu la alian) tamen ĝenerale malŝalti ĉi tiun funkcion ne estas rekomendata.</p>
+</dd>
+</dl>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/lighttable/history-stack/">
+            English: history stack
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/utility-modules/lighttable/history-stack/">
+            German: Verlaufsstapel
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/" class="next">&lt; elektitaj bildoj</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/lighttable/import/" class="prev">importi &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

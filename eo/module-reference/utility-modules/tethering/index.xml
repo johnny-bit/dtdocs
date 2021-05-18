@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ligitado on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/</link>
+    <description>Recent content in ligitado on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fotilaj agordoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/</guid>
+      <description>La modulo de agordoj de fotilo permesas agordi bildan kaptan laboron.
+Ĉi tio povas inkluzivi sekvencon, krampon kaj malfruajn kaptojn. Vi ankaŭ povas regi aliajn fotilajn agordojn kiel fokusa reĝimo, aperturo, eksponrapideco, ISO kaj blanka ekvilibro.</description>
+    </item>
+    
+    <item>
+      <title>sesio</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/session/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/session/</guid>
+      <description>Sesio estas vico de malkovroj prenitaj en la ligita reĝimo kaj metitaj en ununuran filmon. Nova sesio signifas kreon de nova filmrulo.
+La sesia modulo ebligas al vi agordi laborkodon, uzeblan por krei vian novan filmrolulon. Vidu preferoj&amp;gt; importi&amp;gt; sesiaj opcioj por detaloj pri kiel krei novajn filmojn per la variablo $ (JOBCODE) en la sesia modulo.</description>
+    </item>
+    
+    <item>
+      <title>viva vido</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/live-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/tethering/live-view/</guid>
+      <description>Ĉi tiu modulo donas al vi kontrolon de la viva vida reĝimo de via fotilo. Funkcieco kiel fokusa agordo, rotacio, aldono de gvidiloj kaj surmeto estas subtenataj.</description>
+    </item>
+    
+  </channel>
+</rss>

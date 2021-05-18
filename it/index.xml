@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/it/</link>
+    <description>Recent content on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduzione</title>
+      <link>https://darktable-org.github.io/dtdocs/it/print/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/it/print/overview/</guid>
+      <description>Questa è la vista relativa alla stampa. Dal momento che la stampa non è un&amp;rsquo;operazione semplice, ci sono diversi aspetti tecnici da tenere in considerazione.
+Dopo aver selezionato un&amp;rsquo;immagine sul lighttable view è possibile attivare il modulo print settings per regolarne i parametri ed iniziare a stampare.
+Questo modulo supporta il profilo ICC della stampante che è praticamente un passaggio obbligato se vuoi ottenere una stampa di qualità vicina a ciò che vedi sullo schermo.</description>
+    </item>
+    
+    <item>
+      <title>Disposizione visualizzazione Stampa</title>
+      <link>https://darktable-org.github.io/dtdocs/it/print/print-view-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/it/print/print-view-layout/</guid>
+      <description>L&amp;rsquo;area centrale visualizza la disposizione dell&amp;rsquo;immagine sulla carta (la zona bianca). Potresti vedere dei bordi grigi intorno all&amp;rsquo;immagine a rappresentare l&amp;rsquo;effettiva area di stampa (la pagina ad esclusione dei bordi).
+Il filmstrip sotto l&amp;rsquo;immagine ti permette di selezionarne altre.
+🔗Pannello di sinistra  collections Filter the list of images displayed in the lighttable. image information Visualizza le informazioni dell&amp;rsquo;immagine  🔗Pannello di destra  print settings Imposta le regolazioni della stampante e inizia a stampare.</description>
+    </item>
+    
+    <item>
+      <title>Impostazioni stampa</title>
+      <link>https://darktable-org.github.io/dtdocs/it/module-reference/utility-modules/print/print-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/it/module-reference/utility-modules/print/print-settings/</guid>
+      <description>Imposta i parametri per la print view ed inizia a stampare.
+🔗Controlli modulo 🔗Stampante  Stampante Seleziona una stampante tra quelle installate. Supporto Il tipo di supporto caricato sulla stampante (Carta normale, Carta fotografica, ecc.) Profilo Il profilo ICC della stampante per la carta utilizzata. Questo è il profilo specifico per la stampante e la carta. Questo profilo è responsabile dell&amp;rsquo;ultima trasformazione dello spazio colore applicata all&amp;rsquo;immagine con l&amp;rsquo;obiettivo di ottenerre una stampa di alta qualità.</description>
+    </item>
+    
+    <item>
+      <title>Visione in diretta</title>
+      <link>https://darktable-org.github.io/dtdocs/it/module-reference/utility-modules/tethering/live-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/it/module-reference/utility-modules/tethering/live-view/</guid>
+      <description>Questo modulo ti permette di controllare la modalità Visione in Diretta della fotocamera. Sono supportate funzionalità come la messa a fuoco, la rotazione, l&amp;rsquo;aggiunta delle linee guida.</description>
+    </item>
+    
+  </channel>
+</rss>

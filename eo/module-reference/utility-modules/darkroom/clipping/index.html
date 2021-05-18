@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="eo">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - tondada averto</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/">Esperanto</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/darkroom/clipping/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/clipping/">German</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/" class="">
+          Presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/overview/" class="">
+          superrigardo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/print-view-layout/" class="">
+          aranĝo de pres-vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/" class="">
+          Module-references
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/" class="">
+          utilecaj moduloj
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/" class="">
+          dividita
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/" class="">
+          bilda informo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/" class="">
+          collections
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/export/" class="">
+          eksporti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/" class="">
+          etikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/" class="">
+          filmbendo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/" class="">
+          fokusa pintado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/geotagging/" class="">
+          geoetikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/" class="">
+          redaktilo de metadatenoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/" class="">
+          ligitado
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/" class="">
+          fotilaj agordoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/session/" class="">
+          sesio
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/live-view/" class="">
+          viva vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/" class="">
+          lumtablo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/select/" class="">
+          elekti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/" class="">
+          elektitaj bildoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/import/" class="">
+          importi
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          instalilo de lua skriptoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/styles/" class="">
+          stiloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/" class="">
+          templinio
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/" class="">
+          mapo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/map-settings/" class="">
+          mapaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/" class="">
+          presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/print-settings/" class="">
+          presaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/" class="">
+          senluma ĉambro
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          administrilo de duplikatoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          administrilo de maskoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          informlinio de bildo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/" class="">
+          kontrolo de gamo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          kruda troeksponita averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/" class="">
+          navigado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/" class="">
+          ordo de moduloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          takso de koloro
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/" class=" active">
+          tondada averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          tutmonda kolora elektilo
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+
+<a href='/dtdocs/eo/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/eo/module-reference/'>Module-references</a> / <a href='/dtdocs/eo/module-reference/utility-modules/'>utilecaj moduloj</a> / <a href='/dtdocs/eo/module-reference/utility-modules/darkroom/'>senluma ĉambro</a> / tondada averto
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/" class="next">&lt; takso de koloro</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/" class="prev">tutmonda kolora elektilo &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        tondada averto
+    </h1>
+
+    
+
+    <p>Kiam bildo estas sendita al ekrana aparato, ĉiu pikselo estas kutime reprezentita kiel aro de 3 nombroj, reprezentantaj la intensecon de la ruĝaj, verdaj kaj bluaj primaraj koloroj en la elira kolora spaco. Ĉar la elira kolorspaco kutime estas proksime rilata al aparataro kun fizikaj limigoj, estas maksimuma permesata valoro por la kanaloj [R,V,B], reprezentante la maksimuman haveblan intensecon en tiu kolora spaco. Simile, ekzistas ankaŭ minimuma valoro sub kiu pikselaj valoroj estos mapitaj al nulo. Kiam ni provas konverti de pli granda kolorspaco al la fina elira kolorspaco, iuj valoroj superantaj ĉi tiun maksimumon estos fiksitaj al la maksimuma valoro, kaj iuj valoroj sub la minimumo estos fiksitaj al nulo. Ĉi tiu procezo nomiĝas &ldquo;tondado&rdquo; kaj ĝi kaŭzos perditajn detalojn, aŭ &ldquo;malĝustajn&rdquo; kolorojn por iuj ajn pikseloj kun tonditaj kanaloj.</p>
+<p>Estas du manieroj per kiuj pikselo povus esti tondita kiam reprezentita en la elira kolora spaco.</p>
+<ul>
+<li>
+<p><em>lumeco</em> tondado povas okazi kiam pikselo estas tro brila por esti reprezentita en la elira kolorspaco. La piksela lumeco estas kalkulita kiel laŭpeza mezumo de la kanaloj [R,V,B]. Se ĉi tiu mezumo superas la maksimuman permesatan valoron, ĝi estas indiko de tro-ekspono. La ĝenerala lumeco de pikselo ankaŭ povas esti tro malhela por esti reprezentita per valoro [R,V,B] en la elira kolorspaco, tiaokaze ĝi simple montriĝos nigra. Ni kutime traktas lumecan tondadon zorge adaptante tonajn mapojn kaj eksponajn nivelojn.</p>
+</li>
+<li>
+<p><em>gamo</em> tondado. La elira kolorspaco difinas aron de primaraj koloroj, kiuj, miksitaj en certaj rilatumoj, produktas la finan eliran koloron. Tamen ekzistas nur tiom da koloroj, kiujn oni povas produkti kunmiksante kombinaĵon de tiuj tri primaraj koloroj. Precipe tre saturitaj koloroj povas esti malfacile reprezenti, precipe por pikseloj tre helaj aŭ tre malhelaj. Se ne ekzistas aro de pozitivaj [R,V,B] valoroj, kiuj povas reprezenti donitan koloron je donita brila nivelo, ni diras, ke la koloro estas &ldquo;ekster gamo&rdquo;, kaj ni devos kontentiĝi pri alia koloro anstataŭe ke <em>povas</em> esti reprezentata per permesataj [R,V,B] valoroj en la kolora spaco. Ni povas trakti tondadon de gamo zorgante ne tro saturi kolorojn en la brilaĵoj kaj ombroj, kaj eble uzante iujn kolorajn gradigajn/kolorajn mapajn metodojn.</p>
+</li>
+</ul>
+<p>La modulo &ldquo;tondada averto&rdquo; estas uzata por reliefigi tiujn pikselojn, kiuj ne povas esti precize reprezentataj en la elira kolora spaco, ĉu pro lumeca aŭ gama tondado. Antaŭ darktable 3.4, la tondado reliefigis iujn ajn pikselojn, kiuj superis la maksimuman permesitan valoron sur iuj ajn el la kanaloj [R,V,B], aŭ kiuj estis tute nigriĝintaj. De darktable 3.4 pluen, la averta indikilo pri tondado havas iujn aldonajn reĝimojn por helpi vin diferencigi inter lumeca kaj gama tondado, por ke vi povu fari pli bonajn decidojn pri kiel trakti iujn ajn problemojn.</p>
+<p>Ĉar la averto de tondado funkcias fine de la antaŭvida pixelpipe, ĝi ricevas datumojn en ekrana kolorspaco kaj poste konvertas ĝin al histograma kolorspaco. Se vi uzas ekranan kolorspacon, kiu ne estas &ldquo;bonkonduta&rdquo; (ĉi tio kutimas por aparata profilo), tiam koloroj ekster la gamo de la ekrana profilo tondiĝos aŭ distordiĝos.</p>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/clipping/clipping-menu.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/clipping/clipping-menu.png" alt="clipping-menu"  class="w33"    /></a>
+
+</p>
+<p>La tondada averta modulo, priskribata ĉi tie, traktas tondadon kaŭzitan de prilaborado de bildoj kaj la limigoj de la elira kolorspaco. Ne konfuzu ĝin kun la jenaj similaj iloj:</p>
+<ul>
+<li>
+<p>La <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/">raw overexposed warning</a> indikas, kie pikseloj en la originala kruda dosiero estas tonditaj pro fizikaj limigoj en la dinamika gamo de la fotila sentilo. Ĉi tiu modulo elstarigas informojn, kiuj estis konstante perditaj ĉe la kapto de bildo, kaj vi devas trakti ĝin kiel eble plej bone per brilaĵaj reakiraj metodoj.</p>
+</li>
+<li>
+<p>La modulo <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/">kontrolo de gamo</a> ankaŭ donas informojn pri tondado ekestanta de prilaborado de bildo. Ĝi baziĝas sur la ekstera biblioteko littleCMS, kaj pli-malpli egalas al la reĝimo <em>plena gamo</em> en la averta modulo pri tondado. La malavantaĝoj de la modulo de kontrolo de gamo estas, ke ĝi ne permesas distingi inter tondado kaŭzita de lumeca kaj gama mapado, kaj ĝi estas multe pli malrapida ol la averta indikilo pri tondado.</p>
+</li>
+</ul>
+<h1 id="modulaj-kontroloj"><a href="#modulaj-kontroloj">🔗</a>modulaj kontroloj</h1>
+<dl>
+<dt>tondada antaŭvida reĝimo</dt>
+<dd>Ĉi tio permesas al vi elekti kiun specon de tondado vi volas elstarigi, kaj povas esti unu el la jenaj:</dd>
+<dd>
+<ul>
+<li><em>ĉiu RVB-kanalo</em>: Provizas tro-tondan indikon se iu el la tri [R,V,B] kanaloj superas la maksimuman permesitan valoron por la histograma kolora spaco, aŭ sub-tondan indikon se la tri [R,V,B] -kanaloj estas tro malhelaj kaj ĉiuj estas pelataj nigriĝi. Ĉi tiu estis la aproira reĝimo antaŭ la versio 3.4 de darktable.</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>nur lumeco</em>: Indikas iujn ajn pikselojn tonditajn ĉar ilia lumeco falas ekster la gamon difinitan en la glitiloj &ldquo;supra sojlo&rdquo; kaj &ldquo;malsupra sojlo&rdquo;. Se ĉi tio okazas, ĝi ĝenerale signifas, ke tona mapo aŭ ekspono estis malbone agorditaj</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>nur saturiĝo</em>: Indikas kie tro saturitaj koloroj puŝis unu aŭ plurajn el la kanaloj [R,V,B] al valoro ekster la permesita gamo de la histograma kolorspaco, kvankam la ĝenerala lumeco de la pikselo povas esti ene akcepteblaj limoj. Ĉi tio signifas, ke ĉi tiu piksela koloro neeblas reprezenti en la histograma kolora spaco, kaj povas ekesti de malbone fiksitaj gamaj mapoj aŭ saturaj agordoj,</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>plena gamo</em>: Montras la kombinaĵon de la 3 antaŭaj opcioj. Ĉi tiu estas la defaŭlta reĝimo de malluma tabelo 3.4 pluen, kaj ĝi donas la plej kompletan indikon pri eble problemaj pikseloj.</li>
+</ul>
+</dd>
+<dt>kolorskemo</dt>
+<dd>Apriore, la indikilo markas pikselojn kun <em>ruĝa</em> kie la supra sojlo estas superita (tro-tondado) kaj kun <em>blua</em> kie la malsupra sojlo estas malsuperita (sub-tondado). Ĉi tiu kolora skemo povas esti ŝanĝita al <em>nigrablanka</em> aŭ <em>purpuraverda</em> por &ldquo;tro kaj sub&rdquo; indikiloj, kiuj povas esti utilaj por plibonigi videblecon por kelkaj bildoj.</dd>
+<dt>malsupra sojlo</dt>
+<dd>Esprimita per EV rilate al la blanka punkto (kiu estas nominale EV = 0). Se la kanaloj [R,V,B] ĉiuj falas sub ĉi tiun valoron, sub-tonda indikilo montriĝas por averti, ke la pikselo eble nigriĝos. Uzu la jenan referencon por agordi ĉi tiun sojlon, depende de via celita eliga medio:</dd>
+<dd>
+<ul>
+<li><em>8-bita sRVB</em> tondas nigrojn je -12,69 EV</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>8-bita Adobe RVB</em> tondas nigrojn je -19,79 EV</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>16-bita sRVB</em> tondas nigrojn je -20,69 EV</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>belartaj senbrijaj presaĵoj</em> tipe produktas nigrojn je -5,30 EV</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>koloraj brilaj presaĵoj</em> tipe produktas nigrojn je -8,00 EV</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>nigrablankaj brilaj presaĵoj</em> tipe produktas nigrojn je -9,00 EV</li>
+</ul>
+</dd>
+<dt>supra sojlo</dt>
+<dd>Kiom proksime pikselo devas esti al la supra limo antaŭ ol esti markita per la tonda averto, esprimita kiel procento. Apriore je 98%. En la kazo de gamaj kontroloj, ĉi tio regas kiom proksime la saturado de la pikselo rajtas atingi la limojn de la gamo de la kolora spaco antaŭ ol tondindiko estas markita.</dd>
+</dl>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/darkroom/clipping/">
+            English: clipping warning
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/utility-modules/darkroom/clipping/">
+            German: Warnung Beschneidung
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/" class="next">&lt; takso de koloro</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/" class="prev">tutmonda kolora elektilo &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

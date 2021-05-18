@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="eo">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - administrilo de maskoj</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/">Esperanto</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/darkroom/mask-manager/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/darkroom/mask-manager/">German</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/" class="">
+          Presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/overview/" class="">
+          superrigardo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/print-view-layout/" class="">
+          aranĝo de pres-vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/" class="">
+          Module-references
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/" class="">
+          utilecaj moduloj
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/" class="">
+          dividita
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/" class="">
+          bilda informo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/" class="">
+          collections
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/export/" class="">
+          eksporti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/" class="">
+          etikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/" class="">
+          filmbendo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/" class="">
+          fokusa pintado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/geotagging/" class="">
+          geoetikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/" class="">
+          redaktilo de metadatenoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/" class="">
+          ligitado
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/" class="">
+          fotilaj agordoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/session/" class="">
+          sesio
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/live-view/" class="">
+          viva vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/" class="">
+          lumtablo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/select/" class="">
+          elekti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/" class="">
+          elektitaj bildoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/import/" class="">
+          importi
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          instalilo de lua skriptoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/styles/" class="">
+          stiloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/" class="">
+          templinio
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/" class="">
+          mapo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/map-settings/" class="">
+          mapaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/" class="">
+          presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/print-settings/" class="">
+          presaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/" class="">
+          senluma ĉambro
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          administrilo de duplikatoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/" class=" active">
+          administrilo de maskoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          informlinio de bildo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/" class="">
+          kontrolo de gamo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          kruda troeksponita averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/" class="">
+          navigado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/" class="">
+          ordo de moduloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          takso de koloro
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/" class="">
+          tondada averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          tutmonda kolora elektilo
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+
+<a href='/dtdocs/eo/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/eo/module-reference/'>Module-references</a> / <a href='/dtdocs/eo/module-reference/utility-modules/'>utilecaj moduloj</a> / <a href='/dtdocs/eo/module-reference/utility-modules/darkroom/'>senluma ĉambro</a> / administrilo de maskoj
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/" class="next">&lt; administrilo de duplikatoj</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/" class="prev">historia stako &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        administrilo de maskoj
+    </h1>
+
+    
+
+    <p>Administri ĉiujn maskojn kaj formojn por la aktuala bildo.</p>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager.png" alt="mask manager"  class="w25"    /></a>
+
+</p>
+<p>Ĉi tiu modulo povas esti uzata por krei, renomi, redakti kaj forigi formojn. Vi povas aldoni formojn kaj forigi formojn de masko, grupigi formojn kune kaj kombini ilin per araj operacioj.</p>
+<p>En la supra linio de la maska administrila panelo estas butonoj uzeblaj por krei novajn formojn. Ĉi tiuj samas kiel tiuj en la interfaco <a href="../../../darkroom/masking-and-blending/masks/drawn.md">desegnita masko</a> de la unuopaj moduloj.</p>
+<p>La panelo sub ĉi tiuj butonoj montras liston de ĉiuj maskoj kaj unuopaj formoj difinitaj por la aktuala bildo.</p>
+<p>Grupoj de formoj formantaj maskon estas montritaj kun fraptitolo en la formo &ldquo;grp &lt;modula_nomo&gt;&rdquo; indikanta la modulon en kiu ili estas uzataj, kun la komponaj formoj listigitaj sube. La liston de maskaj grupoj sekvas listo de ĉiuj individuaj formoj generitaj kadre de la aktualaa bildo. Se formo estas uzata de iuj maskoj, tio estas indikata per simbolo dekstre de la nomo de formo.</p>
+<h1 id="formoj"><a href="#formoj">🔗</a>formoj</h1>
+<p>Apriore ĉiu formo ricevas aŭtomate generitan nomon, konsistantan el la speco de formo (&ldquo;peniko&rdquo;, &ldquo;rondo&rdquo;, &ldquo;elipso&rdquo;, &ldquo;vojo&rdquo;, &ldquo;gradiento&rdquo;) kaj aŭtomate pliigita entjero. Vi povas alinomi formon duoble alklakante ĝian aktualan nomon. Estas bona kutimo doni al formoj kaj grupoj signifajn nomojn, precipe se vi uzos la saman elekton en malsamaj maskoj.</p>
+<p>Alklaku forman nomon por montri la elektitan formon sur la bilda tolo kun ĉiuj ĝiaj regiloj, permesante al vi redakti la propraĵojn de nur tiu formo. Ĉi tio estas speciale utila, kie estas multaj interkovrantaj formoj ene de masko, malfaciligante elekti la ĝustan per la muso.</p>
+<p>Dekstre alklaku forman nomon por montri menuon kun ebloj por forigi la aktualan formon aŭ forigi ĉiujn formojn ne uzatajn nuntempe.</p>
+<hr>
+<p><strong>Noto:</strong> darktable konservas ĉiujn formojn iam ajn difinitajn por la aktuala bildo, ekcepte se vi eksplicite forigas ilin. Se vi elektas inkluzivi prilaboran historion dum eksportado de bildo, ĉiuj difinitaj formoj estos eksportitaj kun la bildo. Atentu, ke se la listo de formoj estas tre longa, la spaco necesa por stoki tiujn formojn povus superi la grandecan limon de iaj dosieraj formatoj. Ĉi tio povas kaŭzi malsukceson de kreo de XMP-etikedo dum eksportado.</p>
+<hr>
+<h1 id="maskoj"><a href="#maskoj">🔗</a>maskoj</h1>
+<p>Maskoj estas konstruataj per aldono de formoj en la ordo, ke ili estas listigitaj de supre malsupren. Ĉiu formo ĝustigas la ekzistantan maskon per unu el kvar logikaj araj operacioj (vidu sube). Ĉar ordo gravas, eblas ankaŭ movi formojn supren kaj malsupren en la listo.</p>
+<p>Alklaku la nomon de masko por plivastigi la liston de la unuopaj formoj, kiuj konsistigas tiun maskon.</p>
+<p>Dekstre alklaku la maskan nomon por montri menuon kun ebloj aldoni novajn aŭ ekzistantajn formojn al la masko, aŭ purigi neuzatajn formojn.</p>
+<p>Dekstre alklaku iun ajn el la formoj por regi kiel tiu formo kontribuas al la masko:</p>
+<dl>
+<dt>forigi el grupo</dt>
+<dd>Forigi la formon de la aktuala masko</dd>
+<dt>uzi inversan formon</dt>
+<dd>Inversigi la polusecon de la elektita formo</dd>
+<dt>reĝimo</dt>
+<dd>Elekti kiel ĉi tiu formo interagos kun la antaŭa masko elektante unu el la kvar araj operacioj difinitaj sube</dd>
+<dt>movi supren/malsupren</dt>
+<dd>Movi la formon supren aŭ malsupren en la liston</dd>
+</dl>
+<h1 id="araj-operacioj"><a href="#araj-operacioj">🔗</a>araj operacioj</h1>
+<p>Por ekzemplo ni uzos maskon, kiu kombinas gradienton sekvatan de vojo, por montri la efikon de ĉiu ara operacio kiam aplikita al la voja formo. Kiel konvencio ni diras, ke pikselo estas &ldquo;elektita&rdquo; en masko aŭ formo, se ĝi havas valoron pli altan ol nulo.</p>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex1.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex1.png" alt="gradient"  class="w33"    /></a>
+
+</p>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex2.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex2.png" alt="path"  class="w33"    /></a>
+
+</p>
+<dl>
+<dt>kuniĝo</dt>
+<dd>Jen la apriora ara operacio. Ĝi estas bildigita per la simbolo 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/masks_union.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/masks_union.png" alt="union-icon"  class="icon"    /></a>
+
+ maldekstre de la nomo de formo. La formo aldonas la ekzistantan maskon tiel ke la rezulta masko enhavas la pikselojn, kiuj estas <em>aŭ</em> elektitaj en la ekzistanta masko <em>aŭ</em> en la aldonita formo. En interkovrantaj areoj oni prenas la maksimuman valoron:</dd>
+<dd>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex3.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex3.png" alt="union"  class="w33"    /></a>
+
+</p>
+</dd>
+<dt>intersekciĝo</dt>
+<dd>Ĉi tiu ara operacio estas bildigita per la simbolo 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/masks_intersection.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/masks_intersection.png" alt="intersection-icon"  class="icon"    /></a>
+
+ maldekstre de la formo-nomo. La formo aldonas la ekzistantan maskon tiel ke la rezulta masko enhavas nur rastrumerojn elektitajn en <em>kaj</em> la ekzistanta masko <em>kaj</em> la aldonita formo. En interkovrantaj areoj oni uzas la minimuman valoron. En la donita ekzemplo ni uzas ĉi tiun operacion por &ldquo;surpresi&rdquo; la vojon kun gradiento:</dd>
+<dd>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex4.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex4.png" alt="intersection"  class="w33"    /></a>
+
+</p>
+</dd>
+<dt>diferenco</dt>
+<dd>Ĉi tiu ara operacio estas bildigita per la simbolo 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/masks_difference.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/masks_difference.png" alt="difference-icon"  class="icon"    /></a>
+
+ maldekstre de la formo-nomo. En la ne-interkovranta areo la ekzistanta masko estas senŝanĝa. En la rezulta masko, pikseloj estas elektitaj nur se ili estas elektitaj en la ekzistanta masko sed <em>ne</em> en la aldonita formo. Ĉi tiu ara operacio povas esti elektita, se vi volas &ldquo;eltranĉi&rdquo; regionon de ekzistanta elekto:</dd>
+<dd>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex5.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex5.png" alt="difference"  class="w33"    /></a>
+
+</p>
+</dd>
+<dt>ekskludo</dt>
+<dd>Ĉi tiu ara operacio estas bildigita per la simbolo 
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/masks_exclusion.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/masks_exclusion.png" alt="exclusion-icon"  class="icon"    /></a>
+
+ maldekstre de la nomo de formo. La rezulta masko havas ĉiujn pikselojn elektitajn, kiuj estas aŭ elektitaj en la ekzistanta masko kaj ne en la aldonita formo aŭ inverse. Ĉi tio ekvivalentas al &ldquo;ekskluda aŭ&rdquo;:</dd>
+<dd>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex6.png"><img src="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/mask-manager_ex6.png" alt="exclusion"  class="w33"    /></a>
+
+</p>
+</dd>
+</dl>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/darkroom/mask-manager/">
+            English: mask manager
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/utility-modules/darkroom/mask-manager/">
+            German: Maskenverwaltung
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/" class="next">&lt; administrilo de duplikatoj</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/" class="prev">historia stako &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

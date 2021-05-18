@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modules de traitement on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/</link>
+    <description>Recent content in modules de traitement on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>adoucir (effet Orton)</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/soften/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/soften/</guid>
+      <description>Créer une image adoucie en utilisant l&#39;effet Orton.
+Michael Orton a obtenu ses résultats sur des diapositives en utilisant deux expositions de la même scène, une bien exposée et une surexposée. Il a ensuite utilisé une technique de chambre noire pour fusionner ces deux images en une image finale où l&amp;rsquo;image surexposée était floue.
+Ce module est une quasi-copie du processus analogique d&amp;rsquo;Orton dans le domaine numérique.
+🔗les contrôles du module  taille La taille du flou de l&amp;rsquo;image surexposée.</description>
+    </item>
+    
+    <item>
+      <title>ajustements de base (déprécié)</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/basic-adjustments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/basic-adjustments/</guid>
+      <description>Veuillez noter que ce module est déprécié dans darktable 3.6 et ne devrait plus être utilisé pour de nouveaux développements. Veuillez utiliser le panneau d&amp;rsquo;accès rapide.
+ Un module pratique qui combine les contrôles des modules exposition, reconstruction des hautes lumières, balance couleur et vibrance en un seul module.
+Bien que ce module puisse fournir un moyen rapide et pratique d&amp;rsquo;effectuer des ajustements simples d&amp;rsquo;une image, il doit être utilisé avec précaution.</description>
+    </item>
+    
+    <item>
+      <title>balance couleur</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/color-balance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/color-balance/</guid>
+      <description>Un outil polyvalent pour ajuster la balance des couleurs de l&amp;rsquo;image.
+Ce module peut être utilisé pour inverser les dominantes de couleurs parasites ou pour améliorer l&amp;rsquo;atmosphère visuelle d&amp;rsquo;une image à l&amp;rsquo;aide de l&amp;rsquo;étalonnage des couleurs, une technique populaire dans l&amp;rsquo;industrie du cinéma.
+🔗présentation Le module balance couleur vous permet de décaler les couleurs de manière sélective par plage de luminance : ombres, tons moyens et hautes lumières. Il le fait en utilisant deux méthodes différentes :</description>
+    </item>
+    
+    <item>
+      <title>balance des blancs</title>
+      <link>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/white-balance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/fr-fr/module-reference/processing-modules/white-balance/</guid>
+      <description>Ajuster la balance des blancs de l&amp;rsquo;image en modifiant la température et la teinte, en définissant un coefficient pour chaque canal (RVB) ou en choisissant dans la liste des paramètres de balance des blancs prédéfinis.
+Les paramètres par défaut de ce module sont dérivés de la balance des blancs du boîtier stockée dans les données Exif de l&amp;rsquo;image.
+La balance des blancs n&amp;rsquo;est pas conçue comme un module «créatif» &amp;ndash; son objectif principal est de corriger techniquement la balance des blancs de l&amp;rsquo;image en s&amp;rsquo;assurant que les objets de couleur neutre de la scène sont rendus sous forme de couleurs neutres dans l&amp;rsquo;image.</description>
+    </item>
+    
+  </channel>
+</rss>

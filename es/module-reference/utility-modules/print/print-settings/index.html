@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - ajustes de impresión</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="es" role="option" lang="es" href="https://darktable-org.github.io/dtdocs/es/module-reference/utility-modules/print/print-settings/">Espanol</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/print/print-settings/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/print/print-settings/">German</a>
+		    
+		      <a class="dropdown-item" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/print/print-settings/">Esperanto</a>
+		    
+		      <a class="dropdown-item" hreflang="it" role="option" lang="it" href="https://darktable-org.github.io/dtdocs/it/module-reference/utility-modules/print/print-settings/">Italian</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/print/" class="">
+          Imprimir
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/es/print/overview/" class="">
+          Resumen
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/es/print/print-view-layout/" class="">
+          vista de imprimir
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/guides-tutorials/" class="">
+          Guías y Tutoriales
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/module-reference/" class="">
+          Module-references
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/special-topics/" class="">
+          Special-topics
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/es/special-topics/opencl/" class="">
+          OpenCL
+      </a>
+
+   <ul></ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+<a href='/dtdocs/es/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/es/module-reference/'>Module-references</a> / <a href='/dtdocs/es/module-reference/utility-modules/print/'>imprimir</a> / ajustes de impresión
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/es/special-topics/opencl/" class="next">&lt; OpenCL</a>
+	
+    </div>
+    <div class="col-6">
+    
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        ajustes de impresión
+    </h1>
+
+    
+
+    <p>Administre la configuración de la [vista de impresión] (../../../ print / _index.md) e inicie la impresión.</p>
+<h1 id="controles-del-módulo"><a href="#controles-del-m%c3%b3dulo">🔗</a>controles del módulo</h1>
+<h2 id="impresora"><a href="#impresora">🔗</a>impresora</h2>
+<dl>
+<dt>impresora</dt>
+<dd>Seleccione una de las impresoras instaladas.</dd>
+<dt>medios de comunicación</dt>
+<dd>El tipo de soporte cargado en la impresora (papel normal, papel fotográfico brillante, etc.).</dd>
+<dt>perfil</dt>
+<dd>El perfil ICC de la impresora para el papel cargado. Este es el perfil específico de la impresora y el papel. Este perfil es la última transformación del espacio de color aplicada a la imagen cuyo objetivo es crear una impresión de alta calidad.</dd>
+<dt>intención</dt>
+<dd>La intención de reproducción de la impresión (&ldquo;perceptual&rdquo;, &ldquo;colorimétrico relativo&rdquo;, &ldquo;saturación&rdquo; o &ldquo;colorimétrico absoluto&rdquo;). Consulte [intención de reproducción] (../../../ special-topics / color-management / rendering-intent.md) para obtener más detalles.</dd>
+<dt>compensación de punto negro</dt>
+<dd>Si se debe ajustar el punto negro del perfil de salida, que a menudo es más claro que el perfil de entrada. Esto debe estar &ldquo;activado&rdquo; cuando el <em>intent</em> se establece en &ldquo;colorimétrico relativo&rdquo;.</dd>
+</dl>
+<h2 id="página"><a href="#p%c3%a1gina">🔗</a>página</h2>
+<dl>
+<dt>Tamaño de papel</dt>
+<dd>El tamaño del papel en el que se va a imprimir.</dd>
+<dt>orientación</dt>
+<dd>Retrato u paisaje (tenga en cuenta que darktable elige el que mejor se ajusta de forma predeterminada).</dd>
+<dt>unidades</dt>
+<dd>La unidad que se utilizará para configurar los márgenes: “mm”, “cm” o “pulgadas”.</dd>
+<dt>márgenes</dt>
+<dd>Configure cada margen por separado o todos juntos haciendo clic en el botón de &ldquo;bloqueo&rdquo; del medio.</dd>
+<dt>ancho / alto de la imagen</dt>
+<dd>Este campo de información muestra el ancho y alto real de la imagen (dados con las unidades seleccionadas) en el papel.</dd>
+<dt>factor de escala</dt>
+<dd>Este campo de información muestra la escala de la imagen para que quepa en el papel. Si este valor es menor que 1, se reduce la escala de la imagen; de lo contrario, se aumenta la escala. Este es un factor importante a tener en cuenta: un valor demasiado grande (escala superior) puede dar como resultado una impresión de baja calidad. También se muestra el ppp correspondiente (puntos por pulgada).</dd>
+<dt>alineación</dt>
+<dd>Seleccione la alineación de la imagen en el papel.</dd>
+</dl>
+<h2 id="ajustes-de-impresión"><a href="#ajustes-de-impresi%c3%b3n">🔗</a>ajustes de impresión</h2>
+<dl>
+<dt>perfil</dt>
+<dd>El perfil de exportación que se utilizará. Este perfil es el punto de entrada utilizado para la siguiente transformación utilizando el perfil ICC de la impresora. Por lo general, es mejor preferir una gama más amplia (por ejemplo, AdobeRGB) en lugar de una más pequeña (por ejemplo, sRGB).</dd>
+<dt>intención</dt>
+<dd>La intención de representación que se utilizará al exportar la imagen. Para obtener más información, consulte [intención de reproducción] (../../../ special-topics / color-management / rendering-intent.md).</dd>
+<dt>estilo</dt>
+<dd>Elija un estilo para aplicar al exportar la imagen; el valor predeterminado es &ldquo;ninguno&rdquo;. Consulte el módulo [exportar] (../ shared / export.md) para obtener una descripción más detallada de cómo aplicar un estilo durante la exportación.</dd>
+<dt>modo</dt>
+<dd>Si el estilo elegido debe agregarse a la pila de historial existente o reemplazarlo por completo. Consulte el módulo [exportar] (../ shared / export.md) para obtener más detalles.</dd>
+</dl>
+<h2 id="botón-de-imprimir"><a href="#bot%c3%b3n-de-imprimir">🔗</a>Botón de imprimir</h2>
+<p>Cuando se hace clic, la imagen se exporta usando las opciones seleccionadas y se envía a la impresora.</p>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/print/print-settings/">
+            English: print settings
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/utility-modules/print/print-settings/">
+            German: Drucken Einstellungen
+        </a></li>
+        
+        <li><a href="/dtdocs/eo/module-reference/utility-modules/print/print-settings/">
+            Esperanto: presaj agordoj
+        </a></li>
+        
+        <li><a href="/dtdocs/it/module-reference/utility-modules/print/print-settings/">
+            Italian: Impostazioni stampa
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/es/special-topics/opencl/" class="next">&lt; OpenCL</a>
+	
+    </div>
+    <div class="col-6">
+    
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

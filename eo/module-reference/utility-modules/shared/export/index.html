@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="eo">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable 3.5 (dev) user manual - eksporti</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+      <link rel="stylesheet" href="/dtdocs/css/style.min.38edce0ae43bb3c22740f1321b40c1c79b412a38757f10204e5f2a1fc8e8b4af.css">
+      
+
+<script src="/dtdocs/js/jquery.js"></script>
+<script src="/dtdocs/js/popper.js" type="module"></script>
+<script src="/dtdocs/js/bootstrap.js"></script>
+<script src="/dtdocs/js/lunr.js"></script>
+<script src="/dtdocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+   <a class="navbar-brand" href="/dtdocs" rel="home" title="darktable 3.5 (dev) user manual">
+	darktable 3.5 (dev) user manual
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+	    
+	      <li class="nav-item dropdown" aria-describedby="language-picker-description">
+		   <p class="sr-only" id="language-picker-description"></p>
+		   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+             <img src="https://darktable-org.github.io/dtdocs//language-icons/icon20x24px-exported-transparent.png" alt="Language Icon" height="20" class="translation-icon"/>
+		     <span>Translations</span>
+		   </a>
+		   <div class="dropdown-menu dropdonw-trans" role="listbox">
+		      <a class="dropdown-item" aria-selected="true" hreflang="eo" role="option" lang="eo" href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/shared/export/">Esperanto</a>
+		        
+		      <a class="dropdown-item" hreflang="en-us" role="option" lang="en-us" href="https://darktable-org.github.io/dtdocs/module-reference/utility-modules/shared/export/">English</a>
+		    
+		      <a class="dropdown-item" hreflang="de" role="option" lang="de" href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/export/">German</a>
+		    
+		   </div>
+	       </li>
+	    
+	</ul>    
+        <ul>
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+
+
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/" class="">
+          Presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/overview/" class="">
+          superrigardo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/print/print-view-layout/" class="">
+          aranĝo de pres-vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/darkroom/" class="">
+          Darkrooms
+      </a>
+
+   <ul></ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/" class="">
+          Module-references
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/" class="">
+          utilecaj moduloj
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/" class="">
+          dividita
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/" class="">
+          bilda informo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/" class="">
+          collections
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/export/" class=" active">
+          eksporti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/" class="">
+          etikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/filmstrip/" class="">
+          filmbendo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/focus-peaking/" class="">
+          fokusa pintado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/geotagging/" class="">
+          geoetikedado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/" class="">
+          redaktilo de metadatenoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/" class="">
+          ligitado
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/camera-settings/" class="">
+          fotilaj agordoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/session/" class="">
+          sesio
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/tethering/live-view/" class="">
+          viva vido
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/" class="">
+          lumtablo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/select/" class="">
+          elekti
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/selected-image/" class="">
+          elektitaj bildoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/import/" class="">
+          importi
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/lua-scripts-installer/" class="">
+          instalilo de lua skriptoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/styles/" class="">
+          stiloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/timeline/" class="">
+          templinio
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/" class="">
+          mapo
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/map/map-settings/" class="">
+          mapaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/" class="">
+          presi
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/print/print-settings/" class="">
+          presaj agordoj
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/" class="">
+          senluma ĉambro
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/" class="">
+          administrilo de duplikatoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/" class="">
+          administrilo de maskoj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/" class="">
+          historia stako
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/" class="">
+          informlinio de bildo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/" class="">
+          kontrolo de gamo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/" class="">
+          kruda troeksponita averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/" class="">
+          navigado
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/" class="">
+          ordo de moduloj
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/" class="">
+          takso de koloro
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/" class="">
+          tondada averto
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/" class="">
+          tutmonda kolora elektilo
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+
+<a href='/dtdocs/eo/'>darktable 3.5 (dev) user manual</a> / <a href='/dtdocs/eo/module-reference/'>Module-references</a> / <a href='/dtdocs/eo/module-reference/utility-modules/'>utilecaj moduloj</a> / <a href='/dtdocs/eo/module-reference/utility-modules/shared/'>dividita</a> / eksporti
+    </span>
+</div>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/" class="next">&lt; collections</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/" class="prev">etikedado &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        eksporti
+    </h1>
+
+    
+
+    <p>Eksportu bildojn elektitajn en la lumtablo aŭ la filmbendo de la senluma ĉambra vido.</p>
+<p>Dosieroj povas esti eksportitaj al dosiero sur disko, retpoŝto, diversaj interretaj stokaj lokoj, retalbumo aŭ libro-ŝablono.</p>
+<h1 id="modulaj-kontroloj"><a href="#modulaj-kontroloj">🔗</a>modulaj kontroloj</h1>
+<h2 id="stokaj-opcioj"><a href="#stokaj-opcioj">🔗</a>stokaj opcioj</h2>
+<dl>
+<dt>cela stokado</dt>
+<dd>La speco de loko por stoki viajn elektitajn bildojn. Kelkaj diversaj servomoduloj estas efektivigitaj, inkluzive de dosiero sur disko, LaTeX-libra ŝablono kaj diversaj interretaj albumoj. Depende de la elektita celo, oni petos vin doni aldonajn informojn, kiaj dosiernomoj, aŭ nomo de konto kaj pasvorto.</dd>
+<dt>dosiernoma ŝablono</dt>
+<dd>Vi povas difini dosiernomojn, kiujn generas darktable por eksportado per bildaj datumoj. Pluraj antaŭdifinitaj variabloj povas esti uzataj. Vidu la sekcion <a href="../../../special-topics/variables.md">variabloj</a> por detaloj.</dd>
+<dt>eliga dosierujo</dt>
+<dd>La butono apud la dosiernoma eniro malfermas dialogon por elekti la gepatran dosierujon por eksportado.</dd>
+<dt>pri konflikto</dt>
+<dd>Elekti kion fari se la generita dosiernomo konfliktas kun ekzistanta dosiero dum eksportado:</dd>
+<dd>
+<ul>
+<li><em>krei unikan dosiernomon</em>: Aŭtomate krei unikan novan dosiernomon aldonante entjeron al la konflikta dosiernomo.</li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li><em>overwrite</em>: Automatically overwrite existing files. This option will present you with a confirmation dialog in order to protect you from accidental data loss &ndash; you can disable this in <a href="../../../preferences-settings/security.md">preferences &gt; security &gt; ask before exporting in overwrite mode</a>. <em><strong>Note:</strong> This dialog is not presented per-file but as a one-off confirmation before the export job starts.</em></li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li><em>preterlasi</em>: Ne eksporti bildojn tien, kie la celloka dosiernomo jam ekzistas.</li>
+</ul>
+</dd>
+</dl>
+<h2 id="formataj-opcioj"><a href="#formataj-opcioj">🔗</a>formataj opcioj</h2>
+<p>Opcioj en ĉi tiu sekcio aperos aŭ ne, depende de la elektita <em>dosierformato</em>.</p>
+<dl>
+<dt>dosierformato</dt>
+<dd>Elekti la dosierformaton por la eksportota bildo.</dd>
+<dt>kvalito</dt>
+<dd>La kvalito de la eksportota dosiero. Pli altaj valoroj kondukos al pli grandaj dosiergrandecoj. La apriora kvalito (95) estas bona agordo por tre altkvalitaj eksportaĵoj, ekz. por arĥivaj aŭ presaj celoj. Se vi bezonas bonan kompromison inter grandeco kaj kvalito, ekz. por interreta bilda montrado aŭ alŝutoj, vi konsideru valoron de &ldquo;90&rdquo; anstataŭe.</dd>
+<dt>bita profundo</dt>
+<dd>La nombro de bitoj uzataj por ĉiu kolora kanalo. Pli da bitoj signifas malpli afiŝadon/kolorajn bandojn.</dd>
+<dt>kunpremo</dt>
+<dd>Elekti kian kunpremon uzendas.</dd>
+<dt>kunprema nivelo</dt>
+<dd>Por eksportaj formatoj por kiuj <em>kunpremo</em> povas esti specifita, la <em>kunprema nivelo</em> specifas kiom da kunpremo aplikendas. Ju pli alta estas la nivelo, des pli la datumoj estos kunpremitaj, koste de pli da CPU-cikloj.</dd>
+<dt>b&amp;w image</dt>
+<dd>For TIFF export format, it is possible to save a monochrome image. This setting controls whether the resulting file encodes the shades of gray as separate RGB channels, or as a single grayscale channel. The latter option will reuslt in smaller files.</dd>
+</dl>
+<h2 id="tutmondaj-opcioj"><a href="#tutmondaj-opcioj">🔗</a>tutmondaj opcioj</h2>
+<dl>
+<dt>agordi grandecon</dt>
+<dd>Elekti kiel mezuri la maksimuman grandecon de via eksportota bildo</dd>
+<dd>
+<ul>
+<li><em>per pikseloj (por dosiero)</em>: Enigu la maksimuman larĝon kaj altecon per pikseloj. Enigi valoron de 0 metas neniun limon sur tiun dimension.</li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li><em>per cm (por presado)</em>: Enigu la maksimuman larĝon kaj altecon per cm kaj difinu la dpi-bildon. La ekvivalenta piksela grandeco aŭtomate kalkuliĝos.</li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li>_per coloj (por presado) _: Enigu la maksimuman larĝon kaj altecon per colojn kaj difinu la dpi-bildon. La ekvivalenta piksela grandeco aŭtomate kalkuliĝos.</li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li><em>laŭ skalo (por dosiero)</em>: Enmetu multiplikaton por specifi kiom multe la eliga bildo devas esti skalita kompare de la eniga bildo. Ekzemple, enigi valoron de 0,5 rezultigos eligan bildon kun duona larĝo kaj alto (per pikseloj) de la originala bildo.</li>
+</ul>
+</dd>
+<dt>ppc</dt>
+<dd>Se unuoj de cm aŭ coloj estas elektitaj, agordu la punktoj po colo (ppc) de la eliga bildo. La ppc ankaŭ estos konservita en la Exif-datumoj de la eksportita bildo (kaj aŭtomate agordiĝos al 300 se &ldquo;per pikseloj&rdquo; aŭ &ldquo;laŭ skalo&rdquo; estas elektita).</dd>
+<dt>maksimuma grandeco</dt>
+<dd>Agordu la maksimuman larĝon kaj altecon de la eksportita(j) bildo(j), laŭ pikseloj, cm aŭ coloj (depende de la elektita unuo) - nulo signifas neniun maksimumon. Eksportotaj bildoj estos limigitaj por ne superi iun ajn el tiuj valoroj, konservante la ĝustan bildformon. Agordu ambaŭ al nulo por eksporti kun la originalaj dimensioj (post tondado). Se la enigitaj valoroj superas la originalajn dimensiojn, darktable aŭ eksportos laŭ la originalaj dimensioj aŭ altkreskigos la bildon, depende de la parametro &ldquo;permesi pliigi&rdquo;.</dd>
+<dt>permesi pliigi skalon</dt>
+<dd>Agordu al &ldquo;jes&rdquo; por realigi pliigan paŝon se la uzanto-difinitaj maksimumaj larĝo kaj alto superas la originalajn dimensiojn de la bildo. Se agordita al &ldquo;ne&rdquo; la dimensioj de la eksportota bildo ne superos la dimensiojn de la originala bildo (post tondado).</dd>
+<dt>altkvalita resamplado</dt>
+<dd>Agordu ĉi tion al &ldquo;jes&rdquo; por fari altkvalitan resampladon sur la bildo. La bildo estos prilaborata en plena rezolucio kaj nur malpligrandigita ĉe la fino. Ĉi tio foje povas produkti pli bonan kvaliton, sed ĉiam estos pli malrapida.</dd>
+<dt>profilo</dt>
+<dd>La eliga kolora profilo. Elektu &ldquo;bildaj agordoj&rdquo; se vi volas ke la agordoj en la modulo <a href="../../processing-modules/output-color-profile.md"><em>eliga kolora profilo</em></a> de la unuopaj bildoj havu prioritaton.</dd>
+<dt>intenco</dt>
+<dd>Ĉi tiu opcio permesas al vi difini la intencon, t.e. la manieron, kiel darktable traktos ekster-gamajn kolorojn. Vidu <a href="../../../special-topics/color-management/rendering-intent">bildiga intenco</a> por pli detala priskribo de la disponeblaj opcioj.</dd>
+<dt>stilo</dt>
+<dd>Ĉi tiu opcio ebligas al vi elekti <a href="/dtdocs/eo/module-reference/utility-modules/lighttable/styles/">stilon</a> kiun darktable kombinos kun la ekzistanta historia stako por generi la eligan bildon. Ĉi tiuj historiaj eroj nur aldoniĝas provizore - la originala historia stako ne estas anstataŭigata. Vi povas uzi ĉi tiun funkcion por aldoni prilaborajn paŝojn kaj parametrojn, kiujn vi volas apliki specife al bildoj antaŭ eksportado. Ekzemple, vi povas difini stilon, kiu aldonas pli fortan nivelon de akreco kiam vi produktas malgrandigitajn JPEG-dosierojn por la interreto aŭ kiu aldonas certan nivelon de ekspozicia kompenso al ĉiuj de viaj bildoj.</dd>
+<dt>reĝimo</dt>
+<dd>Kiam vi aplikas stilon dum eksportado ĉi tiu opcio difinas ĉu la historiaj stakaj eroj de tiu stilo anstataŭu la originalan historian stakon de la bildo aŭ estu aldonitaj al ĝi. Tenike parolante, en aldona reĝimo, historia stakeroj konsistigos apartajn okazaĵojn de la respektivaj moduloj aldone al ajnaj ekzistantaj (vidu ankaŭ <a href="../../../darkroom/processing-modules/multiple-instances.md">plurajn ekzemplojn</a>). Konsekvence la originala historio-stako restos efika kun la novaj eroj aplikataj aldone. Tiel vi povas apliki ĝeneralan ĝustigon (ekz. ekspozicio) al kelkaj eksportotaj bildoj respektante la agordojn de ĉiu individua bildo.</dd>
+<dt>eksporti</dt>
+<dd>Premu ĉi tiun butonon por komenci fonan laboron por eksporti ĉiujn elektitajn bildojn. Bendo ĉe la malsupro de la maldekstra panelo montras la progreson de la eksporta laboro. Krome sciiga mesaĝo aperas raportante la finon de ĉiu individua eksportado. Vi povas alklaki la ŝprucfenestron por malaperigi ĝin. Vi povas ĉesigi la eksportan laboron alklakante la ikonon &ldquo;x&rdquo; situantan proksime al la progresa bendo.</dd>
+</dl>
+<h1 id="metadatenaj-preferoj"><a href="#metadatenaj-preferoj">🔗</a>metadatenaj preferoj</h1>
+<p>La opcio &ldquo;preferoj&hellip;&rdquo; en la antaŭagorda menuo aperigas dialogon, kie vi povas agordi kiajn metadatenojn estas inkluzivitajn en eksportitaj dosieroj:</p>
+<p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+<a href="/dtdocs/module-reference/utility-modules/shared/export/metadata-config.png"><img src="/dtdocs/module-reference/utility-modules/shared/export/metadata-config.png" alt="metadata config"   /></a>
+
+</p>
+<p>La parametroj enmetitaj en ĉi tiun dialogon konserviĝas kun aliaj eksportaj parametroj al uzantaj antaŭagordoj kaj la lastaj enigitaj valoroj konserviĝas kiam darktable estas fermita. La jenaj opcioj povas esti agorditaj:</p>
+<h2 id="ĝeneralaj-agordoj"><a href="#%c4%9deneralaj-agordoj">🔗</a>ĝeneralaj agordoj</h2>
+<p>La maldekstra flanko de ĉi tiu dialogo ebligas al vi elekti kiuj grupoj de metadatenoj estas eksportotaj kun la bildo. La jenaj ebloj disponeblas:</p>
+<dl>
+<dt>exif-datumoj</dt>
+<dd>Eksporti la Exif datumojn de la fonta bildo</dd>
+<dt>metadatenoj</dt>
+<dd>Eksporti metadatumojn difinitajn en la modulo <a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/">metadatena redaktilo</a>. Metadatenaj kampoj markitaj kiel <em>private</em> aŭ <em>kaŝite</em> ne estos eksportitaj.</dd>
+<dt>geo-etikedoj</dt>
+<dd>Eksporti geo-etikedojn</dd>
+<dt>etikedoj</dt>
+<dd>Eksporti etikedojn kreitajn en la modulo <a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/">etikedigo</a> (al <code>Xmp.dc.Subject</code>). Tri pliaj opcioj ankaŭ povas esti elektitaj:</dd>
+<dd><ul>
+<li><em>privataj etikedoj</em>: Eksporti privatajn etikedojn</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>sinonimoj</em>: Eksporti etikedajn sinonimojn</li>
+</ul>
+</dd>
+<dd><ul>
+<li><em>ellasi hierakion</em>: Eksporti nur la lastan parton de hierarkiaj etikedoj</li>
+</ul>
+</dd>
+<dt>hierarkiaj etikedoj</dt>
+<dd>Eksporti hierarkiajn etikedojn (al <code>Xmp.lr.Hierarchical Subject</code>)</dd>
+<dt>prilabora historio</dt>
+<dd>Eksporti la prilaboran historion (historia stako kaj formoj) kiam subtenate (ekz. JPEG, JPEG2000, TIFF). La prilabora historio estos konservita kiel XMP-etikedoj en la eliga dosiero. Ĉi tiuj informoj poste povas esti uzataj por rekonstrui la parametrojn kaj agordojn uzitajn por produkti la eksportitan bildon.</dd>
+</dl>
+<hr>
+<p><strong>Atentu:</strong> Pro diversaj kialoj enmeti XMP-etikedojn en elirajn dosierojn povas malsukcesi sen avizo, ekz. se iuj grandeclimoj estas superitaj. Do konsilindas, ke uzantoj ne fidu ĉi tiun funkcion por sia sekurkopia strategio. Por sekurkopii viajn datumojn, ĉiam certigu konservi kaj vian enigan (krudan) dosieron kaj ĉiujn kromajn dosierojn XMP de darktable.</p>
+<hr>
+<h2 id="po-metadatena-agordo"><a href="#po-metadatena-agordo">🔗</a>po metadatena agordo</h2>
+<p>La dekstra flanko de ĉi tiu dialogo ebligas al vi difini formulojn por plenigi bildajn metadatenojn. La ĉi tie difinitaj formuloj havas prioritaton super la agordoj en la maldekstra flanko de la dialogo. La unua kolumno identigas la redaktotan eniron. La dua kolumno permesas al vi difini kiel kalkuli la valoron por tiu metadatuma eniro per formulo.</p>
+<p>Lasu la formulon malplena por malebligi eksportadon de donita metadatena eniro (<code>Exif.GPSInfo.GPSVersionID</code> en la supra ekzemplo). Por difini formulon por kalkuli la metadatenan valoron, vi povas uzi la samajn variablojn kaj regulojn kiel por dosiernomoj (kiel dokumentite en la sekcio <a href="../../../special-topics/variables.md">variabloj</a>). Premu Enigu por validigi la formulon.</p>
+<p>Uzu la &ldquo;&ndash;&rdquo; piktogramon por forigi metadatenan eniron de la listo kaj la &ldquo;+&rdquo; piktogramon por aldoni novan el antaŭdifinita listo de disponeblaj metadatumaj etikedoj.</p>
+<p>Alklaku la butonon &ldquo;aldoni&rdquo; por aldoni metadatenan eniron al la agorda listo.</p>
+<p>La formuloj permesas al vi difini preskaŭ ĉiujn metadatenojn necesajn por kvalifiki viajn bildojn dum etikedado kaj eksporti la valorojn en la XMP aŭ IPTC-etikedoj laŭ via elekto. La eksportitaj etikedoj povas esti malsamaj de unu eksporto al la sekva depende de la celloko de la bildoj. Etikedoj kaj Kategorioj estas montrataj aparte en bildaj informoj.</p>
+<p><em>Memoru, ke etikedo starigita kiel kategorio neniam estos eksportata.</em></p>
+<h2 id="ekzemploj"><a href="#ekzemploj">🔗</a>ekzemploj</h2>
+<dl>
+<dt>ekzemplo 1</dt>
+<dd>Unua nivela etikedo nomata lokoj estas starigita kiel kategorio, kaj ĝin sekvas kvar niveloj de informo (aŭ ŝlosilvortoj): lando, regiono, urbo kaj loko (ekz. <code>lokoj|Francujo|Nord|Lille|rue Nationale</code>). Ĉiu nivelo povas esti prenita (kiam ĝi estas difinita) per unu el la variabloj <code>$(CATEGORY0(lokoj))</code>, <code>$(CATEGORY1(lokoj))</code>, <code>$(CATEGORY2(lokoj))</code> kaj <code>$(CATEGORY3(lokoj)) </code>. En ĉi tiu ekzemplo, la rezultaj valoroj estas respektive &ldquo;Francujo&rdquo;, &ldquo;Nord&rdquo;, &ldquo;Lille&rdquo; kaj &ldquo;rue Nationale&rdquo;. Ĉi tiuj ŝlosilvortoj ankaŭ povas esti ĉerpitaj kiel simplaj etikedoj per la variablo <code>$(TAGS)</code>. La lasta difinita ŝlosilvorta nivelo (la folio) estas montrata en <a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/">bildaj informoj</a>, ĉikaze &ldquo;rue Nationale&rdquo;.</dd>
+<dt>ekzemplo 2</dt>
+<dd>Unua nivela etikedo nomata kreinto sekvas la nomon de la fotisto, ambaŭ starigitaj kiel kategorioj: <code>kreinto|antaŭnomo familinomo</code>. La formulo kopirajtoj (<code>$(YEAR) $(CATEGORY0(kreinto))</code>) konstruas la tekston asociitan kun bildrajtoj. Ĉi tie, <a href="/dtdocs/eo/module-reference/utility-modules/shared/image-information/">bildaj informoj</a> montras &ldquo;kreinto: antaŭnomo familinomo&rdquo; kiel kategorioj. Nek kreinto nek antaŭnomo aperas en la listo de etikedoj kaj ili ne estas eksportitaj kiel simplaj etikedoj.</dd>
+</dl>
+<hr>
+<p><strong>Noto:</strong> etikedado ne taŭgas por difini metadatumojn de libera teksto, kiel titolo aŭ priskribo, kiuj povas esti specifaj por ĉiu bildo. Uzu la <a href="/dtdocs/eo/module-reference/utility-modules/shared/metadata-editor/">metadatena redaktilo</a> por ĉi tiu tipo de informo.</p>
+<hr>
+
+
+    
+    <h3>Translations</h3>
+    <ul>
+        
+        <li><a href="/dtdocs/module-reference/utility-modules/shared/export/">
+            English: export
+        </a></li>
+        
+        <li><a href="/dtdocs/de/module-reference/utility-modules/shared/export/">
+            German: Exportieren
+        </a></li>
+        
+    </ul>
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/collections/" class="next">&lt; collections</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="/dtdocs/eo/module-reference/utility-modules/shared/tagging/" class="prev">etikedado &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

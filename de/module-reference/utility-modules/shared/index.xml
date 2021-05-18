@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geteilt on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/</link>
+    <description>Recent content in geteilt on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bildinformationen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/image-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/image-information/</guid>
+      <description>Dieses Modul zeigt die Informationen an, die in den Exifdaten des Bildes eingebettet sind plus zusätzlich einige zusätzliche Datenfelder von darktable vorgesehen.
+Wenn mit der Maus über die Miniaturbilder gefahren wird, werden die Informationen des eben überfahrenen Bildes eingeblendet.
+🔗Vorrang Die Option &amp;ldquo;Einstellungen&amp;rdquo; in den darktable-Voreinstellungen zeigt in einem Dialog eine Liste aller Felder, welche Informationen anzuzeigen möglich ist.
+Das sichtbare Kontrollkästchen erlaubt es das zu wählen, welches Feld anzuzeigen ist.</description>
+    </item>
+    
+    <item>
+      <title>collections</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/collections/</guid>
+      <description>Wähle die Bilder in der Ansicht Leuchttisch und im Filmstreifen aus, mit Verwenden von Bilder-Merkmalen. So ausgewählte Bilder werden als eine Sammlung bezeichnet.
+Alle in darktable importierten Bilder werden in der library Datenbank von darktable gesichert, zusammen mit Merkmalen, die jedes Bild beschreiben. Eine Sammlung kann definiert werden durch die Anwendung von Auslesekriterien zu diesen Merkmalen, so wird eine Unterkategorie geschaffen, die in der Ansicht Leuchttisch und Filmstreifen angezeigt werden kann.</description>
+    </item>
+    
+    <item>
+      <title>Exportieren</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/export/</guid>
+      <description>Exportiere Bilder, die im Leuchttisch oder im Filmstreifen der Dunkelkammer angewählt wurden.
+Dateien können exportiert werden in ein Verzeichnis, E-Mail, unterschiedliche Online-Plattformen, in ein Webalbum, oder Fotobuch-Vorlage.
+🔗Modul Einstellungen 🔗Speicherziel Optionen  Speicherziel der Typ des Ortes, wo die gewählten Bilder gespeichert werden sollen. Eine Reihe unterschiedlicher Speicherorte sind vorgesehen, wie Verzeichnis auf Speicherplatten, eine LaTeX Fotobuch-Vorlage und verschiedene Webseitengalerien. Je nach gewähltem Speicherziel wirst du aufgefordert zusätzliche Informationen anzugeben, wie Dateinamen, oder Name des Kontos und Passwort.</description>
+    </item>
+    
+    <item>
+      <title>Filmstreifen</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/filmstrip/</guid>
+      <description>Im Filmstreifen kann man in allen Ansichten schnell zwischen Bildern wechseln. Die gezeigten Bilder sind die gleichen, wie sie im Leuchttisch angezeigt werden aus der gerade angewählten Sammlung.
+  Der Filmstreifen kann mit Ctrl+F ein- oder ausgeschaltet werden. Die Höhe des Filmstreifens kann verändert werden mit Anklicken und ziehen an seinem oberen Ende.
+Mit der Scroll-Funktion der Maus kann man durch den Filmstreifen navigieren. In der Dunkelkammer kann man ein anderes Bild anwählen durch Anklicken eines anderen Bildes im Filmstreifen.</description>
+    </item>
+    
+    <item>
+      <title>Fokus-Peaking</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/focus-peaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/focus-peaking/</guid>
+      <description>Das Fokus-Peaking Modul erlaubt es anzuzeigen, welche Teile eines Bildes scharf und richtig fokussiert sind. Dies funktioniert im Leuchttisch Modus, wo es leicht möglich ist, scharfe und unscharfe Bilder auf einen Blick zu erkennen, aber auch im Dunkelkammer Modus, beim Bearbeiten einzelner Bilder.
+Das Modul wird aktiviert durch Klicken auf die Schaltfläche Fokus-Peaking (  ). Dadurch werden die scharfen Stellen des Bildes gelb, grün und blau hervorgehoben.
+  Das Modul entfernt Bildrauschen, misst den Verlauf der Intensität im Bild und berechnet mittlere und Standardabweichungs-Statistiken.</description>
+    </item>
+    
+    <item>
+      <title>Geotagging</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/geotagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/geotagging/</guid>
+      <description>Importieren und eintragen der GPX Track Daten von Bildern.
+Dieses Modul ist gemeinsam für die Ansichten Leuchttisch und Karte. In der Ansicht Karte gibt es jedoch einen genaueren Modus, um die Orte der Aufnahme der Bilder entlang des GPX Tracks anzuzeigen und den (Offset) von Datum und Ortszeit des Bildes anzupassen.
+🔗Arbeitsablauf Übersicht Ein GPS Gerät berechnet die jeweilige Position anhand der Informationen, die es von Satelliten empfängt und zeichnet diese in eine GPX Track Datei zusammen mit Datum und Zeit.</description>
+    </item>
+    
+    <item>
+      <title>Metadaten-Editor</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/metadata-editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/metadata-editor/</guid>
+      <description>Bearbeite die Metadaten (Titel, Beschreibung, Urheber, Herausgeber, Rechte usw.) von gewählten Bildern.
+🔗Modul Einstellungen  Eingabefelder Metadaten Für jede Metadaten Eintragung gibt es ein separates Eingabefeld. Halte Ctrl gedrückt und scrolle mit dem Mausrad, um die Höhe der Felder zu vergrößern/verringern. Drücke Ctrl+Enter um eine neue Linie einzufügen. Drücke Enter, um in das Feld eingegebenen Text in die Metadaten zu schreiben. Mit Doppelklick auf ein Feld kann dessen Inhalt gelöscht werden.</description>
+    </item>
+    
+    <item>
+      <title>Verschlagwortung</title>
+      <link>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/de/module-reference/utility-modules/shared/tagging/</guid>
+      <description>Verwalte Schlagworte (Tags) zu Bildern.
+Tags sind eine Art, einem Bild Informationen hinzuzufügen mittels eines Stichwortverzeichnisses. Du kannst Tags als hierarchischen Baum organisieren, was sich als vorteilhaft erweist, wenn die Anzahl groß wird.
+Tags werden physisch gespeichert in den XMP Seitenwagen-Dateien, sowie in der Datenbank library von darktable und können zugefügt werden in exportierten Bildern.
+🔗Definitionen Die folgenden Definitionen setzen voraus, dass du einen einzelnen Tag mit Namen &amp;ldquo;places|France|Nord|Lille&amp;rdquo; aufgesetzt hast.</description>
+    </item>
+    
+  </channel>
+</rss>

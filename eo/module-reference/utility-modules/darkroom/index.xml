@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>senluma ĉambro on darktable 3.5 (dev) user manual</title>
+    <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/</link>
+    <description>Recent content in senluma ĉambro on darktable 3.5 (dev) user manual</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>administrilo de duplikatoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/duplicate-manager/</guid>
+      <description>La duplikata administrilo listigas ĉiujn versiojn de la nuna senluma ĉambra bildo kun iliaj antaŭrigardaj bildetoj. Tenu la maldekstran musbutonon sur bildeton por provizore montri tiun version en la centra vido. Duoble alklaku por ŝanĝi al ĉi tiu versio kaj redakti ĝin.
+La butonoj supre-dekstre permesas krei novajn kopiojn de la nuna bildo. Vi povas krei &amp;lsquo;virgan&amp;rsquo; version (kun malplena historia stako) aŭ precizan kopion de la nuna bildo. Por via komforto, vi ankaŭ povas atribui nomon al ĉiu versio.</description>
+    </item>
+    
+    <item>
+      <title>administrilo de maskoj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/mask-manager/</guid>
+      <description>Administri ĉiujn maskojn kaj formojn por la aktuala bildo.
+  Ĉi tiu modulo povas esti uzata por krei, renomi, redakti kaj forigi formojn. Vi povas aldoni formojn kaj forigi formojn de masko, grupigi formojn kune kaj kombini ilin per araj operacioj.
+En la supra linio de la maska administrila panelo estas butonoj uzeblaj por krei novajn formojn. Ĉi tiuj samas kiel tiuj en la interfaco desegnita masko de la unuopaj moduloj.</description>
+    </item>
+    
+    <item>
+      <title>historia stako</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/history-stack/</guid>
+      <description>Pridemandi kaj ŝanĝi la historian stakon de la nuna bildo en senluma ĉambro.
+Ĉi tiu modulo listigas ĉiun statŝanĝon (aktivigi/malaktivigi/movi/ŝanĝi parametrojn) por ĉiuj prilaboraj moduloj ŝanĝitaj por la nuna bildo. Vi povas elekti punkton en la stako por reveni al tiu punkto en la prilabora historio de la bildo.
+ Atentu: ĝustigante iun ajn modulon, ĉiuj moduloj super la nuntempe elektita modulo estos forĵetitaj. Estas tre facile perdi laboron pri bildo tiamaniere!</description>
+    </item>
+    
+    <item>
+      <title>informlinio de bildo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/image-info-line/</guid>
+      <description>Montru informojn pri la nuna bildo en senluma ĉambro. La enhavo de ĉi tiu linio povas esti agordita en preferoj &amp;gt; senluma ĉambro.
+Vidu la sekcion variabloj por informoj pri la variabloj uzeblaj ĉi tie. Vi ankaŭ povas enmeti novlinion kun $(NL).
+La bilda informlinio videblas en la supra, malsupra, maldekstra aŭ dekstra panelo laŭ plua agorda ero en preferoj &amp;gt; senluma ĉambro.</description>
+    </item>
+    
+    <item>
+      <title>kontrolo de gamo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/gamut/</guid>
+      <description>Alklaku la piktogramon ĉe la dekstra flanko de la malsupra panelo por aktivigi la montriĝon de la indikilo pri gama kontrolo por via bildo. Ĉi tiu funkcio reliefigas, ciane, ĉiujn pikselojn ekster gamo rilate al la elektita presa pruvo. Vi ankaŭ povas aktivigi gaman kontrolon per la klavkombino Stir+G. Mesaĝo &amp;ldquo;kontrolo de gamo&amp;rdquo; maldekstre malsupre de via bildo diras al vi, ke vi estas en reĝimo de indikilo pri gama kontrolo.</description>
+    </item>
+    
+    <item>
+      <title>kruda troeksponita averto</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/raw-overexposed/</guid>
+      <description>Ĉi tiu opcio avertas vin pri areoj de via kruda eniga bildo kun detonditaj koloraj kanaloj. Detonditaj koloraj kanaloj implicas troeksponitan bildon kun perdo de informo en la trafitaj lokoj. Vi povas uzi la modulojn brilaĵa rekonstruktado aŭ kolora rekonstruktado provi rekonstrui ĉi tiujn areojn.
+Dekstre alklaku la piktogramon por malfermi dialogujon enhavantan la jenajn agordajn parametrojn.
+ reĝimo Elekti kiel marki tonditajn areojn:   marku per KFA-koloro: Montru ŝablonon de la respektivaj primaraj koloroj (ruĝa, verda kaj blua) por indiki, kiuj koloraj kanaloj estas tonditaj.</description>
+    </item>
+    
+    <item>
+      <title>navigado</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/navigation/</guid>
+      <description>Supre maldekstre de la senluma ĉambro, la navigacia panelo montras plenan antaŭrigardon de la nuna bildo kun rektangulo montranta la nuntempe videblan zoman areon en la centra panelo. Trenu la rektangulon ĉirkaŭe por panorami la enzomitan vidon. La aktuala zoma skalo montriĝas dekstre de la antaŭvida bildo. Alklaku tiun figuron por rapida aliro al iuj oftaj zomaj niveloj.
+La navigada panelo povas esti ŝaltita/malŝaltita per klavkombino (apriore Stir+Maj+N).</description>
+    </item>
+    
+    <item>
+      <title>ordo de moduloj</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/module-order/</guid>
+      <description>Ŝanĝu la ordon de la prilaboraj moduloj en la senluma ĉambro per antaŭagordoj.
+Prilaborante bildon, la aktivaj moduloj estas aplikataj laŭ specifa ordo, kiu estas montrata en la dekstra panelo de la senluma ĉambra vido. Ĉi tiu modulo donas informojn pri la nuna ordigo de la prilaboraj moduloj en la pikselpipo. La ununura parametro &amp;ldquo;aktuala ordo&amp;rdquo; povas enhavi la jenajn valorojn:
+ v3,0 Ĉi tiu estas la apriora ordo de moduloj por laborfluo scen-referite.</description>
+    </item>
+    
+    <item>
+      <title>takso de koloro</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/color-assessment/</guid>
+      <description>Prilaborante bildon, la maniero kiel ni perceptas brilon, kontraston kaj saturiĝon influas la ĉirkaŭajn etosajn kondiĉojn. Se bildo montriĝas kontraŭ malhela fono, kiel ĉe la apriora temo en darktable, ĝi povas havi multajn malutilajn efikojn sur nia percepto de tiu bildo:
+  Troigo de la perceptita ekspozicio igas la bildon ŝajni pli brila ol ĝi vere estas. Ĉi tion bele ilustras la damtabula ombra efiko de Adelson.
+  Malpliiĝo de la perceptita saturiĝo en la bildo igas la kolorojn ŝajni malpli riĉaj ol ili vere estas (la efiko de Hunt).</description>
+    </item>
+    
+    <item>
+      <title>tondada averto</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/clipping/</guid>
+      <description>Kiam bildo estas sendita al ekrana aparato, ĉiu pikselo estas kutime reprezentita kiel aro de 3 nombroj, reprezentantaj la intensecon de la ruĝaj, verdaj kaj bluaj primaraj koloroj en la elira kolora spaco. Ĉar la elira kolorspaco kutime estas proksime rilata al aparataro kun fizikaj limigoj, estas maksimuma permesata valoro por la kanaloj [R,V,B], reprezentante la maksimuman haveblan intensecon en tiu kolora spaco. Simile, ekzistas ankaŭ minimuma valoro sub kiu pikselaj valoroj estos mapitaj al nulo.</description>
+    </item>
+    
+    <item>
+      <title>tutmonda kolora elektilo</title>
+      <link>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/eo/module-reference/utility-modules/darkroom/global-color-picker/</guid>
+      <description>Preni kolorajn specimenojn de la aktuala senluma ĉambra bildo, montri iliajn valorojn plurmaniere kaj kompari kolorojn el diversaj lokoj.
+La kolora elektilo aktiviĝas premante la piktogramon de la kolora elektilo. La parametroj de la modulo restos validaj ĝis vi eliras la senluman ĉambran reĝimon.
+Krom la tutmonda kolorelektilo ĉi tie priskribita, multaj moduloj de darktable (ekz. _tona kurbo _) enhavas ankaŭ lokajn kolorelektilojn, kiuj estas uzataj por agordi unuopajn modulajn parametrojn.</description>
+    </item>
+    
+  </channel>
+</rss>
